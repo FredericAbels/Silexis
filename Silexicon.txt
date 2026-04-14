@@ -208,10 +208,10 @@
 		here
 		place	enape
 
-	16 s ie sh ei
+	16 sh ie s ei
 		96st principle	inectib
 		number 96
-		direction
+		direction	amei
 		upwards
 		downwards
 		out
@@ -456,7 +456,7 @@
 		47th principle
 		number 47
 		acceptance
-		heart
+		heart	räe
 		yes	eräe
 	
 	48
@@ -562,13 +562,15 @@
 	68
 		68th principle
 		number 68
-		becomingness	asiäcsh
-		being-subjected-to-ness
+		question	l-iek-a
+		becoming	a-chiä-p
+		being-subjected-to
 		passivity
 
 7X	sv äe shv eä
 	71	n uo m ou
-		plurality	p-äen-a
+		plural suffix 1	p-äen-a
+		plural suffix 2 o-vuo-p
 	
 	72
 		72th principle

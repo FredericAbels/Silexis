@@ -306,19 +306,21 @@ Lyrics
 
 Who's in a bunker? Who's in a bunker?
 
-	who  is  in  a    bunker
-	35   11  15  31   91
-	shae nou nae liun iahuonba
+	who  is  in  a    bunker ?
+	35   11  15  31   91	 68
+	shae nou nae liun iahuon iek
 
 Women and children first and the children first, and the children
 
 	Woman   and children first
-	02      90  02       
-	zetsuen goe tsuen    leon
+	02      90  02       01
+	zetsuen goe tsuen    eon
 
-	zetsuen goe tsuen leon goe shou tsuen leon, goe shou tsuen
+	zetsüe goe tsüe leon goe shou tsüe leon, goe shou tsüe
 
+I'll laugh until my head comes off
 
+	
 
 April.14.1
 
