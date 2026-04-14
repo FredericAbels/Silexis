@@ -35,14 +35,16 @@
 		appearing
 
 		cubeness	zuno
+		radio zoenou
 
 	02
 		body
 		2nd principle
 		number 2
+		head	tsue
 		spine
 		torso
-		chest	utsue
+		chest	tseu
 		brain
 		stomach
 		belly
@@ -51,7 +53,7 @@
 		instrument
 		drum
 		piano
-		guitar	ezued
+		guitar	e-zueteu-b
 		kickdrum
 		snare
 		hihat

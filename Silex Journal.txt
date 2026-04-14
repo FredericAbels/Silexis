@@ -298,8 +298,11 @@ Ideoteque - Radio head
 		62-25
 		tuefchiedue
 
-	radio
-		
+	radio head
+	01-02
+	zoenou-tsue
+
+Who's in a bunker? Who's in a bunker?
 
 April.14.1
 
@@ -310,6 +313,8 @@ soft: h, b
 other: 
 
 The rule could be: A word starts with l if its fist consonant is soft and it ends with p if it's last consonant is soft etc.
+
+1.1 Idea: If
 
 		 
 
