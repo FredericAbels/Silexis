@@ -11,18 +11,19 @@
 	01
 		1st principle
 		number 1
+		first	leone
 		Graspable
 		to grasp
 
-		matter	pohemo
-		rock 	po!emo
-		ground	polemo
+		matter	oem
+		rock 	
+		ground	
 
 		footolemu
 
-		hand	ozum
-		leg 	zan
-		arm 	zon
+		hand	
+		leg 	zen
+		arm 	
 
 		senseness
 		seeness
@@ -30,7 +31,7 @@
 		smellness
 		touchness
 		hearness
-		sound	utsanu
+		sound	otsena
 		phenomenonness 
 		appearing
 
@@ -60,8 +61,9 @@
 		speakerness
 
 		log
-		female	
+		woman	ozetsueb
 		male
+		child	tsue
 
 		sovereign
 
@@ -195,9 +197,9 @@
 		15th principle
 		number 15
 		position
-		past	emae
+		past	emaep
 		on
-		in
+		in	enaeb
 		under
 		above
 		below
@@ -306,7 +308,7 @@
 		impurity
 		language	luega
 
-3X
+3X sh ui tr iu
 
 	30
 		30th principle
@@ -325,7 +327,8 @@
 		entity
 		existence
 		instance
-		the	ushoub
+		the	ushoup
+		a 	liuna
 
 	32
 		32nd principle
@@ -333,13 +336,15 @@
 		operation
 		function
 
-	35
+	35 f ae sf ea
+		individual
 		35th principle
 		number 35
-		person ~ shiu
+		person
 
-		I	liuvu
-		my	buiva
+		I	iuf
+		my	uif
+		who shae
 
 		human
 		animal
@@ -607,7 +612,7 @@
 		intimacy
 		and egoe
 
-	91 n uo m ou
+	91 m uo n ou
 		91th principle	guo
 		number 91
 		skin	gubo
@@ -625,7 +630,7 @@
 		plate
 		cup
 		shelter
-		bunker
+		bunker	iahuona
 		safe	lafrima
 		box
 		carton

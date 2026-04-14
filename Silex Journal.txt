@@ -302,19 +302,49 @@ Ideoteque - Radio head
 	01-02
 	zoenou-tsue
 
+Lyrics
+
 Who's in a bunker? Who's in a bunker?
+
+	who  is  in  a    bunker
+	35   11  15  31   91
+	shae nou nae liun iahuonba
+
+Women and children first and the children first, and the children
+
+	Woman   and children first
+	02      90  02       
+	zetsuen goe tsuen    leon
+
+	zetsuen goe tsuen leon goe shou tsuen leon, goe shou tsuen
+
+
 
 April.14.1
 
 1 Idea: I only use two hard buffer consonants and two soft ones
-Hard: l, p
-other: cr, sk
-soft: h, b
-other: 
+Hard: sk, p
+other: cr
+soft: l, b, h
 
 The rule could be: A word starts with l if its fist consonant is soft and it ends with p if it's last consonant is soft etc.
 
-1.1 Idea: If
+1.1
 
+cl as optional prefix if word starts with double vowel and its first consonant is soft
+l as optional prefix if word starts with double vowel and its first consonant is hard
+
+p as optional suffix if word ends with a double vowel and the last consonant is soft
+b as optional suffix if word ends with a double vowel and the last consonant is soft
+
+pa as suffix if the last consonant is soft and the word is the last word in a sentence that is a question
+ba as suffix if the last consonant is hard and the word is the last word in a sentence that is a question
+
+cr as an infix if there are two consecutive vowels and the first consonant is soft
+h as an infix if there are two consecutive vowels and the first consonant is hard or there is no consonant
+
+2 Translation
+
+if we know who we are, we may know who we may be
 		 
 
