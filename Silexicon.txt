@@ -291,6 +291,7 @@
 		cpu
 		exact	ksectuv
 		utilitarianism
+		library	etuefu
 	
 	28
 		feminine complexity
@@ -534,6 +535,8 @@
 	62
 		contradiction
 		enemy
+		stupidity
+		banality	etuefu
 
 	67 sv äe shv eä
 		67th principle	criesväeb
