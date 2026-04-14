@@ -292,9 +292,24 @@ Silesis
 
 Ideoteque - Radio head
 
-Ideoteque
-	repository of ideocricy
-	stupidity-library
-	61-25
-	biedeub 
+	Ideoteque
+		repository of ideocricy
+		stupidity-library
+		62-25
+		tuefchiedue
+
+	radio
+		
+
+April.14.1
+
+1 Idea: I only use two hard buffer consonants and two soft ones
+Hard: l, p
+other: cr, sk
+soft: h, b
+other: 
+
+The rule could be: A word starts with l if its fist consonant is soft and it ends with p if it's last consonant is soft etc.
+
+		 
 
