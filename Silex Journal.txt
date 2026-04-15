@@ -349,4 +349,6 @@ h as an infix if there are two consecutive vowels and the first consonant is har
 
 if we know who we are, we may know who we may be
 		 
+April.15
 
+1 Idea: If a word breaks the composition rules, it can still be a valid word with meaning, that meaning is just ambiguous. I could use this for names like Silexis itself.
