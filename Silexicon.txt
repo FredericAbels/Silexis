@@ -85,40 +85,6 @@ Morphemes
 		58 = Awareness
 		59 = Truth
 
-Phonemes
-
-	4 per digit
-
-	0 = z	eo	ts	oe
-	1 = m	uo	n	ou
-	2 = d	ue	t	eu
-	3 = sh	ui	tr	iu
-	4 = rh	oa	r 	ao
-	5 = f	ae	sf	ea
-	6 = ch	ie	s	ei
-	7 = v	äe	sv	eä
-	8 = x	äi	k	iä
-	9 = ng	ai	g	ia
-
-	6 per digit idea
-
-		0 = z	eo	ts 	st	oe	sht
-		1 = m	uo	n	vl	ou	kl
-		2 = d	ue	b	t	eu	p	
-		3 = sh	ui	tsh	tr	iu	br
-		4 = rh	oa	crh	r 	ao	cr
-		5 = f	ae	fr	sf	ea	fl
-		6 = ch	ie	s	ks	ei  tch
-		7 = v	äe	shv	sv	eä	vr
-		8 = x	äi	gx	k	iä	sk
-		9 = ng	ai	gr	g	ia	gn
-
-		h, l, b
-
-		
-
-
-
 Dictionary Classes
 
 	nP = set of words with n phonemes active.
@@ -855,10 +821,14 @@ Dictionary
 			overcompensation
 
 		98
-			98th principle
-			number 98
-			decelaration
-			quieterness ~ ongaeix
+			2P98
+				deceleration
+				98th principle
+				number 98
+
+			3P98
+				slow down thought and nervous system	gragnika
+				quieter	ongaeix
 
 	0302
 		heart	ziutsue
