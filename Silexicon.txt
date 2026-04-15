@@ -30,7 +30,8 @@ Dictionary
 	0X
 		00	
 			1P00
-				the	(l-) eo
+				be	(o-) ze (-p)
+				the	(l-) eo (-p)
 			2P00
 				0th principle	ezoel
 				number 0
@@ -45,6 +46,7 @@ Dictionary
 			1P01
 				this
 				that
+				have
 
 			2P01
 				Graspable
@@ -79,7 +81,8 @@ Dictionary
 		02
 			1P02	
 				it
-				a	nu (-b)
+				a	(e-) nu (-b)
+				of
 			2P02
 				body
 				2nd principle
@@ -151,16 +154,23 @@ Dictionary
 				wanting  	ozihucr
 		
 		04
-			spirit
-			culture
-			collective
-			collective unconscious
-			zeitgeist
-			collective self-harted
-			collective psychosis
-			worldsoul
+			1P04
+				and
+				they
+				we
 
-		05 r oa rh ao
+			2P04
+
+				spirit
+				culture
+				collective
+				collective unconscious
+				zeitgeist
+				collective self-harted
+				collective psychosis
+				worldsoul
+
+		05
 			5th principle
 			number 5
 			mind
@@ -183,15 +193,19 @@ Dictionary
 			a priori	preosva
 
 		08
-			purpose	eoxa
-			8th principle
-			number 8
-			meaning
-			story
-			narrative
-			symbol
-			semantics
-			morality
+			1P08
+				to
+			2P08
+			3P08
+				purpose	eoxa
+				8th principle
+				number 8
+				meaning
+				story
+				narrative
+				symbol
+				semantics
+				morality
 
 		09
 			9th principle
