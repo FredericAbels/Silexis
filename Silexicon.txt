@@ -1,42 +1,45 @@
 0X ts eo z oe
-	00
-		0th principle	ezoel
-		number 0
-		the absolute
-		continuity
-		substance
-		god
-		cosmos
+	00	
+		2P
+
+			0th principle	ezoel
+			number 0
+			the absolute
+			continuity
+			substance
+			god
+			cosmos
 
 	01
-		1st principle
-		number 1
-		first	leone
-		Graspable
-		to grasp
+		2P
+			1st principle
+			number 1
+			first	leone
+			Graspable
+			to grasp
 
-		matter	oem
-		rock 	
-		ground	
+			matter	oem
+			rock 	
+			ground	
 
-		footolemu
+			footolemu
 
-		hand	
-		leg 	zen
-		arm 	
+			hand	
+			leg 	zen
+			arm 	
 
-		senseness
-		seeness
-		tasteness
-		smellness
-		touchness
-		hearness
-		sound	otsena
-		phenomenonness 
-		appearing
+			senseness
+			seeness
+			tasteness
+			smellness
+			touchness
+			hearness
+			sound	otsena
+			phenomenonness 
+			appearing
 
-		cubeness	zuno
-		radio zoenou
+			cubeness	zuno
+			radio zoenou
 
 	02
 		body
@@ -170,7 +173,7 @@
 		embodiment	puone
 		content
 		pulp
-		inside	i-nim-e
+		inside	o-num-a
 
 		being	unoub
 
