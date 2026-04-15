@@ -196,8 +196,6 @@ tourettes
 	58 = Awareness
 	59 = Truth
 
-
-
 Phonemes
 
 0 = z	eo	ts	oe
@@ -356,3 +354,6 @@ April.15
 2 There are 100x100 two morpheme words and each have 16x16 2P variations. That makes 2.5600.000 2P two morpheme words. Seems enough tbh.
 
 3 Idea: I can use four 1P words for each of the 00-09 morphemes. This is great. That's 40 that's not nothing at all. 
+
+4 Idea let's try to expand the phoneme matrix to 6 phonemes per digit
+4.1 Idea: I need to rank them with how good they sound, with the best sounding ones being the first phonemes because they are more versatile

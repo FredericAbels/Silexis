@@ -1,29 +1,162 @@
-Classes
+Morphemes
 
-	nP = set of words with N phonemes active.
-	|2P| = 4x4 
-		 = 16
-	|3P| = (4 choose 2)*4 
-		 + 4*(4 choose 2) 
-		 = 2*6*4 
-		 = 48
-	|4P| = 2*(4 choose 3)*4 
-		 + (4 choose 2)*(4 choose 2)
-		 = 2*4*4 + 6*6
-		 = 64
+	00 = Absolute
+
+		01 = Graspable
+		02 = Body
+		03 = Soul
+		04 = Spirit
+
+		05 = Mind
+		06 = Consciousness
+		07 = Idea
+		08 = Meaning
+
+		09 = Ungraspable
+
+
+	10 = Duality       90 = Unity
+
+		11 = Flesh         91 = Skin
+		12 = Cohesion      92 = Fragmentation
+		13 = Stability     93 = Collapse
+		14 = Softness      94 = Rigidity      
+
+		15 = position      95 = positionless  
+		16 = direction     96 = directionless 
+		17 = velocity      97 = stillness     
+		18 = acceleration  98 = deceleration  
+
+		19 = conflagration 99 = ceassation    
+
+	20 = Complexity    80 = Simplicity
+						
+		21 = Repetition    81 = non-repetition
+		22 = Reflection    82 = non-reflection
+		23 = Point         83 = non-point
+
+		24 = Mirror        84 = non-mirror
+		25 = Sequence      85 = non-sequence
+		26 = Dynamic       86 = non-dynamic
+
+		27 = masculine     87 = non-masculine
+		28 = Feminine      88 = non-feminine
+		29 = Intelligence  89 = Purity
+
+	30 = Granularity   70 = self-similarity
 		
-	sum = 128
-	That makes 12.800 one-morpheme words.
+		31 = Entity        71 = Plurality
+		32 = Identity      72 = Operation
+		33 = Interaction   73 = Coexistence
+		34 = System        74 = Part
 
-	uneconomical since the smallest two morpheme words have 4 phonemes. I could use this space for niche philosophical words or something.
-		|5P| = 2*1*4
-			+ 2*(4 choose 3)*(4 choose 2)
-			= 8 + 48
-			= 56
-		|6P| = (4 choose 2)*1*2
-			+ (4 choose 3)*2
-			= 12 + 8
-			= 20
+		35 = Individual    75 = Alienation
+		36 = Family        86 = Stranger
+		37 = Tribe         87 = Outcast
+		38 = Society       88 = Alien
+
+		39 = Home          79 = Homeless
+		
+	40 = Resolution    60 = Tension
+
+		41 = Thing         61 = Attribute
+		42 = Complement    62 = Contradiction
+		43 = Symbiosis     63 = Exploit
+		44 = Life          64 = Death
+
+		45 = Consonance    65 = Dissonance
+		46 = Harmony       66 = Disharmony
+		47 = Beauty        67 = Doubt
+		48 = Projectivity  68 = Receptability
+
+		49 = Immortality   69 = the now
+
+	50 = Attachment
+
+		51 = Substance
+		52 = Illusion
+		53 = Unawareness
+		54 = concept
+
+	55 = Non-Attachment
+
+		56 = Dissolution               
+		57 = Disillusion
+		58 = Awareness
+		59 = Truth
+
+Phonemes
+
+	4 per digit
+
+	0 = z	eo	ts	oe
+	1 = m	uo	n	ou
+	2 = d	ue	t	eu
+	3 = sh	ui	tr	iu
+	4 = rh	oa	r 	ao
+	5 = f	ae	sf	ea
+	6 = ch	ie	s	ei
+	7 = v	äe	sv	eä
+	8 = x	äi	k	iä
+	9 = ng	ai	g	ia
+
+	6 per digit idea
+
+		0 = z	eo	ts 	st	oe	sht
+		1 = m	uo	n	vl	ou	kl
+		2 = d	ue	b	t	eu	p	
+		3 = sh	ui	tsh	tr	iu	br
+		4 = rh	oa	crh	r 	ao	cr
+		5 = f	ae	fr	sf	ea	fl
+		6 = ch	ie	s	ks	ei  tch
+		7 = v	äe	shv	sv	eä	vr
+		8 = x	äi	gx	k	iä	sk
+		9 = ng	ai	gr	g	ia	gn
+
+		h, l, b
+
+		
+
+
+
+Dictionary Classes
+
+	nP = set of words with n phonemes active.
+
+	4 phonemes per digit
+
+		|2P| = 4x4 
+			= 16
+		|3P| = (4 choose 2)*4 
+			+ 4*(4 choose 2) 
+			= 2*6*4 
+			= 48
+		|4P| = 2*(4 choose 3)*4 
+			+ (4 choose 2)*(4 choose 2)
+			= 2*4*4 + 6*6
+			= 64
+			
+		sum = 128
+		That makes 12.800 one-morpheme words.
+
+		uneconomical since the smallest two morpheme words have 4 phonemes. I could use this space for niche philosophical words or something.
+			|5P| = 2*1*4
+				+ 2*(4 choose 3)*(4 choose 2)
+				= 8 + 48
+				= 56
+			|6P| = (4 choose 2)*1*2
+				+ (4 choose 3)*2
+				= 12 + 8
+				= 20
+
+	6 phonemes per digit idea
+		|2P| = 6x6 
+			= 36
+		|3P| = (6 choose 2)*6 
+			+ 6*(6 choose 2) 
+		
+		|4P| 
+
 
 Dictionary
 
