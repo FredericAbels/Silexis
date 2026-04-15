@@ -29,9 +29,12 @@ Dictionary
 
 	0X
 		00	
+			1P00
+				the	(l-) eo
 			2P00
 				0th principle	ezoel
 				number 0
+				0.
 				the absolute
 				continuity
 				substance
@@ -39,26 +42,30 @@ Dictionary
 				cosmos
 
 		01
+			1P01
+				this
+				that
+
 			2P01
+				Graspable
 				1st principle
 				number 1
 				first	leone
-				Graspable
-				to grasp
-
 				matter	oem
+			3P01
+
 				rock 	
 				ground	
 
-				footolemu
+				foot	olemu
 
 				hand	
 				leg 	zen
 				arm 	
 
-				senseness
-				seeness
-				tasteness
+				sense
+				see
+				taste
 				smellness
 				touchness
 				hearness
@@ -70,14 +77,17 @@ Dictionary
 				radio zoenou
 
 		02
-			2P
+			1P02	
+				it
+				a	nu (-b)
+			2P02
 				body
 				2nd principle
 				number 2
 				human
 				animal
 				instrument
-			3P
+			3P02
 				head	tsue
 				spine
 				torso
@@ -102,35 +112,43 @@ Dictionary
 
 				sovereign
 
-		03
-			soul
-			3rd principle
-			number 3
+		03	
+			1P01
+				I
+				you
+				they (singular) 
 
-			affectionate suffix 	otsuschu
-			politeness	ozuikl
-			please	otsulikl	
+			2P01
+			3P01
 
-			chakra
-			Root chakra
-			Sacral chakra
-			Solar Plexus chakra	zihu
-			Heart chakra
-			Throat chakra
-			Third Eye chakra
-			Crown chakra
-			chi
-			prana
+				soul
+				3rd principle
+				number 3
 
-			emotion
-			happiness
-			fear
-			joy
-			bliss
-			hatred
-			hope
-			desire
-			wanting  	ozihucr
+				affectionate suffix 	otsuschu
+				politeness	ozuikl
+				please	otsulikl	
+
+				chakra
+				Root chakra
+				Sacral chakra
+				Solar Plexus chakra	zihu
+				Heart chakra
+				Throat chakra
+				Third Eye chakra
+				Crown chakra
+				chi
+				prana
+
+				emotion
+				happiness
+				fear
+				joy
+				bliss
+				hatred
+				hope
+				desire
+				wanting  	ozihucr
 		
 		04
 			spirit
@@ -181,7 +199,7 @@ Dictionary
 			ungraspable
 			magic
 
-	1X n ou m uo
+	1X
 
 		10
 			duality
@@ -281,7 +299,7 @@ Dictionary
 			non-linearity
 			domino, domino person
 
-	2X t ue d eu 
+	2X
 
 		20
 			20th principle
@@ -343,7 +361,7 @@ Dictionary
 			impurity
 			language	luega
 
-	3X sh ui tr iu
+	3X
 
 		30
 			30th principle
@@ -519,7 +537,7 @@ Dictionary
 			Kleos
 			era  	ksoanga
 
-	5X:	f	ae	v	ea
+	5X:
 
 		50
 			50th principle	uvazo
@@ -556,7 +574,7 @@ Dictionary
 			wokeness
 			attention	ufaga
 
-	6X s ie sh ei
+	6X
 		60
 			60th principle
 			number 60
@@ -602,8 +620,8 @@ Dictionary
 			being-subjected-to
 			passivity
 
-	7X	sv äe shv eä
-		71	n uo m ou
+	7X
+		71
 			plural suffix 1	p-äen-a
 			plural suffix 2 o-vuo-p
 		
@@ -614,7 +632,6 @@ Dictionary
 			Identity operation
 
 		79
-
 
 	8X
 		83
@@ -641,7 +658,7 @@ Dictionary
 			non-intelligence
 			unconditionality
 
-	9X g ai ng ia
+	9X
 		90
 			unity
 			90th principle

@@ -339,9 +339,6 @@ l as optional prefix if word starts with double vowel and its first consonant is
 p as optional suffix if word ends with a double vowel and the last consonant is soft
 b as optional suffix if word ends with a double vowel and the last consonant is soft
 
-pa as suffix if the last consonant is soft and the word is the last word in a sentence that is a question
-ba as suffix if the last consonant is hard and the word is the last word in a sentence that is a question
-
 cr as an infix if there are two consecutive vowels and the first consonant is soft
 h as an infix if there are two consecutive vowels and the first consonant is hard or there is no consonant
 
@@ -351,4 +348,8 @@ if we know who we are, we may know who we may be
 		 
 April.15
 
+1 Idea: If a word breaks the composition rules, it can still be a valid word with meaning, that meaning is just ambiguous. I could use this for names like Silexis itself.
 
+2 There are 100x100 two morpheme words and each have 16x16 2P variations. That makes 2.5600.000 2P two morpheme words. Seems enough tbh.
+
+3 Idea: I can use four 1P words for each of the 00-09 morphemes. This is great. That's 40 that's not nothing at all. 
