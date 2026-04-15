@@ -1,717 +1,749 @@
-0X ts eo z oe
-	00	
-		2P
+Classes
 
-			0th principle	ezoel
-			number 0
-			the absolute
-			continuity
-			substance
-			god
-			cosmos
-
-	01
-		2P
-			1st principle
-			number 1
-			first	leone
-			Graspable
-			to grasp
-
-			matter	oem
-			rock 	
-			ground	
-
-			footolemu
-
-			hand	
-			leg 	zen
-			arm 	
-
-			senseness
-			seeness
-			tasteness
-			smellness
-			touchness
-			hearness
-			sound	otsena
-			phenomenonness 
-			appearing
-
-			cubeness	zuno
-			radio zoenou
-
-	02
-		body
-		2nd principle
-		number 2
-		head	tsue
-		spine
-		torso
-		chest	tseu
-		brain
-		stomach
-		belly
-		organ	
-
-		instrument
-		drum
-		piano
-		guitar	e-zueteu-b
-		kickdrum
-		snare
-		hihat
-		speakerness
-
-		log
-		woman	ozetsueb
-		male
-		child	tsue
-
-		sovereign
-
-	03
-		soul
-		3rd principle
-		number 3
-
-		affectionate suffix 	otsuschu
-		politeness	ozuikl
-		please	otsulikl	
-
-		chakra
-		Root chakra
-		Sacral chakra
-		Solar Plexus chakra	zihu
-		Heart chakra
-		Throat chakra
-		Third Eye chakra
-		Crown chakra
-		chi
-		prana
-
-		emotion
-		happiness
-		fear
-		joy
-		bliss
-		hatred
-		hope
-		desire
-		wanting  	ozihucr
-	
-	04
-		spirit
-		culture
-		collective
-		collective unconscious
-		zeitgeist
-		collective self-harted
-		collective psychosis
-		worldsoul
-
-	05 r oa rh ao
-		5th principle
-		number 5
-		mind
-		intellect
-		thought
-		dream
-		fantasy
-		memory
-		imagination	
-		imagine
-
-	07	sv äe shv eä
-		Idea	zäe
-		7th principle
-		number 7
-		form	etsäpe
-		principle
-		teaching
-		axiom
-		a priori	preosva
-
-	08
-		purpose	eoxa
-		8th principle
-		number 8
-		meaning
-		story
-		narrative
-		symbol
-		semantics
-		morality
-
-	09
-		9th principle
-		number 9
-		ungraspable
-		magic
-
-1X n ou m uo
-
-	10
-		duality
-		10th principle
-		number 10
-		two of ~ noe
-		two
-		pair
-		space
-		relation
-		relationship
-		room
-		comparison
-		or
-		difference
-
-	11 n uo m ou
-		flesh
-		11th principle
-		number 11
-		embodiment	puone
-		content
-		pulp
-		inside	o-num-a
-
-		being	unoub
-
-	12
-		cohesion nuod
-		12th principle nod
-
-
-	13
-		stability
-	
-	14
-	    softness
-		14th principle
-		number 14
-		openness
-		fluidity
-		anticipation
-		suprise
-		admission
-		letter
+	nP = set of words with N phonemes active.
+	|2P| = 4x4 
+		 = 16
+	|3P| = (4 choose 2)*4 
+		 + 4*(4 choose 2) 
+		 = 2*6*4 
+		 = 48
+	|4P| = 2*(4 choose 3)*4 
+		 + (4 choose 2)*(4 choose 2)
+		 = 2*4*4 + 6*6
+		 = 64
 		
-	15 f ae v ea
-		15th principle
-		number 15
-		position
-		past	emaep
-		on
-		in	enaeb
-		under
-		above
-		below
-		outside
-		future
-		here
-		place	enape
+	sum = 128
+	That makes 12.800 one-morpheme words.
 
-	16 sh ie s ei
-		96st principle	inectib
-		number 96
-		direction	amei
-		upwards
-		downwards
-		out
-		opposite		hopusho
-		anti 	nouso
+	uneconomical since the smallest two morpheme words have 4 phonemes. I could use this space for niche philosophical words or something.
+		|5P| = 2*1*4
+			+ 2*(4 choose 3)*(4 choose 2)
+			= 8 + 48
+			= 56
+		|6P| = (4 choose 2)*1*2
+			+ (4 choose 3)*2
+			= 12 + 8
+			= 20
+
+Dictionary
+
+	0X
+		00	
+			2P00
+				0th principle	ezoel
+				number 0
+				the absolute
+				continuity
+				substance
+				god
+				cosmos
+
+		01
+			2P01
+				1st principle
+				number 1
+				first	leone
+				Graspable
+				to grasp
+
+				matter	oem
+				rock 	
+				ground	
+
+				footolemu
+
+				hand	
+				leg 	zen
+				arm 	
+
+				senseness
+				seeness
+				tasteness
+				smellness
+				touchness
+				hearness
+				sound	otsena
+				phenomenonness 
+				appearing
+
+				cubeness	zuno
+				radio zoenou
+
+		02
+			2P
+				body
+				2nd principle
+				number 2
+				human
+				animal
+				instrument
+			3P
+				head	tsue
+				spine
+				torso
+				chest	tseu
+				brain
+				stomach
+				belly
+				organ	
+
+				drum
+				piano
+				guitar	e-zueteu-b
+				kickdrum
+				snare
+				hihat
+				speakerness
+
+				log
+				woman	ozetsueb
+				male
+				child	tsue
+
+				sovereign
+
+		03
+			soul
+			3rd principle
+			number 3
+
+			affectionate suffix 	otsuschu
+			politeness	ozuikl
+			please	otsulikl	
+
+			chakra
+			Root chakra
+			Sacral chakra
+			Solar Plexus chakra	zihu
+			Heart chakra
+			Throat chakra
+			Third Eye chakra
+			Crown chakra
+			chi
+			prana
+
+			emotion
+			happiness
+			fear
+			joy
+			bliss
+			hatred
+			hope
+			desire
+			wanting  	ozihucr
 		
-	17
-		17th principle
-		number 17
-		velocity
-		constancy
-		consistency
-		linearity
-		slowness	onälecsh
+		04
+			spirit
+			culture
+			collective
+			collective unconscious
+			zeitgeist
+			collective self-harted
+			collective psychosis
+			worldsoul
 
-	18
-		18th principle
-		number 18
-		acceleration
-		change
-		non-linearity
+		05 r oa rh ao
+			5th principle
+			number 5
+			mind
+			intellect
+			thought
+			dream
+			fantasy
+			memory
+			imagination	
+			imagine
 
-	19
-		19th principle
-		number 19
-		conflagration
-		exponential growth
-		power law
-		chain reaction
-		catastrophe
-		revolution
-		non-linearity
-		domino, domino person
+		07	sv äe shv eä
+			Idea	zäe
+			7th principle
+			number 7
+			form	etsäpe
+			principle
+			teaching
+			axiom
+			a priori	preosva
 
-2X t ue d eu 
+		08
+			purpose	eoxa
+			8th principle
+			number 8
+			meaning
+			story
+			narrative
+			symbol
+			semantics
+			morality
 
-	20
-		20th principle
-		number 20
-		complexity
+		09
+			9th principle
+			number 9
+			ungraspable
+			magic
 
-	21 n uo m ou
-		repetition
-		21st principle
-		number 21
-		repetition person	buena
-		shape	shrh-upem-u
+	1X n ou m uo
 
-		oftenness ~ (i)duo(b)
+		10
+			duality
+			10th principle
+			number 10
+			two of ~ noe
+			two
+			pair
+			space
+			relation
+			relationship
+			room
+			comparison
+			or
+			difference
 
-	22 t ue d eu 
-		reflection
-		22th principle
-		number 22
-		reflection person	
-		color	delrhu
-		shining
-		ayego
-		larp
-		furry
+		11 n uo m ou
+			flesh
+			11th principle
+			number 11
+			embodiment	puone
+			content
+			pulp
+			inside	o-num-a
 
-	23 tr ui sh iu
-		point
-		23rd principle
-		number 23
-		point-people	creosha
-		status	ozatra
-		symbol	utsasha
-		ideology
+			being	unoub
 
-	25
-		25th principle
-		number 25
-		sequence
-		sequence person		skuefa
-		analysis
-		theory
-		clock
-		fortune cat
-		rationality
-		cpu
-		exact	ksectuv
-		utilitarianism
-		library	etuefu
-	
-	28
-		feminine complexity
-		28th principle	adiä
-	
-	29
-		29th principle
-		number 29
-		intelligence
-		impurity
-		language	luega
+		12
+			cohesion nuod
+			12th principle nod
 
-3X sh ui tr iu
 
-	30
-		30th principle
-		number 30
-		Granularity
-		layers
-		levels
-		hierarchy
-		holarchies
-		stages
-		phases
-
-	31
-		31st principle
-		number 31
-		entity
-		existence
-		instance
-		the	ushoup
-		a 	liuna
-
-	32
-		32nd principle
-		number 32
-		operation
-		function
-
-	35 f ae sf ea
-		individual
-		35th principle
-		number 35
-		person
-
-		I	iuf
-		my	uif
-		who shae
-
-		human
-		animal
-		dog
-		cat
-		bird
+		13
+			stability
 		
-	36
-		36th principle
-		number 36
+		14
+			softness
+			14th principle
+			number 14
+			openness
+			fluidity
+			anticipation
+			suprise
+			admission
+			letter
+			
+		15 f ae v ea
+			15th principle
+			number 15
+			position
+			past	emaep
+			on
+			in	enaeb
+			under
+			above
+			below
+			outside
+			future
+			here
+			place	enape
 
-		familyness
-		close-circleness
-		roommateness	oschuso
+		16 sh ie s ei
+			96st principle	inectib
+			number 96
+			direction	amei
+			upwards
+			downwards
+			out
+			opposite		hopusho
+			anti 	nouso
+			
+		17
+			17th principle
+			number 17
+			velocity
+			constancy
+			consistency
+			linearity
+			slowness	onälecsh
 
-		one-genertionness
+		18
+			18th principle
+			number 18
+			acceleration
+			change
+			non-linearity
+
+		19
+			19th principle
+			number 19
+			conflagration
+			exponential growth
+			power law
+			chain reaction
+			catastrophe
+			revolution
+			non-linearity
+			domino, domino person
+
+	2X t ue d eu 
+
+		20
+			20th principle
+			number 20
+			complexity
+
+		21 n uo m ou
+			repetition
+			21st principle
+			number 21
+			repetition person	buena
+			shape	shrh-upem-u
+
+			oftenness ~ (i)duo(b)
+
+		22 t ue d eu 
+			reflection
+			22th principle
+			number 22
+			reflection person	
+			color	delrhu
+			shining
+			ayego
+			larp
+			furry
+
+		23 tr ui sh iu
+			point
+			23rd principle
+			number 23
+			point-people	creosha
+			status	ozatra
+			symbol	utsasha
+			ideology
+
+		25
+			25th principle
+			number 25
+			sequence
+			sequence person		skuefa
+			analysis
+			theory
+			clock
+			fortune cat
+			rationality
+			cpu
+			exact	ksectuv
+			utilitarianism
+			library	etuefu
 		
-		you
-
-	37
-		37th principle
-		number 37
-		tribeness
-		roommateness	otrushvo
-		neighborness	eschasva
-
-		multiple-generationsness
-		he
-		she
-		it
+		28
+			feminine complexity
+			28th principle	adiä
 		
-	38
-		38th principle
-		nummber 38
-		societyness
-		cultureness
-		ecosystemness
-		they
-		them
-		us
-		army	bruika
+		29
+			29th principle
+			number 29
+			intelligence
+			impurity
+			language	luega
 
-	39
-		39th principle
-		number 39
-		infinity
-		ancient
-		distant past
-		whole
-		environment
-		home
-		land
-		country
-		foundation
-		continent
-		planet
-		star
-		sun
-		Universe
-		galaxy
-		solar system
-		city
-		cosmo
-		all-encompassing	ashiab
-		braman
+	3X sh ui tr iu
 
-4X
-	40
-		path
-		40th principle	laoza
-		resolution
-		dialectics
-		way
-		dialogue
-		diplomacy
-		socratic
-		warless war
+		30
+			30th principle
+			number 30
+			Granularity
+			layers
+			levels
+			hierarchy
+			holarchies
+			stages
+			phases
 
-	41
-		thing	croano
-		41st principle
-		number 41
-		noun
+		31
+			31st principle
+			number 31
+			entity
+			existence
+			instance
+			the	ushoup
+			a 	liuna
 
-	42
-		coherence
-		42nd principle
-		number 42
-		complement
+		32
+			32nd principle
+			number 32
+			operation
+			function
 
-	43
-		symbiosis
-		enemyless	oasha
+		35 f ae sf ea
+			individual
+			35th principle
+			number 35
+			person
 
-	45
-		consonance
-		dopamine
-		passion
-		drive
-		motivation
+			I	iuf
+			my	uif
+			who shae
 
-	46
-		harmony	arhachi
-		not to fast not too slow	erhihe
-		springy (not too relaxed nor too tense)	craosie
+			human
+			animal
+			dog
+			cat
+			bird
+			
+		36
+			36th principle
+			number 36
 
-	47
-		beauty
-		47th principle
-		number 47
-		acceptance
-		heart	räe
-		yes	eräe
-	
-	48
-		48th principle
-		number 48
-		potence
-		subject
-		active
-		act ~ rrae!i, rraetshi
-		projecting
-		power
-		might
-		inducing
-		design
-		protagonist	proaxa
+			familyness
+			close-circleness
+			roommateness	oschuso
 
-		playingness	lopago
+			one-genertionness
+			
+			you
 
-	49
-		Eternity	ria
-		49th principle csaoga
-		number 49
-		Immortality
-		Hero
-		Kleos
-		era  	ksoanga
+		37
+			37th principle
+			number 37
+			tribeness
+			roommateness	otrushvo
+			neighborness	eschasva
 
-5X:	f	ae	v	ea
+			multiple-generations
+			he
+			she
+			it
+			
+		38
+			38th principle
+			nummber 38
+			society
+			culture
+			ecosystem
+			they
+			them
+			us
+			army	bruika
 
-	50
-		50th principle	uvazo
-		number 50
-		transcendence
+		39
+			39th principle
+			number 39
+			infinity
+			ancient
+			distant past
+			whole
+			environment
+			home
+			land
+			country
+			foundation
+			continent
+			planet
+			star
+			sun
+			Universe
+			galaxy
+			solar system
+			city
+			cosmo
+			all-encompassing	ashiab
+			braman
 
-	52:	t	ue	d	eu
-		52th principle	
-		number 52
-		illusion	uvohacsh
-		lie			laete
-		bias		behada
-		deception	veptule
-		delusion	felada
-		facade	avuto
-		cover	evued
-		error	vaete
+	4X
+		40
+			path
+			40th principle	laoza
+			resolution
+			dialectics
+			way
+			dialogue
+			diplomacy
+			socratic
+			warless war
 
-	53 tr ui sh iu
-		53rd principle
-		number 53
-		unawareness
-		sleep	ivashu
-	
-	55
-		emptiness
+		41
+			thing	croano
+			41st principle
+			number 41
+			noun
+
+		42
+			coherence
+			42nd principle
+			number 42
+			complement
+
+		43
+			symbiosis
+			enemyless	oasha
+
+		45
+			consonance
+			dopamine
+			passion
+			drive
+			motivation
+
+		46
+			harmony	arhachi
+			not to fast not too slow	erhihe
+			springy (not too relaxed nor too tense)	craosie
+
+		47
+			beauty
+			47th principle
+			number 47
+			acceptance
+			heart	räe
+			yes	eräe
 		
-	58
-		58th principle
-		number 58
-		awareness	vraega
-		realizationness	avieb
-		wakeness
-		wokeness
-		attention	ufaga
+		48
+			48th principle
+			number 48
+			potence
+			subject
+			active
+			act ~ rrae!i, rraetshi
+			projecting
+			power
+			might
+			inducing
+			design
+			protagonist	proaxa
 
-6X s ie sh ei
-	60
-		60th principle
-		number 60
-		permanent
-		unchanging
-		tense
-		absolute
-		self-contradicting
-		something that creates the very problems it is meant to solve	
+			playingness	lopago
 
-	61
-		essence	asan
-		61st principle
-		number 61
-		attribute	osuo
-		adjective
+		49
+			Eternity	ria
+			49th principle csaoga
+			number 49
+			Immortality
+			Hero
+			Kleos
+			era  	ksoanga
 
-	62
-		contradiction
-		enemy
-		stupidity
-		banality	echieduep
+	5X:	f	ae	v	ea
 
-	67 sv äe shv eä
-		67th principle	criesväeb
-		number 67
-		doubt
-		no	osäleb
-		self-doubt	ashashve
-		scepticism
-		judgement
-		criticism
-		negation
-		not	osaee
-		dis-
-		anti-
+		50
+			50th principle	uvazo
+			number 50
+			transcendence
 
-	68
-		68th principle
-		number 68
-		question	l-iek-a
-		becoming	a-chiä-p
-		being-subjected-to
-		passivity
+		52:	t	ue	d	eu
+			52th principle	
+			number 52
+			illusion	uvohacsh
+			lie			laete
+			bias		behada
+			deception	veptule
+			delusion	felada
+			facade	avuto
+			cover	evued
+			error	vaete
 
-7X	sv äe shv eä
-	71	n uo m ou
-		plural suffix 1	p-äen-a
-		plural suffix 2 o-vuo-p
+		53 tr ui sh iu
+			53rd principle
+			number 53
+			unawareness
+			sleep	ivashu
+		
+		55
+			emptiness
+			
+		58
+			58th principle
+			number 58
+			awareness	vraega
+			realizationness	avieb
+			wakeness
+			wokeness
+			attention	ufaga
+
+	6X s ie sh ei
+		60
+			60th principle
+			number 60
+			permanent
+			unchanging
+			tense
+			absolute
+			self-contradicting
+			something that creates the very problems it is meant to solve	
+
+		61
+			essence	asan
+			61st principle
+			number 61
+			attribute	osuo
+			adjective
+
+		62
+			contradiction
+			enemy
+			stupidity
+			banality	echieduep
+
+		67 sv äe shv eä
+			67th principle	criesväeb
+			number 67
+			doubt
+			no	osäleb
+			self-doubt	ashashve
+			scepticism
+			judgement
+			criticism
+			negation
+			not	osaee
+			dis-
+			anti-
+
+		68
+			68th principle
+			number 68
+			question	l-iek-a
+			becoming	a-chiä-p
+			being-subjected-to
+			passivity
+
+	7X	sv äe shv eä
+		71	n uo m ou
+			plural suffix 1	p-äen-a
+			plural suffix 2 o-vuo-p
+		
+		72
+			72th principle
+			number 72
+			Identity
+			Identity operation
+
+		79
+
+
+	8X
+		83
+			83rd principle
+			number 83
+			non-point ~ aisha
+			number 83
+			diffusion
+			ADHD ~ iasha
+			adaptability
+			change
+			scattering
+			fuzzy
+			unpredictability
+			chaos
+			float
+			drift	käitra
+			ambiguity	akilub
+		
+		89
+			89th principle
+			number 89
+			purity	
+			non-intelligence
+			unconditionality
+
+	9X g ai ng ia
+		90
+			unity
+			90th principle
+			number 90
+			intimacy
+			and egoe
+
+		91 m uo n ou
+			91th principle	guo
+			number 91
+			skin	gubo
+			enclosure	ngou
+			container	gomo
+			foundation	iano
+			shell	aimu
+			peel	aima
+			boundary
+			foil
+			frontier
+			wrap
+			bucket
+			chair
+			plate
+			cup
+			shelter
+			bunker	iahuona
+			safe	lafrima
+			box
+			carton
+			cartonbox
+			submarine	agohab
+			house
+
+		92
+			collapse
+			92nd principle
+			number 92
+			emotionally invested
+			ungrounded
+			passion
+			clasping
+
+		93
+			Fragmentation
+			93rd principle
+			number 93
+			overcompensation
+
+		98
+			98th principle
+			number 98
+			decelaration
+			quieterness ~ ongaeix
+
+	0302
+		heart	ziutsue
+
+	0139
+		monolith
 	
-	72
-		72th principle
-		number 72
-		Identity
-		Identity operation
+	1447
+		opening up for love
+		1447th principle
+		number 1447
+		love letter	uorohasva
 
-	79
+	2115
+		2115th principle
+		Number 2115
+		embodied-position
+		pose
+		sitting
+		lying
+		standing
+		squatting
+		asana
+		saiza
+		lotus seat
 
+	2891
+		supportive feminine person
+		2891st principle	adiäguo
+		Number 2891
+		mother
+		mother archetype
+		sugar mommy
 
-8X
-	83
-		83rd principle
-		number 83
-		non-point ~ aisha
-		number 83
-		diffusion
-		ADHD ~ iasha
-		adaptability
-		change
-		scattering
-		fuzzy
-		unpredictability
-		chaos
-		float
-		drift	käitra
-		ambiguity	akilub
-	
-	89
-		89th principle
-		number 89
-		purity	
-		non-intelligence
-		unconditionality
+	3954
+		3954th principle
+		number 3954
+		all-encompasing lie	(e)gaer(a)
 
-9X g ai ng ia
-	90
-		unity
-		90th principle
-		number 90
-		intimacy
-		and egoe
+	4557
+		enjoying	(e)rhaesfäe(b)
 
-	91 m uo n ou
-		91th principle	guo
-		number 91
-		skin	gubo
-		enclosure	ngou
-		container	gomo
-		foundation	iano
-		shell	aimu
-		peel	aima
-		boundary
-		foil
-		frontier
-		wrap
-		bucket
-		chair
-		plate
-		cup
-		shelter
-		bunker	iahuona
-		safe	lafrima
-		box
-		carton
-		cartonbox
-		submarine	agohab
-		house
+	5668
+		5668th principle
+		number 5668
+		becoming aware ~ fesiekha
 
-	92
-		collapse
-		92nd principle
-		number 92
-		emotionally invested
-		ungrounded
-		passion
-		clasping
+	6225
+		Ideoteque	tuefchiedue
 
-	93
-		Fragmentation
-		93rd principle
-		number 93
-		overcompensation
-
-	98
-		98th principle
-		number 98
-		decelaration
-		quieterness ~ ongaeix
-
-0302
-	heart	ziutsue
-
-0139
-	monolith
- 
-1447
-	opening up for love
-    1447th principle
-    number 1447
-    love letter	uorohasva
-
-2115
-	2115th principle
-	Number 2115
-	embodied-position
-	pose
-	sitting
-	lying
-	standing
-	squatting
-	asana
-	saiza
-	lotus seat
-
-2891
-	supportive feminine person
-	2891st principle	adiäguo
-	Number 2891
-	mother
-	mother archetype
-	sugar mommy
-
-3954
-    3954th principle
-    number 3954
-    all-encompasing lie	(e)gaer(a)
-
-4557
-	enjoying	(e)rhaesfäe(b)
-
-5668
-    5668th principle
-    number 5668
-    becoming aware ~ fesiekha
-
-6225
-	Ideoteque	tuefchiedue
-
-8525
-	redefinition	
+	8525
+		redefinition	
