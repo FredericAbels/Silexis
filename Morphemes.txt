@@ -31,13 +31,13 @@
                     
     21 = Repetition    81 = non-repetition
     22 = Reflection    82 = non-reflection
-    23 = Point         83 = non-point
+    23 = Fixation      83 = non-fixation
 
-    24 = Mirror        84 = non-mirror
+    24 = Projection    84 = non-projection
     25 = Sequence      85 = non-sequence
-    26 = Dynamic       86 = non-dynamic
+    26 = Circulation   86 = non-Circulation
 
-    27 = masculine     87 = non-masculine
+    27 = Masculine     87 = non-masculine
     28 = Feminine      88 = non-feminine
     29 = Intelligence  89 = Purity
 

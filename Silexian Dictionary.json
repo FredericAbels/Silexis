@@ -670,35 +670,35 @@
 	8X
 		83
 			"":{
-				"english":["83rd principle"]},
+				"eng":["83rd principle"]},
 			"":{
-				"english":["number 83"]},
+				"eng":["number 83"]},
 			"aisha":{
-				"english":["non-point"]},
+				"eng":["non-point"]},
 			"":{
-				"english":["number"]},
+				"eng":["number"]},
 			"":{
-				"english":["diffusion"]},
+				"eng":["diffusion"]},
 			"iasha":{
-				"english":["ADHD"]},
+				"eng":["ADHD"]},
 			"":{
-				"english":["adaptability"]},
+				"eng":["adaptability"]},
 			"":{
-				"english":["change"]},
+				"eng":["change"]},
 			"":{
-				"english":["scattering"]},
+				"eng":["scattering"]},
 			"":{
-				"english":["fuzzy"]},
+				"eng":["fuzzy"]},
 			"":{
-				"english":["unpredictability"]},
+				"eng":["unpredictability"]},
 			"":{
-				"english":["chaos"]},
+				"eng":["chaos"]},
 			"":{
-				"english":["float"]},
+				"eng":["float"]},
 			"käitra":{
-				"english":["drift"]},
+				"eng":["drift"]},
 			"akilub":{
-				"english":["ambiguity"]}
+				"eng":["ambiguity"]}
 
 		"85": {
 			"85_T2": {
@@ -715,23 +715,33 @@
 			unconditionality
 
 	"9X": {
+
 		"90": {
             "T2": {
                 unity
                 90th principle
-                "greo": {"eng":["contract"]}
+                "greo": {
+                    "eng":["contract"]
+                }
                 intimacy
             }
 
         }
 
-		91 m uo n ou
-			91th principle	guo
-			number 91
-			skin	gubo
-			enclosure	ngou
-			container	gomo
-			foundation	iano
+		91
+            "T2": {
+                "gruo": {
+                    "eng":["womb"], 
+                    "phonemes":[[6][2]]
+                }
+                91th principle	guo
+                skin	gubo
+                enclosure	ngou
+                container	gomo
+                foundation	iano
+                origin
+            }
+
 			shell	aimu
 			peel	aima
 			boundary
