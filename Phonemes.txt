@@ -24,7 +24,7 @@ Phonemes
 		6 = ch   ie	 s	  ks	ei  tch
 		7 = v    äe  shv  sv    eä  vr
 		8 = x    äi	 gx	  k     iä	sk
-		9 = ng   ai	 gr	  g     ia	gn
+		9 = ng   ai	 gn	  g     ia	gr
 
 		Inbetween two double vowels: h
 		"l": "optional prefix if word starts with double vowel and the previous word ends with double vowel."

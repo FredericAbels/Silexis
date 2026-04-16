@@ -289,9 +289,11 @@
                 non-linearity
 
             19
+                "T2": {
+                    "uognu":{"eng":["conflagration"]}
+                }
                 19th principle
                 number 19
-                conflagration
                 exponential growth
                 power law
                 chain reaction
@@ -527,20 +529,25 @@
 			yes	eräe
 		
 		48
-			48th principle
-			number 48
-			potence
-			subject
-			active
-			act ~ rrae!i, rraetshi
-			projecting
-			power
-			might
-			inducing
-			design
-			protagonist	proaxa
+            "T2": {
+                "oagro":{"eng":["imperative form 1"]}
+                "roka":{"eng":["imperative form 2"]}
+                48th principle
+                number 48
+                potence
+                subject
+                active
+                act ~ rrae!i, rraetshi
+                projecting
+                power
+                might
+                inducing
+                design
+                protagonist	proaxa
 
-			playingness	lopago
+                playing	lopago
+                }
+			
 
 		49
 			Eternity	ria
@@ -761,7 +768,8 @@
 
 		98
 			"T2": {
-				"graka": {"eng": ["deceleration"]}
+				"graka": {
+                    "eng": ["deceleration"]}
 				98th principle
 				number 98
             }
@@ -770,7 +778,10 @@
 				quieter	ongaeix
 			
 		99
-			2P
+			"T2": {
+                "aigra": {
+                    "eng":["cessation"]}
+            }
 
 			3P
 			4P

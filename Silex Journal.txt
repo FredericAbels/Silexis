@@ -374,20 +374,21 @@ Breathing mantra
 
 Breathe in, breathe out
 
-Expand then contract
-10     25   90
-noe    dae  greo
+imperative  Expand     then contract.
+48          10         25   90
+oagro	    noe        dae  greo.
 
-compress then decompress
-94 		      14
-liari    dae  louro
+            compress   then decompress.
+            94              14
+oagr        iari       dae  louro.
 
-accelerate then decelerate
-18              98
-nuka	   dae  graka
+            accelerate then decelerate.
+            18              98
+oagro       nuka       dae  graka.
 
-conflagrate, cease
-19           99
+            conflagrate then cease.
+            19               99
+oagro       luognu      dae  laigra.  
 
 2 neologism ontosonance?
 
