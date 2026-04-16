@@ -395,3 +395,12 @@ conflagrate, cease
 3.4 I could do a dict like {"00": 00_tiers, ...} and 00_tiers is a dict like {"00_1P": 00_1P_dict, ...} and 00_1P_dict is 
 
 4 maybe use sql instead of json?
+
+5 I feel like I need to design the dict around how I want to be able to interact with it
+5.1
+
+"add english word xyz to 50_T3 silexian word abc"
+
+"what is the silexian word for the english word xyz"
+
+5.2 silexicon['00']['T1']
