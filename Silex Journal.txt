@@ -394,3 +394,4 @@ conflagrate, cease
 3.3 bro that's like a comically basic programming exercise
 3.4 I could do a dict like {"00": 00_tiers, ...} and 00_tiers is a dict like {"00_1P": 00_1P_dict, ...} and 00_1P_dict is 
 
+4 maybe use sql instead of json?
