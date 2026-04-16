@@ -195,7 +195,7 @@
         "1X": {
             "10": {
                 "T2": {
-                    "enoel":{"eng":["expand"]}
+                    "noe":{"eng":["expand"]}
                 }
                 duality
                 10th principle
@@ -231,6 +231,9 @@
                 stability
             
             14
+                "T2": {
+                    "ouro":{"eng":["decompress"]}
+                }
                 softness
                 14th principle
                 number 14
@@ -700,7 +703,7 @@
             "T2": {
                 unity
                 90th principle
-                "ogreol": {"eng":["contract"]}
+                "greo": {"eng":["contract"]}
                 intimacy
             }
 
@@ -746,6 +749,12 @@
 			93rd principle
 			number 93
 			"": {"english":["loss"]}
+
+        "94": {
+            "T2": {
+                "iari":{"eng":["compress"]}
+            }
+        }
 
 		98
 			2P

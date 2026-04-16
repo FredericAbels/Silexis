@@ -378,11 +378,13 @@ Expand then contract
 10     25   90
 noe    dae  greo
 
-compress, decompress
-94 		  14
+compress then decompress
+94 		      14
+liari    dae  louro
 
 accelerate, decelerate
 18          98
+
 
 conflagrate, cease
 19           99
