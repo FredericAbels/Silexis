@@ -536,12 +536,12 @@ XX
 			Kleos
 			era  	ksoanga
 
-	5X:
+	5X
 
 		50
 			50th principle	uvazo
 			number 50
-			transcendence
+			Attachment
 
 		52:	t	ue	d	eu
 			52th principle	
@@ -572,6 +572,13 @@ XX
 			wakeness
 			wokeness
 			attention	ufaga
+
+		"59": {
+			59_T2: {
+				"": {"english": ["non-attachment"]}
+			  "": {"english": ["letting"]}
+			}
+		}
 
 	6X
 		60
