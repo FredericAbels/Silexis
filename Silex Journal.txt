@@ -356,4 +356,8 @@ April.16
 
 "what is the silexian word for the english word xyz"
 
+"translate this english sentence"
+
+"update words with the new phonemes"
+
 5.2 silexicon['00']['T1']

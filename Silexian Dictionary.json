@@ -471,7 +471,13 @@
 			braman
 
 	4X
-		40
+		40  
+            "T2": {
+                "roe": {
+                    "eng":{"transition"}, 
+                    "phonemes":[[4][5]]
+                }
+            }
 			path
 			40th principle	laoza
 			resolution
@@ -780,7 +786,7 @@
 		99
 			"T2": {
                 "aigra": {
-                    "eng":["cessation"]}
+                    "eng":["cessation"], "phonemes":[[2][6]]}
             }
 
 			3P
