@@ -15,11 +15,11 @@ Phonemes
 
 	6 per digit idea
 
-		0 = z	 eo  ts 	st	oe	sht
-		1 = m	 uo	 n	  vl	ou	kl
+		0 = z    eo  ts   st	oe	sht
+		1 = m    uo	 n	  vl	ou	kl
 		2 = d	 ue	 b	  t	  eu	p	
-		3 = sh ui	 tsh	tr	iu	br
-		4 = rh oa	 crh	r 	ao	cr
+		3 = sh   ui	 tsh	tr	iu	br
+		4 = rh   oa	 crh	r 	ao	cr
 		5 = f	 ae	 fr	  sf	ea	fl
 		6 = ch ie	 s	  ks	ei  tch
 		7 = v	 äe	 shv	sv	eä	vr

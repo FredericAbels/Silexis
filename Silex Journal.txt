@@ -367,7 +367,24 @@ April.16
 		Breathing in is expanding
 		1090
 	3. Master these two and try to find a sweet spot where your state does not become to extreme.
-1.1 Try to also use this during the day. 
+1.1 Try to also use this during the day.
+1.2 Translation
+
+Breathing mantra
+
+Breathe in, breathe out
+
+Expand, contract
+10      90
+
+compress, decompress
+94 		  14
+
+accelerate, decelerate
+18          98
+
+conflagrate, cease
+19           99
 
 2 neologism ontosonance?
 
@@ -376,3 +393,4 @@ April.16
 3.2 I could do a dict like {"00": 00_tiers, ...} and 00_tiers is a dict like {"00_1P": 00_1P_dict, ...} and 00_1P_dict is 
 3.3 bro that's like a comically basic programming exercise
 3.4 I could do a dict like {"00": 00_tiers, ...} and 00_tiers is a dict like {"00_1P": 00_1P_dict, ...} and 00_1P_dict is 
+

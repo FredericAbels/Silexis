@@ -137,8 +137,8 @@ XX
 				four
 
 			04_2P
-				icon
 				spirit
+				icon
 				culture
 				collective
 				collective unconscious
@@ -482,6 +482,14 @@ XX
 		43
 			symbiosis
 			enemyless	oasha
+
+		44
+			44_T2
+				life
+				44th principle
+				breathe
+				health
+
 
 		45
 			consonance
