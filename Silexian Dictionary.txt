@@ -191,7 +191,6 @@ XX
 			magic
 
 	1X
-
 		10
 			duality
 			10th principle
@@ -712,6 +711,7 @@ XX
 			93rd principle
 			number 93
 			overcompensation
+			"": {"english":["loss"]}
 
 		98
 			2P
