@@ -47,3 +47,8 @@ oagro       nuka         dae  loagro   graka.
             conflagrate  then          cease.
             19                         99
 oagro       luognu       dae  loagr    aigra.
+
+# Poem Accepting Death
+
+Living towards life is dying.
+Living towards death is living.
