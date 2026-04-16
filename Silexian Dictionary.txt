@@ -655,6 +655,12 @@ XX
 			float
 			drift	käitra
 			ambiguity	akilub
+
+		"85": {
+			"85_T2": {
+				"":{"english":["compensation"]}
+			}
+		}
 		
 		89
 			89th principle
@@ -710,7 +716,6 @@ XX
 			Fragmentation
 			93rd principle
 			number 93
-			overcompensation
 			"": {"english":["loss"]}
 
 		98
