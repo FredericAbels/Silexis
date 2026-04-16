@@ -574,9 +574,9 @@ XX
 			attention	ufaga
 
 		"59": {
-			59_T2: {
+			"59_T2": {
 				"": {"english": ["non-attachment"]}
-			  "": {"english": ["letting"]}
+				"": {"english": ["letting"]}
 			}
 		}
 
