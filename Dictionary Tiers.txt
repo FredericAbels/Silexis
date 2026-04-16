@@ -1,0 +1,35 @@
+nP = set of words with n phonemes active.
+
+4 phonemes per digit
+
+	|2P| = 4x4 
+		= 16
+	|3P| = (4 choose 2)*4 
+		+ 4*(4 choose 2) 
+		= 2*6*4 
+		= 48
+	|4P| = 2*(4 choose 3)*4 
+		+ (4 choose 2)*(4 choose 2)
+		= 2*4*4 + 6*6
+		= 64
+		
+	sum = 128
+	That makes 12.800 one-morpheme words.
+
+	uneconomical since the smallest two morpheme words have 4 phonemes. I could use this space for niche philosophical words or something.
+		|5P| = 2*1*4
+			+ 2*(4 choose 3)*(4 choose 2)
+			= 8 + 48
+			= 56
+		|6P| = (4 choose 2)*1*2
+			+ (4 choose 3)*2
+			= 12 + 8
+			= 20
+
+6 phonemes per digit idea
+	|2P| = 6x6 
+		= 36
+	|3P| = (6 choose 2)*6 
+		+ 6*(6 choose 2) 
+	
+	|4P| 

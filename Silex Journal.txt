@@ -369,6 +369,10 @@ April.16
 	3. Master these two and try to find a sweet spot where your state does not become to extreme.
 1.1 Try to also use this during the day. 
 
-
-
 2 neologism ontosonance?
+
+3 I want to encode the dictionary in a datastructure so that I can automate sweeping changes. This might take a while. I'm rusty with this
+3.1 Okay baseline I could just use and array where the nth spot in the array points to everything regarding the nth morpheme.
+3.2 I could do a dict like {"00": 00_tiers, ...} and 00_tiers is a dict like {"00_1P": 00_1P_dict, ...} and 00_1P_dict is 
+3.3 bro that's like a comically basic programming exercise
+3.4 I could do a dict like {"00": 00_tiers, ...} and 00_tiers is a dict like {"00_1P": 00_1P_dict, ...} and 00_1P_dict is 

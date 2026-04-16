@@ -4,6 +4,7 @@ XX
 			1P00
 				be	(o-) ze (-p)
 				the	(l-) eo (-p)
+				zero
 			2P00
 				0th principle	ezoel
 				number 0
@@ -19,6 +20,7 @@ XX
 				this
 				that
 				have
+				one
 
 			2P01
 				Graspable
@@ -55,6 +57,7 @@ XX
 				it
 				a	(e-) nu (-b)
 				of
+				two
 			2P02
 				body
 				2nd principle
@@ -92,6 +95,7 @@ XX
 				I
 				you
 				they (singular) 
+				three
 
 			2P01
 			3P01
@@ -130,6 +134,7 @@ XX
 				and
 				they
 				we
+				four
 
 			2P04
 
@@ -705,7 +710,7 @@ XX
 			
 		99
 			2P
-				
+
 			3P
 			4P
 
