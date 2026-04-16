@@ -17,13 +17,15 @@ Phonemes
 
 		0 = z    eo  ts   st	oe	sht
 		1 = m    uo	 n	  vl	ou	kl
-		2 = d	   ue	 b	  t	  eu	p	
+		2 = d    ue	 b	  t     eu  p	
 		3 = sh   ui	 tsh	tr	iu	br
 		4 = rh   oa	 crh	r 	ao	cr
-		5 = f	   ae	 fr	  sf	ea	fl
+		5 = f	 ae	 fr	  sf	ea	fl
 		6 = ch   ie	 s	  ks	ei  tch
 		7 = v	   äe	 shv	sv	eä	vr
 		8 = x	   äi	 gx	  k	  iä	sk
 		9 = ng   ai	 gr	  g	  ia	gn
 
-		h, l, b
+		Inbetween two double vowels: h
+		Optional suffix if word ends with double vowel: l
+		Optional prefix if word starts with double vowel: b

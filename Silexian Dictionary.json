@@ -192,8 +192,11 @@
             magic
     }
 
-        1X
-            10
+        "1X": {
+            "10": {
+                "T2": {
+                    "enoel":{"eng":["expand"]}
+                }
                 duality
                 10th principle
                 number 10
@@ -207,7 +210,7 @@
                 comparison
                 or
                 difference
-
+            }
             11 n uo m ou
                 flesh
                 11th principle
@@ -290,8 +293,7 @@
                 revolution
                 non-linearity
                 domino, domino person
-    /* 0X */
-
+        }
 	2X
 
 		20
@@ -328,21 +330,24 @@
 			symbol	utsasha
 			ideology
 
-		25
-			25th principle
-			number 25
-			sequence
-			sequence person		skuefa
-			analysis
-			theory
-			clock
-			fortune cat
-			rationality
-			cpu
-			exact	ksectuv
-			utilitarianism
-			library	etuefu
-		
+		"25": {
+            "T2": {
+                sequence
+                25th principle
+                "dae": {"eng":["then"]}
+                sequence person		skuefa
+                analysis
+                theory
+                clock
+                fortune cat
+                rationality
+                cpu
+                exact	ksectuv
+                utilitarianism
+                library	etuefu
+            }
+			
+        }
 		28
 			feminine complexity
 			28th principle	adiä
@@ -501,8 +506,11 @@
 
 		46
 			harmony	arhachi
-			not to fast not too slow	erhihe
-			springy (not too relaxed nor too tense)	craosie
+			not to fast not too slow	rhie
+            "T3": {
+                "aosie": {
+                    "eng":["springy", "not too relaxed nor too tense"]}
+            }
 
 		47
 			beauty
@@ -687,13 +695,16 @@
 			non-intelligence
 			unconditionality
 
-	9X
-		90
-			unity
-			90th principle
-			number 90
-			intimacy
-			and egoe
+	"9X": {
+		"90": {
+            "T2": {
+                unity
+                90th principle
+                "ogreol": {"eng":["contract"]}
+                intimacy
+            }
+
+        }
 
 		91 m uo n ou
 			91th principle	guo
@@ -751,6 +762,7 @@
 
 			3P
 			4P
+    }
 }
 
 030X

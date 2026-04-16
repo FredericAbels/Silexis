@@ -374,8 +374,9 @@ Breathing mantra
 
 Breathe in, breathe out
 
-Expand, contract
-10      90
+Expand then contract
+10     25   90
+noe    dae  greo
 
 compress, decompress
 94 		  14
