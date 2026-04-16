@@ -126,13 +126,14 @@ XX
 				wanting  	ozihucr
 		
 		04
-			1P04
+			04_1P
 				and
 				they
 				we
+				four
 
-			2P04
-
+			04_2P
+				icon
 				spirit
 				culture
 				collective
