@@ -382,9 +382,9 @@ compress then decompress
 94 		      14
 liari    dae  louro
 
-accelerate, decelerate
-18          98
-
+accelerate then decelerate
+18              98
+nuka	   dae  graka
 
 conflagrate, cease
 19           99

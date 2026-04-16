@@ -279,6 +279,9 @@
                 slowness	onälecsh
 
             18
+                "T2":{
+                    "nuka":{"eng":["acceleration"]}
+                }
                 18th principle
                 number 18
                 acceleration
@@ -757,11 +760,11 @@
         }
 
 		98
-			2P
-				deceleration
+			"T2": {
+				"graka": {"eng": ["deceleration"]}
 				98th principle
 				number 98
-
+            }
 			3P
 				slow down thought and nervous system	gragnika
 				quieter	ongaeix
