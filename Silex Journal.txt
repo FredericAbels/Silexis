@@ -361,3 +361,20 @@ April.16
 "update words with the new phonemes"
 
 5.2 silexicon['00']['T1']
+
+April.17
+
+1 translation
+
+clue
+
+length
+
+fountain
+
+likely
+
+2 Idea: Also unawareness during exhale?
+
+3 Code notation
+3.1 Example: "0:14-3:25" ~ "zoste"

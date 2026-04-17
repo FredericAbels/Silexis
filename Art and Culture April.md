@@ -1,4 +1,4 @@
-# Kundalini Breathing Mantra
+# Silexian Breathing Technique
 
             Breathe in   then  breathe out
 
@@ -24,3 +24,7 @@ oagro       luognu       dae   laigra.
 
 Living towards life is dying.
 Living towards death is living.
+
+# Aphorism
+
+The normal way is not the true way for the unnormal mind.

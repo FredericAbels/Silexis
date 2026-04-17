@@ -1,0 +1,28 @@
+Phonemes
+
+	0 = zo    eo  tse   st	oe	sht
+	1 = mo    uo  n	  vl	ou	kl
+	2 = d     ue  b	  t     eu  p	
+	3 = sh   ui	 tsh  tr	iu	br
+	4 = rh   oa	 crh  r 	ao	cr
+	5 = f	 ae	 fr	  sf	ea	fl
+	6 = ch   ie	 s	  ks	ei  tch
+	7 = v    äe  shv  sv    eä  vr
+	8 = x    äi	 gx	  k     iä	sk
+	9 = ng   ai	 gn	  g     ia	gr
+
+{
+  "0": ["zo", "eo", "tse", "ste", "oe", "shto"],
+  "1": ["mo", "uo", "nu",  "vl",  "ou", "klo"],
+  "2": ["de", "ue", "b",   "t",   "eu", "pe"],
+  "3": ["sh", "ui", "tsh", "tr",  "iu", "bri"],
+  "4": ["rh", "oa", "crh", "ro",  "ao", "cra"],
+  "5": ["fe", "ae", "fr",  "sf",  "ea", "fle"],
+  "6": ["che","ie", "s",   "ks",  "ei", "tche"],
+  "7": ["ve", "äe", "shv", "sv",  "eä", "vre"],
+  "8": ["xi", "äi", "gx",  "k",   "iä", "ski"],
+  "9": ["ngi","ai", "gn",  "g",   "ia", "gri"]
+}
+
+	Inbetween two double vowels: h
+	"l": "optional prefix if word starts with double vowel and the previous word ends with double vowel."
