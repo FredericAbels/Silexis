@@ -15,10 +15,22 @@
     "1X": {
         "11": {
             "T3": {
-                "": {
-                    "eng":["evident via embodiment"],
-                    "ger":["evidenz"],
-                    "trad":["husserl"]
+                "1-2": {
+                    "1:X-1:XX": {
+                        "eng":["evident via embodiment"],
+                        "ger":["evidenz"],
+                        "trad":["husserl", "silex"]
+                    }
+                }
+            }
+        }
+    },
+    "4X": {
+        "44": {
+            "T2": {
+                "4:2-4:1":{
+                    "sil":"oarha",
+                    "eng":["life"]
                 }
             }
         }

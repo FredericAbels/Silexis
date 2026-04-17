@@ -19,6 +19,7 @@ oagro       nuka         dae   graka.
 oagro       luognu       dae   laigra.
 
             live         then  die
+oagro       
 
 # Poem Accepting Death
 
