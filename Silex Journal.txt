@@ -377,4 +377,4 @@ likely
 2 Idea: Also unawareness during exhale?
 
 3 Code notation
-3.1 Example: "0:14-3:25" ~ "zoste"
+3.1 Example: "0:14-3:25" ~ "zostuihiu"
