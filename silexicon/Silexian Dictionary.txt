@@ -498,6 +498,7 @@
 			diplomacy
 			socratic
 			warless war
+			becoming
 
 		41
 			thing	croano
