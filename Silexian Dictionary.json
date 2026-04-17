@@ -4,8 +4,21 @@
         "00": {
             "T2": {
                 "0:1-0:5": {
+                    "sil":"zoe",
                     "eng":["0th principle"],
-                    "sil":"zoe"
+                    "trad":["silex"]
+                }
+            }
+        }
+    },
+
+    "1X": {
+        "11": {
+            "T3": {
+                "": {
+                    "eng":["evident via embodiment"],
+                    "ger":["evidenz"],
+                    "trad":["husserl"]
                 }
             }
         }
