@@ -1,4 +1,4 @@
-# Ideoteque - Radio head
+1 Ideoteque - Radio head
 
 	Ideoteque
 		repository of ideocricy
@@ -27,4 +27,11 @@ Women and children first and the children first, and the children
 	zetsüe goe tsüe leon goe shou tsüe leon, goe shou tsüe
 
 I'll laugh until my head comes off
+
+2 Wittgenstein Quote
+
+Die Grenzen meiner Sprache bedeuten die Grenzen meiner welt
+
+The limits of my language mean the limits of my world
+
 

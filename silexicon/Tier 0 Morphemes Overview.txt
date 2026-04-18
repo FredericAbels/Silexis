@@ -45,7 +45,7 @@
     
     31 = Entity        71 = Plurality
     32 = Identity      72 = Operation
-    33 = Relation      73 = Coexistence
+    33 = Relation      73 = Interaction
     34 = System        74 = Part
 
     35 = Individual    75 = Alienation
