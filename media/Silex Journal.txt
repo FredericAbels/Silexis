@@ -385,3 +385,10 @@ April.18
 1 Maybe switch out 27,87 masculinity with normal, extreme. Then the question becomes: What is 28, 87?
 
 2.1 Todo: Hunt for blindspots with random word generators.
+
+3 add
+
+tendency
+	16
+
+4 
