@@ -37,9 +37,9 @@
     25 = Sequence      85 = non-sequence
     26 = Circulation   86 = non-Circulation
 
-    27 = Masculine     87 = non-masculine
-    28 = Feminine      88 = non-feminine
-    29 = Intelligence  89 = Purity
+    27 = Intelligence  89 = Purity
+    28 = Divergence    87 = Convergence
+    29 = Variety       88 = uniformity
 
 30 = Granularity   70 = self-similarity
     
