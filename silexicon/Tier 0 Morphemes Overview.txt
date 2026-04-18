@@ -38,7 +38,7 @@
     26 = Circulation   86 = non-Circulation
 
     27 = Intelligence  89 = Purity
-    28 = Difference    87 = Sameness
+    28 = Divergence    87 = Convergence
     29 = Variety       88 = uniformity
 
 30 = Granularity   70 = self-similarity
