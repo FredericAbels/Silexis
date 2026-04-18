@@ -37,9 +37,9 @@
     25 = Sequence      85 = non-sequence
     26 = Circulation   86 = non-Circulation
 
-    27 = Normality      87 = Specialness
-    28 = Sameness       88 = Dicersity
-    29 = Intelligence  89 = Purity
+    27 = Intelligence  89 = Purity
+    28 = Difference    87 = Sameness
+    29 = Variety       88 = uniformity
 
 30 = Granularity   70 = self-similarity
     
