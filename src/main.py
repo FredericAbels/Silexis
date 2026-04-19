@@ -10,12 +10,10 @@ def main():
         sildict["X" * 2][digits[0] + "X"][tier][perm] = "":
 
 
-
     prompt = input("Enter command")
     split_prompt = prompt.split()
     if split_prompt[0] == "engtorandsil":
         comnd, eng, ds, perm = split_prompt
-        
 
     # check if word already exists
         
