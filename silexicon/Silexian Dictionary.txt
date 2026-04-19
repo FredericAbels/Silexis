@@ -2,6 +2,9 @@
 "XX": {
     "0X": {
         "00": {	
+			"T0": {
+				"0:1-0:1"
+			}
             "T1"
                 be	(o-) ze (-p)
                 the	(l-) eo (-p)
@@ -628,7 +631,6 @@
 			unchanging
 			tense
 			absolute
-			self-contradicting
 			something that creates the very problems it is meant to solve	
 
 		61

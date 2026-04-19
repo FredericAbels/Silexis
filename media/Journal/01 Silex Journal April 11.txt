@@ -395,13 +395,11 @@ tendency
 
 5 Todo: Translate and integrate the important Wittgenstein terms into Silexism.
 
-6 
+April.19
 
-That which is probable is neither true nor untrue. It is a different mode of truth.
+1 Translation
 
-If belief is the insistance on that which seems probable, what does it mean to be know the probability of an event? 
-
-Certainty about the probability of an event comes from repeated exposure.
-
-Probability is inductive reasoning through repeated observation.
-Belief is inductive resoning through embodiment of the collective.
+Silex
+	enemyless teaching
+	43 54
+	rhashearo
