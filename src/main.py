@@ -7,8 +7,11 @@ def main():
     path_phonemes = "../silexicon/phonemes.json"
     phondict = load_dict(path_phonemes)
 
-    prompt = input("Enter command")
+    # prompt = input("Enter command ")
+    prompt = "engtorandsil millenialism 49 1-2"
     split_prompt = prompt.split()
+
+    print(split_prompt[0])
 
     if split_prompt[0] == "engtorandsil" or split_prompt[0] == "etrs":
 
@@ -16,7 +19,7 @@ def main():
         tier, n, m = extract_from_div(div)
 
         code = torandsil(ds, tier, n, m)
-        sildict["XX"][ds[0] + "X"]["T" + tier][div] = 
+        # sildict["XX"][ds[0] + "X"]["T" + tier][div]
 
     # check if word already exists
         
@@ -27,19 +30,19 @@ def load_dict(file_path):
 
 def extract_from_div(s):
     n, m = s.split("-")
-    return string(int(n) + int(m)), int(n), int(m)
+    return str(int(n) + int(m)), int(n), int(m)
 
 def torandsil(ds, tier, n, m):
     silcode = ""
     for i in [n, m]:
         j = i
-        rand = 0
+        rand = -1
         while j >= 1:
-            rand = random.randint(rand, 5 - j + 1)
-            silcode = silcode + string(rand)
+            rand = random.randint(rand + 1, 5 - j + 1)
+            silcode = silcode + str(rand)
             j = j - 1
+    print(silcode)
     
-
 
 if __name__ == "__main__":
     main()
