@@ -8,18 +8,18 @@ def main():
     phondict = load_dict(path_phonemes)
 
     # prompt = input("Enter command ")
-    prompt = "engtorandsil millenialism 49 1-2"
-    split_prompt = prompt.split()
+    cmd = "engtorandsil millenialism 49 2-1"
+    split_cmd = cmd.split()
 
-    if split_prompt[0] == "engtorandsil" or split_prompt[0] == "etrs":
+    if split_cmd[0] == "engtorandsil" or split_cmd[0] == "etrs":
 
-        comnd, eng, ds, div = split_prompt
+        comnd, eng, ds, div = split_cmd
         tier, n, m = extract_from_div(div)
 
         while True:
             code = to_rand_sil_code(ds, tier, n, m)
             sil = code_to_sil(ds, n, m, code, phondict)
-
+            
             if ds[0] + "X" not in sildict["XX"]:
                 sildict["XX"][ds[0] + "X"] = {}
 
@@ -30,10 +30,10 @@ def main():
                 sildict["XX"][ds[0] + "X"]["T" + tier][div] = {}
 
             if code not in sildict["XX"][ds[0] + "X"]["T" + tier][div]:
-                sildict["XX"][ds[0] + "X"]["T" + tier][div][code] = {"sil": sil, "eng": eng}
-                break
-        
-        print(sil)
+                ans = input("How about " + sil + " for " + eng + "? yes or no?")
+                if ans == "y" or ans == "yes":
+                    sildict["XX"][ds[0] + "X"]["T" + tier][div][code] = {"sil": sil, "eng": eng}
+                    break
     
     # check if word already exists
         
@@ -58,14 +58,18 @@ def to_rand_sil_code(ds, tier, n, m):
 
 def code_to_sil(ds, n, m, code, phondict):
     sil = ""
-    for i in range(0, n + m - 1):
+    for i in range(0, n + m):
 
         phon = phondict[ds[0 if i < n else 1]][int(code[i])]
-        if code[i] in [0, 2, 3, 5] and code [i + 1] != None and code[i + 1] in [1, 4]:
+
+        is_cons = int(code[i]) in [0, 2, 3, 5]
+        there_is_next = len(code) > i + 1
+
+        if is_cons and there_is_next and int(code[i + 1]) in [1, 4]:
             phon = phon[:-1]
 
         sil = sil + phon
-        
+
     return sil
 
 
