@@ -7,18 +7,29 @@ def main():
     path_phonemes = "../silexicon/phonemes.json"
     phondict = load_dict(path_phonemes)
 
+    print("Options:")
+    print("0 convert from add_to_dict.json")
+    print("1 example 60 4")
+    print("2 [eng] [ds] [tier]")
+    cmd = input()
+    if cmd == "2":
+        cmd = "2 self-contradiction 60 4"
+
     # prompt = input("Enter command ")
-    cmd = "engtorandsil millenialism 49 2-1"
+    # cmd = "engtorandsil millenialism 49 2-1"
     split_cmd = cmd.split()
 
-    if split_cmd[0] == "engtorandsil" or split_cmd[0] == "etrs":
+    if split_cmd[0] == "0" or  split_cmd[0] == "2":
 
-        comnd, eng, ds, div = split_cmd
-        tier, n, m = extract_from_div(div)
+        cmd, eng, ds, tier = split_cmd
 
         while True:
-            code = to_rand_sil_code(ds, tier, n, m)
-            sil = code_to_sil(ds, n, m, code, phondict)
+            np1 = random.randint(1, int(tier) - 1)
+            np2 = int(tier) - np1
+            div = str(np1) + "-" + str(np2)
+            
+            code = to_rand_sil_code(ds, tier, np1, np2)
+            sil = code_to_sil(ds, np1, np2, code, phondict)
             
             if ds[0] + "X" not in sildict["XX"]:
                 sildict["XX"][ds[0] + "X"] = {}
@@ -30,9 +41,11 @@ def main():
                 sildict["XX"][ds[0] + "X"]["T" + tier][div] = {}
 
             if code not in sildict["XX"][ds[0] + "X"]["T" + tier][div]:
-                ans = input("How about " + sil + " for " + eng + "? yes or no?")
+                ans = input("How about " + sil + " for " + eng + "? yes, continue or quit?")
                 if ans == "y" or ans == "yes":
                     sildict["XX"][ds[0] + "X"]["T" + tier][div][code] = {"sil": sil, "eng": eng}
+                    break
+                elif ans == "quit" or ans == "q":
                     break
     
     # check if word already exists
@@ -40,10 +53,6 @@ def main():
 def load_dict(file_path):
     with open(file_path, "r") as file:
         return json.load(file)        
-
-def extract_from_div(s):
-    n, m = s.split("-")
-    return str(int(n) + int(m)), int(n), int(m)
 
 def to_rand_sil_code(ds, tier, n, m):
     silcode = ""
