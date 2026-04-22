@@ -25,81 +25,53 @@ def main():
     split_cmd = cmd.split()
 
     if split_cmd[0] in ["1", "2", "3"]:
-        # fist check if it is in already ??
         cmd, eng, ds, tier = split_cmd
 
         if len(ds) == 2:
-
             while True:
                 np1 = random.randint(1, int(tier) - 1)
                 np2 = int(tier) - np1
-                div = str(np1) + str(np2)
-
+                div = f"{np1}{np2}"
                 code = to_rand_sil_code(ds, tier, [np1, np2])
                 sil = code_to_sil_XX(ds, [np1, np2], code, phondict)
-                
-                if ds[0] + "X" not in sildict["XX"]:
-                    sildict["XX"][ds[0] + "X"] = {}
 
-                if ds not in sildict["XX"][ds[0] + "X"]:
-                    sildict["XX"][ds[0] + "X"][ds] = {}
-
-                if "T" + tier not in sildict["XX"][ds[0] + "X"][ds]:
-                    sildict["XX"][ds[0] + "X"][ds]["T" + tier] = {}
-
-                if "NP" + div not in sildict["XX"][ds[0] + "X"][ds]["T" + tier]:
-                    sildict["XX"][ds[0] + "X"][ds]["T" + tier]["NP" + div] = {}
-
-                if "P" + code not in sildict["XX"][ds[0] + "X"][ds]["T" + tier]["NP" + div]:
-                    ans = input("How about " + sil + " for " + eng + "? yes, continue or quit? ")
-                    if ans == "y" or ans == "yes":
-                        sildict["XX"][ds[0] + "X"][ds]["T" + tier]["NP" + div]["P" + code] = {"sil": sil, "eng": eng.replace("_", " ")}
+                node = ensure_path(sildict["XX"], ds[0]+"X", ds, "T"+tier, "NP"+div)
+                if "P"+code not in node:
+                    ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
+                    if ans in ("y", "yes"):
+                        node["P"+code] = {"sil": sil, "eng": eng.replace("_", " ")}
                         break
-                    elif ans == "quit" or ans == "q":
+                    elif ans in ("quit", "q"):
                         break
 
         elif len(ds) == 4:
-
             while True:
                 np1 = random.randint(1, int(tier) - 3)
                 np2 = random.randint(1, int(tier) - np1 - 2)
-                np3 = random.randint(1, int(tier) - np2 - 1)
+                np3 = random.randint(1, int(tier) - (np1 + np2) - 1)
                 np4 = int(tier) - (np1 + np2 + np3)
-                np_list = [np1, np2, np3, np4]
-                div = str(np1) + str(np2) + str(np3) + str(np4)
+                div = f"{np1}{np2}{np3}{np4}"
+                code = to_rand_sil_code(ds, tier, [np1, np2, np3, np4])
+                sil = code_to_sil_XXXX(ds, [np1, np2, np3, np4], code, phondict)
 
-                print("THINK ABOUT ADDING [DS]")
-
-                code = to_rand_sil_code(ds, tier, np_list)
-                sil = code_to_sil_XXXX(ds, np_list, code, phondict)
-
-                if ds[0] + "XXX" not in sildict["XXXX"]:
-                    sildict["XXXX"][ds[0] + "XXX"] = {}
-
-                if ds[:2] + "XX" not in sildict["XXXX"][ds[0] + "XXX"]:
-                    sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"] = {}
-
-                if ds[:3] + "X" not in sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"]:
-                    sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"][ds[:3] + "X"] = {}
-
-                if "T" + tier not in sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"][ds[:3] + "X"]:
-                    sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"][ds[:3] + "X"]["T" + tier] = {}
-
-                if "NP" + div not in sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"][ds[:3] + "X"]["T" + tier]:
-                    sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"][ds[:3] + "X"]["T" + tier]["NP" + tier] = {}
-
-                if "P" + code not in sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"][ds[:3] + "X"]["T" + tier]["NP" + tier]:
-                    ans = input("How about " + sil + " for " + eng + "? yes, continue or quit? ")
-                    if ans == "y" or ans == "yes":
-                        sildict["XXXX"][ds[0] + "XXX"][ds[:2] + "XX"][ds[:3] + "X"]["T" + tier]["NP" + tier]["P" + code] = {"sil": sil, "eng": eng.replace("_", " ")}
+                node = ensure_path(sildict["XXXX"], ds[0]+"XXX", ds[:2]+"XX", ds[:3]+"X", ds, "T"+tier, "NP"+tier)
+                if "P"+code not in node:
+                    print(f"ds: {ds}, div: {div}, code: {code}")
+                    ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
+                    if ans in ("y", "yes"):
+                        node["P"+code] = {"sil": sil, "eng": eng.replace("_", " ")}
                         break
-                    elif ans == "quit" or ans == "q":
+                    elif ans in ("quit", "q"):
                         break
 
     with open(path_sildict, "w") as f:
         json.dump(sildict, f, indent=4)
 
-        
+def ensure_path(d, *keys):
+    for key in keys:
+        d = d.setdefault(key, {})
+    return d        
+
 def load_dict(file_path):
     with open(file_path, "r") as file:
         return json.load(file)        
