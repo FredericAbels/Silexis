@@ -18,7 +18,7 @@
     11 = Flesh         91 = Skin
     12 = Cohesion      92 = Fragmentation
     13 = Stability     93 = Collapse
-    14 = Fluidity      94 = Rigidity      
+    14 = Tension       94 = Fluidity      
 
     15 = position      95 = positionless  
     16 = direction     96 = directionless 
@@ -35,7 +35,7 @@
 
     24 = Projection    84 = non-projection
     25 = Sequence      85 = non-sequence
-    26 = Circulation   86 = non-Circulation
+    26 = Oscillation   86 = non-oscillation
 
     27 = Intelligence  87 = Purity
     28 = Divergence    88 = Convergence
@@ -55,7 +55,7 @@
 
     39 = Home          79 = Homeless
     
-40 = Resolution    60 = Tension
+40 = Resolution    60 = self-contradiction
 
     41 = Thing         61 = Attribute
     42 = Complement    62 = Contradiction

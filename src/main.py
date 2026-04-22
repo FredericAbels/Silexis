@@ -136,7 +136,7 @@ def p_code_to_sil_XX(ds, np_list, code, phondict):
         if is_cons and there_is_next and int(code[i + 1]) in [1, 4]:
             phon = phon[:-1]
         if is_vow and there_is_next and int(code[i + 1]) in [1, 4]:
-            phon = phon + "h"
+            phon = phon + "k"
 
         sil = sil + phon
 
@@ -165,7 +165,7 @@ def p_code_to_sil_XXXX(ds, np_list, code, phondict):
         if is_cons and there_is_next and int(code[i + 1]) in [1, 4]:
             phon = phon[:-1]
         if is_vow and there_is_next and int(code[i + 1]) in [1, 4]:
-            phon = phon + "h"
+            phon = phon + "k"
 
         sil = sil + phon
 
@@ -173,4 +173,3 @@ def p_code_to_sil_XXXX(ds, np_list, code, phondict):
 
 if __name__ == "__main__":
     main()
-    
