@@ -96,8 +96,8 @@ def main():
                     elif ans == "quit" or ans == "q":
                         break
 
-    # with open(path_sildict, "w") as f:
-    #     json.dump(sildict, f, indent=4)
+    with open(path_sildict, "w") as f:
+        json.dump(sildict, f, indent=4)
 
         
 def load_dict(file_path):
