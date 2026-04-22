@@ -66,7 +66,7 @@ def add_term_to_dict(scmd, sildict, phondict):
         sildict = make_XX_sil_and_add(cmd, eng, ds, tier, sildict, phondict)
 
     with open(path_sildict, "w") as f:
-        json.dump(sildict, f, indent=4)
+        json.dump(sildict, f, indent=4, ensure_ascii=False)
 
 def make_XX_sil_and_add(cmd, eng, ds, tier, sildict, phondict):
 

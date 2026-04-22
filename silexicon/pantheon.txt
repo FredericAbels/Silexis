@@ -12,13 +12,12 @@
 
     09 = Ungraspable
 
-
 10 = Duality       90 = Unity
 
     11 = Flesh         91 = Skin
     12 = Cohesion      92 = Fragmentation
     13 = Stability     93 = Collapse
-    14 = Tension       94 = Fluidity      
+    14 = Integrity     94 = Fluidity      
 
     15 = position      95 = positionless  
     16 = direction     96 = directionless 
@@ -49,9 +48,9 @@
     34 = System        74 = Part
 
     35 = Individual    75 = Alienation
-    36 = Family        86 = Stranger
-    37 = Tribe         87 = Outcast
-    38 = Society       88 = Alien
+    36 = Family        76 = Stranger
+    37 = Tribe         77 = Outcast
+    38 = Society       78 = Alien
 
     39 = Home          79 = Homeless
     

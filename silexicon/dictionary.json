@@ -210,7 +210,7 @@
                         "P23": {
                             "sil": "nuro",
                             "eng": [
-                                "tension"
+                                "integrity"
                             ]
                         }
                     }
@@ -384,7 +384,7 @@
                 "T2": {
                     "NP11": {
                         "P01": {
-                            "sil": "d\u00e4i",
+                            "sil": "däi",
                             "eng": [
                                 "divergence"
                             ]
@@ -705,12 +705,6 @@
                             "eng": [
                                 "illusion"
                             ]
-                        },
-                        "P02": {
-                            "sil": "febu",
-                            "eng": [
-                                "unawareness"
-                            ]
                         }
                     }
                 }
@@ -785,7 +779,7 @@
                 "T2": {
                     "NP11": {
                         "P21": {
-                            "sil": "fr\u00e4i",
+                            "sil": "fräi",
                             "eng": [
                                 "awareness"
                             ]
@@ -830,15 +824,479 @@
                         }
                     }
                 }
+            },
+            "62": {
+                "T2": {
+                    "NP11": {
+                        "P31": {
+                            "sil": "ksue",
+                            "eng": [
+                                "contradiction"
+                            ]
+                        }
+                    }
+                }
+            },
+            "63": {
+                "T2": {
+                    "NP11": {
+                        "P52": {
+                            "sil": "sketshu",
+                            "eng": [
+                                "exploit"
+                            ]
+                        }
+                    }
+                }
+            },
+            "64": {
+                "T2": {
+                    "NP11": {
+                        "P10": {
+                            "sil": "ierha",
+                            "eng": [
+                                "death"
+                            ]
+                        }
+                    }
+                }
+            },
+            "65": {
+                "T2": {
+                    "NP11": {
+                        "P41": {
+                            "sil": "eikae",
+                            "eng": [
+                                "dissonance"
+                            ]
+                        }
+                    }
+                }
+            },
+            "66": {
+                "T2": {
+                    "NP11": {
+                        "P30": {
+                            "sil": "ksiche",
+                            "eng": [
+                                "disharmony"
+                            ]
+                        }
+                    }
+                }
+            },
+            "67": {
+                "T2": {
+                    "NP11": {
+                        "P42": {
+                            "sil": "eishva",
+                            "eng": [
+                                "doubt"
+                            ]
+                        }
+                    }
+                }
+            },
+            "68": {
+                "T2": {
+                    "NP11": {
+                        "P05": {
+                            "sil": "chekshi",
+                            "eng": [
+                                "reception"
+                            ]
+                        }
+                    }
+                }
+            },
+            "69": {
+                "T2": {
+                    "NP11": {
+                        "P31": {
+                            "sil": "ksai",
+                            "eng": [
+                                "the now"
+                            ]
+                        }
+                    }
+                }
             }
         },
         "8X": {
-            "8245": {
-                "T6": {
-                    "NP24": {},
-                    "NP51": {},
-                    "NP15": {},
-                    "NP42": {}
+            "80": {
+                "T2": {
+                    "NP11": {
+                        "P51": {
+                            "sil": "ksheo",
+                            "eng": [
+                                "simplicity"
+                            ]
+                        }
+                    }
+                }
+            },
+            "81": {
+                "T2": {
+                    "NP11": {
+                        "P51": {
+                            "sil": "kshuo",
+                            "eng": [
+                                "non-repetition"
+                            ]
+                        }
+                    }
+                }
+            },
+            "82": {
+                "T2": {
+                    "NP11": {
+                        "P50": {
+                            "sil": "kshide",
+                            "eng": [
+                                "non-reflection"
+                            ]
+                        }
+                    }
+                }
+            },
+            "83": {
+                "T2": {
+                    "NP11": {
+                        "P41": {
+                            "sil": "iäkui",
+                            "eng": [
+                                "non-fixation"
+                            ]
+                        },
+                        "P31": {
+                            "sil": "kchui",
+                            "eng": [
+                                "air"
+                            ]
+                        }
+                    }
+                }
+            },
+            "84": {
+                "T2": {
+                    "NP11": {
+                        "P52": {
+                            "sil": "kshicrho",
+                            "eng": [
+                                "non-projection"
+                            ]
+                        }
+                    }
+                }
+            },
+            "85": {
+                "T2": {
+                    "NP11": {
+                        "P41": {
+                            "sil": "iäkae",
+                            "eng": [
+                                "non-sequence"
+                            ]
+                        }
+                    }
+                }
+            },
+            "86": {
+                "T2": {
+                    "NP11": {
+                        "P40": {
+                            "sil": "iäche",
+                            "eng": [
+                                "non-oscillation"
+                            ]
+                        }
+                    }
+                }
+            },
+            "87": {
+                "T2": {
+                    "NP11": {
+                        "P45": {
+                            "sil": "iävre",
+                            "eng": [
+                                "purity"
+                            ]
+                        }
+                    }
+                }
+            },
+            "88": {
+                "T2": {
+                    "NP11": {
+                        "P30": {
+                            "sil": "kchaxi",
+                            "eng": [
+                                "convergence"
+                            ]
+                        }
+                    }
+                }
+            },
+            "89": {
+                "T2": {
+                    "NP11": {
+                        "P15": {
+                            "sil": "äigri",
+                            "eng": [
+                                "uniformity"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "7X": {
+            "70": {
+                "T2": {
+                    "NP11": {
+                        "P42": {
+                            "sil": "eäshe",
+                            "eng": [
+                                "self-similarity"
+                            ]
+                        }
+                    }
+                }
+            },
+            "71": {
+                "T2": {
+                    "NP11": {
+                        "P05": {
+                            "sil": "veklo",
+                            "eng": [
+                                "plurality"
+                            ]
+                        }
+                    }
+                }
+            },
+            "72": {
+                "T2": {
+                    "NP11": {
+                        "P13": {
+                            "sil": "äetu",
+                            "eng": [
+                                "operation"
+                            ]
+                        }
+                    }
+                }
+            },
+            "73": {
+                "T2": {
+                    "NP11": {
+                        "P13": {
+                            "sil": "äetru",
+                            "eng": [
+                                "interaction"
+                            ]
+                        }
+                    }
+                }
+            },
+            "74": {
+                "T2": {
+                    "NP11": {
+                        "P45": {
+                            "sil": "eäcra",
+                            "eng": [
+                                "part"
+                            ]
+                        }
+                    }
+                }
+            },
+            "75": {
+                "T2": {
+                    "NP11": {
+                        "P12": {
+                            "sil": "äefra",
+                            "eng": [
+                                "self-alienation"
+                            ]
+                        }
+                    }
+                }
+            },
+            "76": {
+                "T2": {
+                    "NP11": {
+                        "P45": {
+                            "sil": "eäske",
+                            "eng": [
+                                "stranger"
+                            ]
+                        }
+                    }
+                }
+            },
+            "77": {
+                "T2": {
+                    "NP11": {
+                        "P51": {
+                            "sil": "vräe",
+                            "eng": [
+                                "outcast"
+                            ]
+                        }
+                    }
+                }
+            },
+            "78": {
+                "T2": {
+                    "NP11": {
+                        "P50": {
+                            "sil": "vrexi",
+                            "eng": [
+                                "alien"
+                            ]
+                        }
+                    }
+                }
+            },
+            "79": {
+                "T2": {
+                    "NP11": {
+                        "P55": {
+                            "sil": "vregri",
+                            "eng": [
+                                "homeless"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "9X": {
+            "90": {
+                "T2": {
+                    "NP11": {
+                        "P10": {
+                            "sil": "aizo",
+                            "eng": [
+                                "unity"
+                            ]
+                        }
+                    }
+                }
+            },
+            "91": {
+                "T2": {
+                    "NP11": {
+                        "P12": {
+                            "sil": "ainu",
+                            "eng": [
+                                "skin"
+                            ]
+                        }
+                    }
+                }
+            },
+            "92": {
+                "T2": {
+                    "NP11": {
+                        "P53": {
+                            "sil": "gritu",
+                            "eng": [
+                                "fragmentation"
+                            ]
+                        }
+                    }
+                }
+            },
+            "93": {
+                "T2": {
+                    "NP11": {
+                        "P12": {
+                            "sil": "aitshu",
+                            "eng": [
+                                "collapse"
+                            ]
+                        }
+                    }
+                }
+            },
+            "94": {
+                "T2": {
+                    "NP11": {
+                        "P21": {
+                            "sil": "gnoa",
+                            "eng": [
+                                "fluidity"
+                            ]
+                        },
+                        "P03": {
+                            "sil": "ngiro",
+                            "eng": [
+                                "softness"
+                            ]
+                        }
+                    }
+                }
+            },
+            "95": {
+                "T2": {
+                    "NP11": {
+                        "P35": {
+                            "sil": "gafrhe",
+                            "eng": [
+                                "positionless"
+                            ]
+                        }
+                    }
+                }
+            },
+            "96": {
+                "T2": {
+                    "NP11": {
+                        "P40": {
+                            "sil": "iache",
+                            "eng": [
+                                "directionless"
+                            ]
+                        }
+                    }
+                }
+            },
+            "97": {
+                "T2": {
+                    "NP11": {
+                        "P43": {
+                            "sil": "iasva",
+                            "eng": [
+                                "stillness"
+                            ]
+                        }
+                    }
+                }
+            },
+            "98": {
+                "T2": {
+                    "NP11": {
+                        "P13": {
+                            "sil": "aikcha",
+                            "eng": [
+                                "deceleration"
+                            ]
+                        }
+                    }
+                }
+            },
+            "99": {
+                "T2": {
+                    "NP11": {
+                        "P35": {
+                            "sil": "gagri",
+                            "eng": [
+                                "ceassation"
+                            ]
+                        }
+                    }
                 }
             }
         }
