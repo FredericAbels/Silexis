@@ -346,12 +346,6 @@
                             "eng": [
                                 "sequence"
                             ]
-                        },
-                        "P41": {
-                            "sil": "eukae",
-                            "eng": [
-                                "ritual"
-                            ]
                         }
                     }
                 }
@@ -749,44 +743,39 @@
                                     "good"
                                 ]
                             }
+                        }
+                        
+                        "P30": {
+                            "sil": "sfarha",
+                            "eng": [
+                                "concept"
+                            ]
                         },
-                        "P1X": {
-                            "P15": {
-                                "sil": "aecra",
-                                "eng": [
-                                    "evil"
-                                ]
-                            },
-                            "P14": {
-                                "sil": "aekao",
-                                "eng": [
-                                    "model"
-                                ]
-                            }
+                        
+                        "P21": {
+                            "sil": "froa",
+                            "eng": [
+                                "bad"
+                            ]
                         },
-                        "P2X": {
-                            "P21": {
-                                "sil": "froa",
-                                "eng": [
-                                    "bad"
-                                ]
-                            }
+                        "P15": {
+                            "sil": "aecra",
+                            "eng": [
+                                "evil"
+                            ]
                         },
-                        "P3X": {
-                            "P30": {
-                                "sil": "sfarha",
-                                "eng": [
-                                    "concept"
-                                ]
-                            },
-                            "P35": {
+                        "P14": {
+                            "sil": "aekao",
+                            "eng": [
+                                "model"
+                            ]
+                        },
+                        "P35": {
                             "sil": "sfacra",
                             "eng": [
                                 "theory"
                             ]
                         }
-                     }
-                        
                     }
                 }
             },
