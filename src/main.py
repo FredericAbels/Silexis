@@ -22,25 +22,39 @@ def main():
 
     print("Options:")
     print("convert0 (from add_to_dict.json)")
-    print("add0 [eng] [ds] [tier]")
-    print("add1 " + example1)
-    print("add2 " + example2)
+    print("0 (add) [eng] [ds] [tier]")
+    print("1 (add) " + example1)
+    print("2 (add) " + example2)
     print("lookup0 [eng]")
 
     cmd = input()
-    if cmd == "add1":
-        cmd = "add1 " + example1
-    if cmd == "add2":
-        cmd = "add2 " + example2
+    if cmd == "1":
+        cmd = "1 " + example1
+    if cmd == "2":
+        cmd = "2 " + example2
 
     scmd = cmd.split()
 
-    if scmd[0][:-1] == "lookup":
-        print()
+    if scmd[0] in ["lookup", "lu"]:
+        cmd, eng = scmd
+        print(find_path(sildict, eng))
 
-    if scmd[0][:-1] == "add":
+    if scmd[0] in ["0", "1", "2"]:
         add_term_to_dict(scmd, sildict, phondict)
 
+def find_path(d, target_eng, path=None):
+    if path is None:
+        path = []
+    
+    for key, value in d.items():
+        current_path = path + [key]
+        if isinstance(value, dict):
+            if "eng" in value and value["eng"] == target_eng:
+                return current_path
+            result = find_path(value, target_eng, current_path)
+            if result:
+                return result
+    return None
 
 def add_term_to_dict(scmd, sildict, phondict):
     cmd, eng, ds, tier = scmd
@@ -68,7 +82,7 @@ def make_XX_sil_and_add(cmd, eng, ds, tier, sildict, phondict):
             print(f"ds: {ds}, div: {div}, code: {code}")
             ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
             if ans in ("y", "yes"):
-                node["P"+code] = {"sil": sil, "eng": eng.replace("_", " ")}
+                node["P"+code] = {"sil": sil, "eng": [eng.replace("_", " ")]}
                 break
             elif ans in ("quit", "q"):
                 break
@@ -91,7 +105,7 @@ def make_XXXX_sil_and_add(cmd, eng, ds, tier, sildict, phondict):
             print(f"ds: {ds}, div: {div}, code: {code}")
             ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
             if ans in ("y", "yes"):
-                node["P"+code] = {"sil": sil, "eng": eng.replace("_", " ")}
+                node["P"+code] = {"sil": sil, "eng": [eng.replace("_", " ")]}
                 break
             elif ans in ("quit", "q"):
                 break
