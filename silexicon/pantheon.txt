@@ -17,7 +17,7 @@
     11 = Flesh         91 = Skin
     12 = Cohesion      92 = Fragmentation
     13 = Stability     93 = Collapse
-    14 = Integrity     94 = Fluidity      
+    14 = Centered      94 = Fluidity      
 
     15 = position      95 = positionless  
     16 = direction     96 = directionless 

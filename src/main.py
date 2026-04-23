@@ -57,27 +57,27 @@ def find_path(d, target_eng, path=None):
     return None
 
 def add_term_to_dict(scmd, sildict, phondict):
-    cmd, eng, ds, tier = scmd
+    _, eng, ds, tier = scmd
 
     if len(ds) == 2:
-        sildict = make_XX_sil_and_add(cmd, eng, ds, tier, sildict, phondict)
+        sildict = make_XX_sil_and_add(eng, ds, tier, sildict, phondict)
             
     elif len(ds) == 4:
-        sildict = make_XX_sil_and_add(cmd, eng, ds, tier, sildict, phondict)
+        sildict = make_XX_sil_and_add(eng, ds, tier, sildict, phondict)
 
     with open(path_sildict, "w") as f:
         json.dump(sildict, f, indent=4, ensure_ascii=False)
 
-def make_XX_sil_and_add(cmd, eng, ds, tier, sildict, phondict):
+def make_XX_sil_and_add(eng, ds, tier, sildict, phondict):
 
     while True:
         np1 = random.randint(1, int(tier) - 1)
         np2 = int(tier) - np1
         div = f"{np1}{np2}"
-        code = to_rand_sil_code(ds, tier, [np1, np2])
+        code = to_rand_sil_code([np1, np2])
         sil = p_code_to_sil_XX(ds, [np1, np2], code, phondict)
 
-        node = ensure_path(sildict["XX"], ds[0]+"X", ds, "T"+tier, "NP"+div)
+        node = ensure_path(sildict["XX"], ds[0]+"X", ds, "T"+tier, "NP" + div, f"P{code[0]}X")
         if "P"+code not in node:
             print(f"ds: {ds}, div: {div}, code: {code}")
             ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
@@ -89,7 +89,7 @@ def make_XX_sil_and_add(cmd, eng, ds, tier, sildict, phondict):
     
     return sildict
 
-def make_XXXX_sil_and_add(cmd, eng, ds, tier, sildict, phondict):
+def make_XXXX_sil_and_add(eng, ds, tier, sildict, phondict):
 
     while True:
         np1 = random.randint(1, int(tier) - 3)
@@ -97,7 +97,7 @@ def make_XXXX_sil_and_add(cmd, eng, ds, tier, sildict, phondict):
         np3 = random.randint(1, int(tier) - (np1 + np2) - 1)
         np4 = int(tier) - (np1 + np2 + np3)
         div = f"{np1}{np2}{np3}{np4}"
-        code = to_rand_sil_code(ds, tier, [np1, np2, np3, np4])
+        code = to_rand_sil_code([np1, np2, np3, np4])
         sil = p_code_to_sil_XXXX(ds, [np1, np2, np3, np4], code, phondict)
 
         node = ensure_path(sildict["XXXX"], ds[0]+"XXX", ds[:2]+"XX", ds[:3]+"X", ds, "T"+tier, "NP"+tier)
@@ -112,7 +112,7 @@ def make_XXXX_sil_and_add(cmd, eng, ds, tier, sildict, phondict):
 
     return sildict
 
-def to_rand_sil_code(ds, tier, np_list):
+def to_rand_sil_code(np_list):
     silcode = ""
     for i in np_list:
         j = i
@@ -127,7 +127,7 @@ def p_code_to_sil_XX(ds, np_list, code, phondict):
     sil = ""
     for i in range(0, sum(np_list)):
 
-        phon = phondict[ds[0 if i < np_list[0] else 1]][int(code[i])]
+        phon = phondict["V1"][ds[0 if i < np_list[0] else 1]][int(code[i])]
 
         is_cons = int(code[i]) in [0, 2, 3, 5]
         is_vow = int(code[i]) in [1, 4]
@@ -156,7 +156,7 @@ def p_code_to_sil_XXXX(ds, np_list, code, phondict):
         else:
             ds_index = 3
 
-        phon = phondict[ds[ds_index]][int(code[i])]
+        phon = phondict["V1"][ds[ds_index]][int(code[i])]
 
         is_cons = int(code[i]) in [0, 2, 3, 5]
         is_vow = int(code[i]) in [1, 4]
