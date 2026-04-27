@@ -460,7 +460,7 @@ List of relational attributes
 	28
 	88
 
-relational and entity
+informad entity
 	51
 	56
 
@@ -607,7 +607,7 @@ since      silex   ism     affirms
 direction  
 16
 origin
-00
+00                 54      47
 ste        ezoe    kearh   oashva    
 
 everyone   s         mode    of   existence   
@@ -636,4 +636,89 @@ Okay let's start thinking about relations in the silexian dict.
 
 Two relations come to mind: Relation between one two morpheme word and two one morpheme words. So the relation between a composit and it's parts.
 
-But there are also relations between words that have different meanings that sound similar and that should sound similar. Example: iukei ~ permanent relationship and iukai ~ home. Let's call those paronyms
+But there are also relations between words that have different meanings that sound similar and that should sound similar. Example: iukei ~ permanent relationship and iukai ~ home. Let's call those happy paronyms
+
+"A morpheme is a part (more technically: a constituent) of a composite word."
+
+1. morpheme-composit relations
+2. happy paronyms
+3. opposites
+
+April.25
+
+1
+
+Hypothesis: Insecure people are drawn to other insecure people and cultures since they seem relatable to them.
+
+2
+
+"It seems the enemies of Silexis are property and merit. Are they related?"
+
+And morality. I think the fundamental principle behind these is the concept of value and the fundamental principle behind this is comparison.
+
+So what is the critique of the concept of value in silexis?
+
+Idea: Defining value only makes sense when there is scarecity. When there is no scarecity then all that matters is worshipping god and it does not make sense to measure that.
+
+Idea: Silexis defines value like this: You produce value if you decrease material scarecity or you liberate people from the need to produce value.
+
+1. Producing material wealth (labour)
+2. Using material wealth to decrease scarecity (planned economy)
+3. Preach to people about detaching from the need to produce value and start worshipping god and cultivating culture.
+4. Worshipping god and cultivating.
+
+So here is the thing. This is not meant to be a historical process at all. The only reason why this is a historical process is because the dominant ideology of each time period is so rigid.
+
+In theory, in an immortal state with absolute state identity (what is this in silex?) there is no seperation between worship and labour. In this state labour as it is present in liberalism is abolished. It's purpose is not to prove ones worth anymore it is practiced as an act of devotion towards the state.
+
+The cutial thing now is that adhd non-point 83 individuals are exempt from this. Their task is to cultivate culture through following their passion to bolster the state with the beauty they cultivate and their inspiring presences.
+
+There is a lot of historical proof that this could work. 
+
+3
+
+Absolute state identity
+	39 00
+	tshungeoshto
+
+4
+
+What problem does liberalism solve?
+
+Idea: The purpose of liberalism is to substitute the conflict of war with the more efficient and less bloody conflict of competition.
+
+5
+
+silexis
+	the universal science
+
+6
+
+It seems that Silexism is actually potentially a kind of positivism which is wild.
+
+April.27
+
+1
+
+Thoughts
+- Valuable is living authentically.
+- The goal of life is to produce variety. Valuable is that which contributes to increase variety.
+- Variety is maximized in authentic living.
+- What is variety? uo shto keukcha?
+- What is authentic living? uo shto rhao crhosva?
+
+What is the purpose of constricting variety?
+Uo-shto she-keogx eo gnat-eukcha ga
+
+variety increases information (?) therefore it decreases predictability.
+eukcha vlie pushto. Eufrhe de nusk uen.
+
+Low predictability causes alienation in 21-people.
+ouf-uenu zosh äefr-uosf-uevlu.
+
+Therefore the goal of Silexis is to create predictable variety?
+Eufrhe sh-uofr-eo-zeo shto oez-eukch-uen-eukcha ga
+
+2
+
+change the name of the language to silexic?

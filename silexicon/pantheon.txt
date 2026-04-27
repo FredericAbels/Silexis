@@ -36,10 +36,10 @@
     25 = Sequence      85 = non-sequence
     26 = Oscillation   86 = non-oscillation
 
-    27 = Intelligence  87 = Purity
+    27 = Feminine      87 = Masculine
     28 = Divergence    88 = Convergence
-    29 = Variety       89 = uniformity
-
+    29 = Intelligence  89 = Purity
+    
 30 = Granularity   70 = self-similarity
     
     31 = Entity        71 = Plurality
