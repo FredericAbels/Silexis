@@ -25,7 +25,8 @@ def main():
     print("0 (add) [eng] [ds] [tier]")
     print("1 (add) " + example1)
     print("2 (add) " + example2)
-    print("lookup0 [eng]")
+    print("3 (add) [eng] [ds] [tier] [NP] [P]")
+    
 
     cmd = input()
     if cmd == "1":
@@ -40,7 +41,7 @@ def main():
         print(find_path(sildict, eng))
 
     if scmd[0] in ["0", "1", "2"]:
-        add_term_to_dict(scmd, sildict, phondict)
+        add_rand_term_to_dict(scmd, sildict, phondict)
 
 def find_path(d, target_eng, path=None):
     if path is None:
@@ -56,38 +57,48 @@ def find_path(d, target_eng, path=None):
                 return result
     return None
 
-def add_term_to_dict(scmd, sildict, phondict):
+def add_rand_term_to_dict(scmd, sildict, phondict):
+
     _, eng, ds, tier = scmd
 
     if len(ds) == 2:
-        sildict = make_XX_sil_and_add(eng, ds, tier, sildict, phondict)
+        sildict = make_XX_sil_and_add(sildict, phondict, eng, ds, tier)
             
     elif len(ds) == 4:
-        sildict = make_XX_sil_and_add(eng, ds, tier, sildict, phondict)
+        sildict = make_XXXX_sil_and_add(sildict, phondict, eng, ds, tier)
 
     with open(path_sildict, "w") as f:
         json.dump(sildict, f, indent=4, ensure_ascii=False)
 
-def make_XX_sil_and_add(eng, ds, tier, sildict, phondict):
-
+def make_XX_sil_and_add(sildict, phondict, eng, ds, tier, NP=None, P=None):
+    
     while True:
         np1 = random.randint(1, int(tier) - 1)
         np2 = int(tier) - np1
-        div = f"{np1}{np2}"
-        code = to_rand_sil_code([np1, np2])
-        sil = p_code_to_sil_XX(ds, [np1, np2], code, phondict)
+        NP = f"{np1}{np2}"
+        P = to_rand_sil_code([np1, np2])
+        sil = p_code_to_sil_XX(ds, [np1, np2], P, phondict)
 
-        node = ensure_path(sildict["XX"], ds[0]+"X", ds, "T"+tier, "NP" + div, f"P{code[0]}X")
-        if "P"+code not in node:
-            print(f"ds: {ds}, div: {div}, code: {code}")
+        node = add_to_dict(sildict, eng, sil, ds, tier, NP, P)
+
+        if node != None:
             ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
             if ans in ("y", "yes"):
-                node["P"+code] = {"sil": sil, "eng": [eng.replace("_", " ")]}
+                node["P"+P] = {"sil": sil, "eng": [eng.replace("_", " ")]}
                 break
             elif ans in ("quit", "q"):
                 break
-    
+
     return sildict
+
+def add_to_dict(sildict, eng, sil, ds, tier, NP, P):
+
+    node = ensure_path(sildict["XX"], ds[0]+"X", ds, "T"+tier, "NP" + NP, f"P{P[0]}X")
+    if "P"+P not in node:
+        return node
+
+    return None
+        
 
 def make_XXXX_sil_and_add(eng, ds, tier, sildict, phondict):
 

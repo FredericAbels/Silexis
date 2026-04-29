@@ -722,3 +722,15 @@ Eufrhe sh-uofr-eo-zeo shto oez-eukch-uen-eukcha ga
 2
 
 change the name of the language to silexic?
+
+April.29
+
+1
+
+I need to extend the functionality of the dictionary program
+
+3 (add) [eng] [ds] [tier] [NP] [P]
+
+2
+
+I want to analyze hebrew. So it seems the characters of the language are just consonants and there are optional extra dots and stuff for the vowels.
