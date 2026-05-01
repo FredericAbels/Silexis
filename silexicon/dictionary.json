@@ -377,6 +377,14 @@
                             "eng": [
                                 "ungraspable"
                             ]
+                        },
+                        "P3X": {
+                            "P33": {
+                                "sil": "stega",
+                                "eng": [
+                                    "irony"
+                                ]
+                            }
                         }
                     }
                 }
@@ -416,10 +424,11 @@
                             "ger": [
                                 "evidenz"
                             ],
-                            "trad": [
-                                "husserl",
-                                "silex"
-                            ]
+                            "trad": {
+                                "ger": [
+                                    "husserl"
+                                ]
+                            }
                         }
                     }
                 },
@@ -477,12 +486,6 @@
                                 "integrity"
                             ]
                         },
-                        "P40": {
-                            "sil": "ourha",
-                            "eng": [
-                                "integrity"
-                            ]
-                        },
                         "P43": {
                             "sil": "ouro",
                             "eng": [
@@ -494,6 +497,23 @@
                             "eng": [
                                 "prayer pose"
                             ]
+                        },
+                        "P1X": {},
+                        "P2X": {
+                            "P25": {
+                                "sil": "nucra",
+                                "eng": [
+                                    "hedgehog dilemma"
+                                ],
+                                "ger": [
+                                    "Gleichnis vom Stachelschwein"
+                                ],
+                                "trad": {
+                                    "ger": [
+                                        "Schopenhauer"
+                                    ]
+                                }
+                            }
                         }
                     }
                 }
@@ -702,6 +722,20 @@
                                     "21 person",
                                     "person who resonates with predictability"
                                 ]
+                            },
+                            "P41": {
+                                "sil": "eukuo",
+                                "eng": [
+                                    "interlectual love of god"
+                                ],
+                                "lat": [
+                                    "amor dei interlectualis"
+                                ],
+                                "trad": {
+                                    "lat": [
+                                        "spinoza"
+                                    ]
+                                }
                             }
                         },
                         "P1X": {
@@ -1391,7 +1425,15 @@
                                 "sil": "aokcha",
                                 "eng": [
                                     "potence"
-                                ]
+                                ],
+                                "lat": [
+                                    "potentia"
+                                ],
+                                "trad": {
+                                    "lat": [
+                                        "spinoza"
+                                    ]
+                                }
                             }
                         },
                         "P5X": {}
@@ -1962,6 +2004,14 @@
                                 "sil": "iägna",
                                 "eng": [
                                     "stagnation"
+                                ]
+                            }
+                        },
+                        "P1X": {
+                            "P11": {
+                                "sil": "äikai",
+                                "eng": [
+                                    "asceticism"
                                 ]
                             }
                         }
