@@ -103,19 +103,20 @@
                                     "create"
                                 ]
                             },
-                            "P43": {
-                                "sil": "oeste",
-                                "eng": [
-                                    "reality"
-                                ]
-                            },
                             "P41": {
                                 "sil": "oekeo",
                                 "eng": [
                                     "god"
                                 ]
                             },
-                            "P45": {
+                            "P43": {
+                                "sil": "oeste",
+                                "eng": [
+                                    "reality"
+                                ]
+                            },
+                            "P44": {
+                            
                                 "sil": "oeshto",
                                 "eng": [
                                     "number 0"
@@ -2216,23 +2217,136 @@
             "93": {
                 "T2": {
                     "NP11": {
-                        "P12": {
-                            "sil": "aitshu",
-                            "eng": [
-                                "collapse"
-                            ]
+                        "P0X": {
+                            "P00": {
+                                "sil": "",
+                                "eng": [
+                                    "constriction",
+                                    "lust",
+                                    "clingy",
+                                    "on cloud nine",
+                                    "constriction"
+                                ]
+                            },
+                            "P02": {
+                                "sil": "gnati",
+                                "eng": [
+                                    "constriction",
+                                    "lust",
+                                    "clingy",
+                                    "on cloud nine",
+                                    "constriction"
+                                ]
+                            }
+                        },
+                        "P1X": {
+                            "P10": {
+                                "sil": "aiti",
+                                "eng": [
+                                    "collapse"
+                                ]
+                            },
+                            "P11": {
+                                "sil": "aikui",
+                                "eng": [
+                                    "constrict"
+                                ]
+                            },
+                            "P12": {
+                                "sil": "aitsu",
+                                "eng": [
+                                    "suffocate"
+                                ]
+                            },
+                            "P13": {
+                                "sil": "aitshu",
+                                "eng": [
+                                    "vakuum"
+                                ]
+                            },
+                            "P14": {
+                                "sil": "aikiu",
+                                "eng": [
+                                    "outside pressure"
+                                ]
+                            }
                         },
                         "P2X": {
+                            
+                            "P21": {
+                                "sil": "gnui",
+                                "eng": [
+                                    "lust"
+                                ]
+                            },
                             "P22": {
                                 "sil": "gnatsu",
                                 "eng": [
                                     "clingy"
                                 ]
                             },
-                            "P20": {
-                                "sil": "gnati",
+                            "P23": {
+                                "sil": "gnatshu",
+                                "eng": [
+                                    "on cloud nine"
+                                ]
+                            },
+                            "P24": {
+                                "sil": "gniu",
                                 "eng": [
                                     "constriction"
+                                ]
+                            }
+                        },
+                        "P3X": {
+                           "P30": {
+                                "sil": "ngiti",
+                                "eng": [
+                                    "absorb"
+                                ]
+                            },
+                            "P31": {
+                                "sil": "ngui",
+                                "eng": [
+                                    "consume"
+                                ]
+                            },
+                            "P32": {
+                                "sil": "ngitsu",
+                                "eng": [
+                                    "eat"
+                                ]
+                            },
+                            "P33": {
+                                "sil": "ngitshu",
+                                "eng": [
+                                    "devour"
+                                ]
+                            },
+                            "P34": {
+                                "sil": "ngiu",
+                                "eng": [
+                                    "suck"
+                                ]
+                            }
+                        },
+                        "P5X": {
+                            "P50": {
+                                "sil": "griti",
+                                "eng": [
+                                    "clasp"
+                                ]
+                            },
+                            "P51": {
+                                "sil": "grui",
+                                "eng": [
+                                    "claw"
+                                ]
+                            },
+                            "P52": {
+                                "sil": "gritsu",
+                                "eng": [
+                                    "cling"
                                 ]
                             }
                         }

@@ -88,3 +88,30 @@ Spinoza term potentia.
 
 holy shit every time I open the book ethics it reads something very silexian. This was one of my first thoughts about how silexis relates to philosophy but I'm gaining more and more confidence in it's truth: Silexis is the natural extension of Spinozas works.
 
+9
+
+Idea: 
+1. Use the NP11 for the abstract words, 
+2. the NP12 for their noun, verb, adjective, adverb version (two slots open)
+3. Use NP21 for nouns?
+4. NP22 are free for bullshit then I guess. Like random ass names and stuff
+
+"
+Rough distribution in English dictionaries
+
+Estimates based on large lexicons like Oxford English Dictionary and Merriam-Webster Dictionary suggest:
+Nouns: ~50–60%
+Adjectives: ~20–25%
+Verbs: ~10–15%
+Adverbs: ~5–10%
+"
+
+Yeah kinda makes sense.
+
+10
+
+remember the oxford 3000 and the oxford 5000 to fill up your dict.
+
+11
+
+At some point I need to make a power point and show this to people on zoom or something

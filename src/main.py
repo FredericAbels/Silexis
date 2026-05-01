@@ -1,5 +1,7 @@
 import json
 import random
+import sys
+
 path_sildict = "../silexicon/dictionary.json"
 path_phonemes = "../silexicon/phonemes.json"
 
@@ -26,33 +28,36 @@ def main():
 
     print("Options:")
     print("convert0 (from add_to_dict.json)")
-    print("0 (add) [eng] [F] [tier]")
-    print("1 (add) " + example1)
-    print("2 (add) " + example2)
-    print("3 (add) [eng] [F] [T] [NP] [P]")
+    print("0 [eng] [F] [tier]")
+    print("1 " + example1)
+    print("2 " + example2)
+    print("3 [F] [NP] [P] [eng]")
+    print("4 (refresh dictionary)")
     
+    if sys.argv[0] == None:
+        cmd = input()
+        if cmd == "1":
+            cmd = "1 " + example1
+        if cmd == "2":
+            cmd = "2 " + example2
 
-    cmd = input()
-    if cmd == "1":
-        cmd = "1 " + example1
-    if cmd == "2":
-        cmd = "2 " + example2
-
-    scmd = cmd.split()
-
-    if scmd[0] in ["lookup", "lu"]:
-        cmd, eng = scmd
-        print(find_path(sildict, eng))
+        scmd = cmd.split()
+    else:
+        scmd = sys.argv[1:]
 
     if scmd[0] in ["0", "1", "2"]:
         add_rand_term_to_dict(scmd, sildict, phondict)
 
     if scmd[0] in ["3"]:
-        _, eng, F, T, NP, P = scmd
+        _, F, NP, P, eng = scmd
+
+        np1 = int(NP[0])
+        np2 = int(NP[1])
+        T = str(np1 + np2)
 
         node = get_node(sildict, F, T, NP, P)
 
-        sil = P_to_sil_XX(F, [int(NP[0]), int(NP[1])], P, phondict)
+        sil = P_to_sil_XX(F, NP, P, phondict)
 
         if node == None:
             print("taken")
@@ -61,20 +66,8 @@ def main():
         
         save_dict(sildict)
 
-def find_path(d, target_eng, path=None):
-    if path is None:
-        path = []
-    
-    for key, value in d.items():
-        current_path = path + [key]
-        if isinstance(value, dict):
-            if "eng" in value and value["eng"] == target_eng:
-                return current_path
-            result = find_path(value, target_eng, current_path)
-            if result:
-                return result
-    return None
-
+    if scmd[0] in ["4"]:
+        refresh_dict_XX(sildict, phondict)
 
 def add_rand_term_to_dict(scmd, sildict, phondict):
 
@@ -133,24 +126,37 @@ def to_rand_sil_code(np_list):
             j = j - 1
     return silcode
 
-def P_to_sil_XX(f, np_list, code, phondict):
+def P_to_sil_XX(F, NP, P, phondict):
+    np1 = int(NP[0])
+    np2 = int(NP[1])
     sil = ""
-    for i in range(0, sum(np_list)):
+    for i in range(0, np1 + np2):
 
-        phon = phondict["V1"][f[0 if i < np_list[0] else 1]][int(code[i])]
+        phon = phondict["V1"][F[0 if i < np1 else 1]][int(P[i])]
 
-        is_cons = int(code[i]) in [0, 2, 3, 5]
-        is_vow = int(code[i]) in [1, 4]
-        there_is_next = len(code) > i + 1
+        is_cons = int(P[i]) in [0, 2, 3, 5]
+        is_vow = int(P[i]) in [1, 4]
+        there_is_next = len(P) > i + 1
 
-        if is_cons and there_is_next and int(code[i + 1]) in [1, 4]:
+        if is_cons and there_is_next and int(P[i + 1]) in [1, 4]:
             phon = phon[:-1]
-        if is_vow and there_is_next and int(code[i + 1]) in [1, 4]:
+        if is_vow and there_is_next and int(P[i + 1]) in [1, 4]:
             phon = phon + "k"
 
         sil = sil + phon
 
     return sil
+
+def refresh_dict_XX(sildict, phondict):
+    for XX in sildict["XX"]:
+        for F in XX:
+            for T in F:
+                if T == "2":
+                    for NP in T:
+                        for PX in NP:
+                            for P in PX:
+                                sil = P_to_sil_XX(F, NP[:2], P[:1], phondict)
+                                sildict["XX"][XX][F][T][NP][PX][P]["sil"] = sil
 
 
 def rand_XXXX_sil_and_add(eng, F, tier, sildict, phondict):
@@ -204,6 +210,11 @@ def p_code_to_sil_XXXX(f, np_list, code, phondict):
         sil = sil + phon
 
     return sil
+
+
+
+
+
 
 if __name__ == "__main__":
     main()
