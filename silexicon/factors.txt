@@ -29,7 +29,7 @@
 20 = Complexity    80 = Simplicity
                     
     21 = Reflection    81 = non-reflection
-    22 = Fixation      82 = non-fixation
+    22 = Similarity    82 = non-similarity
     23 = Repetition    83 = non-repetition
 
     24 = Sequence      84 = non-sequence

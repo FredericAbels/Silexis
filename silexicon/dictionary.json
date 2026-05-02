@@ -145,10 +145,10 @@
             "01": {
                 "T1": {
                     "NP01": {
-                        "P2": {
-                            "sil": "nu",
+                        "P0": {
+                            "sil": "mu",
                             "eng": [
-                                "this"
+                                "that"
                             ]
                         },
                         "P1": {
@@ -157,13 +157,24 @@
                                 "what"
                             ]
                         },
+                        "P2": {
+                            "sil": "nu",
+                            "eng": [
+                                "this"
+                            ]
+                        },
                         "P3": {
                             "sil": "vlu",
                             "eng": [
                                 "have"
                             ]
                         },
-                        "P0": {"sil": "mu", "eng": "that"}
+                        "P4": {
+                            "sil": "ou",
+                            "eng": [
+                                "on"
+                            ]
+                        }
                     }
                 },
                 "T2": {
@@ -344,6 +355,10 @@
             "04": {
                 "T1": {
                     "NP01": {
+                        "P3": {
+                            "sil": "ru",
+                            "eng": "with"
+                        },
                         "P5": {
                             "sil": "cru",
                             "eng": "and"
@@ -360,18 +375,28 @@
                             "trad": [
                                 "jung"
                             ]
+                        },
+                        "P0X": {
+                            "P03": {
+                                "sil": "zuru",
+                                "eng": [
+                                    "spirit"
+                                ]
+                            }
                         }
                     }
                 },
                 "T3": {
                     "NP12": {
                         "P5X": {},
-                        "P1X": {
-                            "P101": {
-                                "sil": "eorhoa",
-                                "eng": [
-                                    "externalization"
-                                ]
+                        "P1XX": {
+                            "P10X": {
+                                "P101": {
+                                    "sil": "eorhoa",
+                                    "eng": [
+                                        "externalization"
+                                    ]
+                                }
                             }
                         }
                     }
@@ -423,6 +448,23 @@
                 }
             },
             "08": {
+                "T1": {
+                    "NP01": {
+                        "P0": {
+                            "sil": "xu",
+                            "eng": [
+                                "do",
+                                "doing"
+                            ]
+                        },
+                        "P2": {
+                            "sil": "gxu",
+                            "eng": [
+                                "for"
+                            ]
+                        }
+                    }
+                },
                 "T2": {
                     "NP11": {
                         "P1X": {
@@ -439,7 +481,14 @@
                                 ]
                             }
                         },
-                        "P2X": {},
+                        "P2X": {
+                            "P25": {
+                                "sil": "shukshu",
+                                "eng": [
+                                    "act"
+                                ]
+                            }
+                        },
                         "P3X": {},
                         "P4X": {
                             "P42": {
@@ -630,6 +679,14 @@
                                 "sil": "meu",
                                 "eng": [
                                     "glue"
+                                ]
+                            }
+                        },
+                        "P1X": {
+                            "P11": {
+                                "sil": "uokue",
+                                "eng": [
+                                    "compact"
                                 ]
                             }
                         }
@@ -901,7 +958,8 @@
                                     "light"
                                 ]
                             }
-                        }
+                        },
+                        "P3X": {}
                     }
                 }
             },
@@ -925,6 +983,12 @@
                                 "sil": "diu",
                                 "eng": [
                                     "honour"
+                                ]
+                            },
+                            "P02": {
+                                "sil": "dubu",
+                                "eng": [
+                                    "similarity"
                                 ]
                             }
                         },
@@ -1113,12 +1177,6 @@
                                 "sil": "deske",
                                 "eng": [
                                     "symbol"
-                                ]
-                            },
-                            "P04": {
-                                "sil": "dei",
-                                "eng": [
-                                    "for"
                                 ]
                             }
                         }
@@ -1648,6 +1706,14 @@
                             "eng": [
                                 "enjoy"
                             ]
+                        },
+                        "P1X": {
+                            "P13": {
+                                "sil": "oasfu",
+                                "eng": [
+                                    "golden ratio"
+                                ]
+                            }
                         }
                     }
                 }
@@ -1725,6 +1791,13 @@
                                 "sil": "oagxa",
                                 "eng": [
                                     "answer"
+                                ]
+                            },
+                            "P10": {
+                                "sil": "oaxu",
+                                "eng": [
+                                    "shout",
+                                    "shouting"
                                 ]
                             }
                         },

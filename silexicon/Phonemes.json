@@ -6,12 +6,12 @@
     "1": ["mu",  "uo", "nu",   "vlu",  "ou", "klu"],
     "2": ["du",  "ue", "bu",   "pu",   "eu", "tvu"],
     "3": ["tu",  "ui", "tsu",  "tshu",  "iu", "tchu"],
-    "4": ["rhu", "oa", "crhu", "ro",  "ao", "cru"],
+    "4": ["rhu", "oa", "crhu", "ru",  "ao", "cru"],
     "5": ["fu",  "ae", "fru",  "sfu",  "ea", "frhu"],
     "6": ["chu", "ie", "su",   "ksu",  "ei", "sku"],
     "7": ["vu",  "äe", "shvu", "svu",  "eä", "vru"],
     "8": ["xu",  "äi", "gxu",  "kchu",  "iä", "kshu"],
-    "9": ["ngu", "ai", "gnu",  "ga",   "ia", "gru"]
+    "9": ["ngu", "ai", "gnu",  "gu",   "ia", "gru"]
   }
 }
    

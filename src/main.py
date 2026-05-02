@@ -124,7 +124,7 @@ def get_node(sildict, F, T, NP, P):
     return None
 
 def add_to_node(node, eng, sil, P):
-    node["P"+P] = {"sil": sil, "eng": [eng.replace("_", " ")]}
+    node["P"+P] = {"sil": sil, "eng": eng.replace("_", " ").split(",")}
 
 def to_rand_sil_code(np_list):
     silcode = ""
