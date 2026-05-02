@@ -7,7 +7,10 @@
                         "P5": {
                             "sil": "shto",
                             "eng": [
-                                "being"
+                                "being",
+                                "be",
+                                "are",
+                                "is"
                             ]
                         },
                         "P0": {
@@ -215,6 +218,13 @@
                                 "eng": [
                                     "hand"
                                 ]
+                            },
+                            "P11": {
+                                "sil": "eokuo",
+                                "eng": [
+                                    "look",
+                                    "looking"
+                                ]
                             }
                         }
                     }
@@ -244,6 +254,10 @@
             "03": {
                 "T1": {
                     "NP01": {
+                        "P1": {
+                            "sil": "ui",
+                            "eng": "you"
+                        },
                         "P4": {
                             "sil": "iu",
                             "eng": [
@@ -450,6 +464,16 @@
                                     "incredibly"
                                 ]
                             }
+                        },
+                        "P4X": {
+                            "P42": {
+                                "sil": "oegna",
+                                "eng": [
+                                    "laugh",
+                                    "laughter",
+                                    "laughing"
+                                ]
+                            }
                         }
                     }
                 }
@@ -506,6 +530,14 @@
                                     "existence"
                                 ]
                             }
+                        },
+                        "P1X": {
+                            "P10": {
+                                "sil": "uomo",
+                                "eng": [
+                                    "meat"
+                                ]
+                            }
                         }
                     }
                 }
@@ -524,6 +556,20 @@
                                 "sil": "oukue",
                                 "eng": [
                                     "good"
+                                ]
+                            }
+                        },
+                        "P0X": {
+                            "P00": {
+                                "sil": "mode",
+                                "eng": [
+                                    "rope"
+                                ]
+                            },
+                            "P04": {
+                                "sil": "meu",
+                                "eng": [
+                                    "glue"
                                 ]
                             }
                         }
@@ -577,6 +623,12 @@
                                         "Schopenhauer"
                                     ]
                                 }
+                            },
+                            "P24": {
+                                "sil": "nao",
+                                "eng": [
+                                    "handshake"
+                                ]
                             }
                         },
                         "P1X": {
@@ -593,6 +645,14 @@
                                     "hard",
                                     "hardly",
                                     "hardening"
+                                ]
+                            }
+                        },
+                        "P4X": {
+                            "P45": {
+                                "sil": "oucra",
+                                "eng": [
+                                    "steel"
                                 ]
                             }
                         }
@@ -693,6 +753,14 @@
                             "eng": [
                                 "acceleration"
                             ]
+                        },
+                        "P1X": {
+                            "P14": {
+                                "sil": "uokiä",
+                                "eng": [
+                                    "launch"
+                                ]
+                            }
                         }
                     }
                 }
@@ -1842,6 +1910,15 @@
                             "eng": [
                                 "awareness"
                             ]
+                        },
+                        "P5X": {
+                            "P54": {
+                                "sil": "frhiä",
+                                "eng": [
+                                    "watch",
+                                    "watching"
+                                ]
+                            }
                         }
                     }
                 }
@@ -1915,6 +1992,14 @@
                                 "sil": "iepu",
                                 "eng": [
                                     "inefficient"
+                                ]
+                            }
+                        },
+                        "P2X": {
+                            "P21": {
+                                "sil": "sue",
+                                "eng": [
+                                    "issue"
                                 ]
                             }
                         }
@@ -2410,17 +2495,19 @@
                                 "fragmentation"
                             ]
                         },
-                        "P44": {
-                            "sil": "iakeu",
-                            "eng": [
-                                "insensitivity"
-                            ]
-                        },
                         "P2X": {
                             "P22": {
                                 "sil": "gnabu",
                                 "eng": [
                                     "bad"
+                                ]
+                            },
+                            "P23": {
+                                "sil": "gnapu",
+                                "eng": [
+                                    "loose",
+                                    "loosing",
+                                    "looser"
                                 ]
                             }
                         },
@@ -2439,7 +2526,14 @@
                                 ]
                             }
                         },
-                        "P4X": {},
+                        "P4X": {
+                            "P44": {
+                                "sil": "iakeu",
+                                "eng": [
+                                    "insensitivity"
+                                ]
+                            }
+                        },
                         "P3X": {},
                         "P0X": {}
                     }
@@ -2504,7 +2598,9 @@
                             "P14": {
                                 "sil": "aikiu",
                                 "eng": [
-                                    "outside pressure"
+                                    "outside pressure",
+                                    "compressing",
+                                    "compression"
                                 ]
                             },
                             "P15": {
@@ -2522,14 +2618,6 @@
                                     "lust"
                                 ]
                             },
-                            "P22": {
-                                "sil": "gnatsu",
-                                "eng": [
-                                    "cling",
-                                    "clingy",
-                                    "clinging"
-                                ]
-                            },
                             "P23": {
                                 "sil": "gnatshu",
                                 "eng": [
@@ -2540,6 +2628,13 @@
                                 "sil": "gniu",
                                 "eng": [
                                     "constrict"
+                                ]
+                            },
+                            "P20": {
+                                "sil": "gnata",
+                                "eng": [
+                                    "hug",
+                                    "hugging"
                                 ]
                             }
                         },
@@ -2579,25 +2674,39 @@
                             "P50": {
                                 "sil": "griti",
                                 "eng": [
-                                    "clasp"
+                                    "clasp",
+                                    "clasping"
                                 ]
                             },
                             "P51": {
                                 "sil": "grui",
                                 "eng": [
-                                    "claw"
+                                    "claw",
+                                    "clawing"
                                 ]
                             },
                             "P52": {
                                 "sil": "gritsu",
                                 "eng": [
-                                    "cling"
+                                    "cling",
+                                    "clingy",
+                                    "clinging"
                                 ]
                             },
                             "P53": {
                                 "sil": "gritshu",
                                 "eng": [
-                                    "grab"
+                                    "grab",
+                                    "grabbing"
+                                ]
+                            }
+                        },
+                        "P4X": {
+                            "P41": {
+                                "sil": "iakui",
+                                "eng": [
+                                    "need",
+                                    "needy"
                                 ]
                             }
                         }

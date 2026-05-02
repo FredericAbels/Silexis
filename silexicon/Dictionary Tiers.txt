@@ -32,4 +32,8 @@ nP = set of words with n phonemes active.
 	|3P| = (6 choose 2)*6 
 		+ 6*(6 choose 2) 
 	
-	|4P| 
+	|4P|
+
+
+
+

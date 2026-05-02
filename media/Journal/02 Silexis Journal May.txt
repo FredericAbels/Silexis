@@ -125,3 +125,35 @@ The universe is completely reflected in the soul and of the universe is complete
 2
 
 I realized it is good to not use all of the 1F NP11s since then I have some free for the 2Fs that are not composed of any of the 1Fs.
+
+3
+
+How many 1F words do I have? 
+
+100 * (36 + 2 * 36 * 6) = 46800
+
+4
+
+I could use the T4s for the abstract terms and make P0000 denote the most abstract term of each 1F. These sound funny though. For example 22 would be dededede yeah that's stupid af. I could cheat though and just name this "4*de" so number 4 and de?
+
+5
+
+I need to work on finding the optimal state of consciousness when working. I think I'm too 17. I need more 97.
+
+6
+
+you are laughing
+ui-shta koegna
+
+7
+
+wait wait wait I completely forgot about tonality and stuff. I can just encode nouns verbs etc with different pronounciations of the same word! I could also use different vowels after a consonant 
+
+u neutral
+e noun
+a verb
+o adjective
+ä adverb
+i something else
+
+I could also have different meanings depending weather a double consonant is pronounced as one sillable or two.

@@ -23,11 +23,7 @@ def main():
     sildict = load_dict(path_sildict)
     phondict = load_dict(path_phonemes)
 
-    example1 = "example 60 4"
-    example2 = "example 8245 6"
-
-    print("Options:")
-    print("convert0 (from add_to_dict.json)")
+    print("\nOptions:")
     print("0 [eng] [F] T2")
     print("1 [eng] [F] [tier]")
     print("2 NP11 [F] [P] [eng]")
@@ -35,53 +31,56 @@ def main():
     print("4 refresh dictionary")
     print()
 
-    scmd = None 
+    while True:
 
-    if len(sys.argv) == 1:
-        cmd = input()
-        scmd = cmd.split()
-    else:
-        scmd = sys.argv[1:]
+        scmd = None 
 
-    if scmd[0] in ["0", "1"]:
-
-        if scmd[0] == "0":
-            _, eng, F = scmd
-            T = "2"
-        elif scmd[0] == "1":
-            _, eng, F, T = scmd
-
-        add_rand_term_to_dict(eng, F, T, sildict, phondict)
-
-    if scmd[0] in ["2", "3"]:
-
-        if scmd[0] == "2":
-            _, NP, F, P, eng = scmd
-        elif scmd[0] == "3":
-            _, F, P, eng = scmd
-            NP = "11"
-
-        np1 = int(NP[0])
-        np2 = int(NP[1])
-        T = str(np1 + np2)
-
-        node = get_node(sildict, F, T, NP, P)
-
-        sil = P_to_sil_XX(F, NP, P, phondict)
-
-        if node == None:
-            print("taken")
+        if len(sys.argv) == 1:
+            cmd = input()
+            scmd = cmd.split()
         else:
-            add_to_node(node, eng, sil, P)
-        
-        save_dict(sildict)
+            scmd = sys.argv[1:]
 
-    if scmd[0] in ["3"]:
-        refresh_dict_XX(sildict, phondict)
+        if scmd == []:
+            break
+
+        elif scmd[0] in ["0", "1"]:
+
+            if scmd[0] == "0":
+                _, eng, F = scmd
+                T = "2"
+            elif scmd[0] == "1":
+                _, eng, F, T = scmd
+
+            add_rand_term_to_dict(eng, F, T, sildict, phondict)
+
+        elif scmd[0] in ["2", "3"]:
+
+            if scmd[0] == "2":
+                _, NP, F, P, eng = scmd
+            elif scmd[0] == "3":
+                _, F, P, eng = scmd
+                NP = "11"
+
+            np1 = int(NP[0])
+            np2 = int(NP[1])
+            T = str(np1 + np2)
+
+            node = get_node(sildict, F, T, NP, P)
+
+            sil = P_to_sil_XX(F, NP, P, phondict)
+
+            if node == None:
+                print("taken")
+            else:
+                add_to_node(node, eng, sil, P)
+            
+            save_dict(sildict)
+
+        elif scmd[0] in ["3"]:
+            refresh_dict_XX(sildict, phondict)
 
 def add_rand_term_to_dict(eng, F, T, sildict, phondict):
-
-    
 
     if len(F) == 2:
         sildict = rand_XX_sil_and_add(sildict, phondict, eng, F, T)
@@ -109,6 +108,7 @@ def rand_XX_sil_and_add(sildict, phondict, eng, F, tier, NP=None, P=None):
             ans = "y"
             if ans in ("y", "yes"):
                 add_to_node(node, eng, sil, P)
+                print(f"{sil} was added for {eng}\n")
                 break
             elif ans in ("quit", "q"):
                 break
@@ -117,7 +117,7 @@ def rand_XX_sil_and_add(sildict, phondict, eng, F, tier, NP=None, P=None):
 
 def get_node(sildict, F, T, NP, P):
     
-    node = ensure_path(sildict["XX"], F[0]+"X", F, "T"+T, "NP" + NP, f"P{P[0]}X")
+    node = ensure_path(sildict["1F"], F[0]+"X", F, "T"+T, "NP" + NP, f"P{P[0]}X")
     if "P"+P not in node:
         return node
 
@@ -160,7 +160,7 @@ def P_to_sil_XX(F, NP, P, phondict):
     return sil
 
 def refresh_dict_XX(sildict, phondict):
-    for XX in sildict["XX"]:
+    for XX in sildict["F1"]:
         for F in XX:
             for T in F:
                 if T == "2":
@@ -168,7 +168,7 @@ def refresh_dict_XX(sildict, phondict):
                         for PX in NP:
                             for P in PX:
                                 sil = P_to_sil_XX(F, NP[:2], P[:1], phondict)
-                                sildict["XX"][XX][F][T][NP][PX][P]["sil"] = sil
+                                sildict["F1"][XX][F][T][NP][PX][P]["sil"] = sil
 
 
 def rand_XXXX_sil_and_add(eng, F, tier, sildict, phondict):
@@ -182,7 +182,7 @@ def rand_XXXX_sil_and_add(eng, F, tier, sildict, phondict):
         code = to_rand_sil_code([np1, np2, np3, np4])
         sil = p_code_to_sil_XXXX(F, [np1, np2, np3, np4], code, phondict)
 
-        node = ensure_path(sildict["XXXX"], F[0]+"XXX", F[:2]+"XX", F[:3]+"X", F, "T"+tier, "NP"+tier)
+        node = ensure_path(sildict["XXXX"], F[0]+"XXX", F[:2]+"1F", F[:3]+"X", F, "T"+tier, "NP"+tier)
         if "P"+code not in node:
             print(f"f: {F}, div: {div}, code: {code}")
             ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
