@@ -28,16 +28,16 @@
 
 20 = Complexity    80 = Simplicity
                     
-    21 = Repetition    81 = non-repetition
-    22 = Reflection    82 = non-reflection
-    23 = Fixation      83 = non-fixation
+    21 = Reflection    81 = non-reflection
+    22 = Fixation      82 = non-fixation
+    23 = Repetition    83 = non-repetition
 
-    24 = Projection    84 = non-projection
-    25 = Sequence      85 = non-sequence
-    26 = Oscillation   86 = non-oscillation
+    24 = Sequence      84 = non-sequence
+    25 = Oscillation   85 = non-oscillation
+    26 = Projection    86 = non-projection
 
-    27 = Feminine      87 = Masculine
-    28 = Divergence    88 = Convergence
+    27 = Order         87 = Chaos
+    28 = Convergence   88 = Divergence
     29 = Intelligence  89 = Purity
     
 30 = Granularity   70 = self-similarity

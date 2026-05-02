@@ -1,0 +1,6 @@
+u neutral
+e noun
+a verb
+o adjective
+ä adverb
+i something else
