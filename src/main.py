@@ -28,28 +28,38 @@ def main():
 
     print("Options:")
     print("convert0 (from add_to_dict.json)")
-    print("0 [eng] [F] [tier]")
-    print("1 " + example1)
-    print("2 " + example2)
-    print("3 [F] [NP] [P] [eng]")
-    print("4 (refresh dictionary)")
-    
-    if sys.argv[0] == None:
-        cmd = input()
-        if cmd == "1":
-            cmd = "1 " + example1
-        if cmd == "2":
-            cmd = "2 " + example2
+    print("0 [eng] [F] T2")
+    print("1 [eng] [F] [tier]")
+    print("2 NP11 [F] [P] [eng]")
+    print("3 [NP] [F] [P] [eng]")
+    print("4 refresh dictionary")
+    print()
 
+    scmd = None 
+
+    if len(sys.argv) == 1:
+        cmd = input()
         scmd = cmd.split()
     else:
         scmd = sys.argv[1:]
 
-    if scmd[0] in ["0", "1", "2"]:
-        add_rand_term_to_dict(scmd, sildict, phondict)
+    if scmd[0] in ["0", "1"]:
 
-    if scmd[0] in ["3"]:
-        _, F, NP, P, eng = scmd
+        if scmd[0] == "0":
+            _, eng, F = scmd
+            T = "2"
+        elif scmd[0] == "1":
+            _, eng, F, T = scmd
+
+        add_rand_term_to_dict(eng, F, T, sildict, phondict)
+
+    if scmd[0] in ["2", "3"]:
+
+        if scmd[0] == "2":
+            _, NP, F, P, eng = scmd
+        elif scmd[0] == "3":
+            _, F, P, eng = scmd
+            NP = "11"
 
         np1 = int(NP[0])
         np2 = int(NP[1])
@@ -66,12 +76,12 @@ def main():
         
         save_dict(sildict)
 
-    if scmd[0] in ["4"]:
+    if scmd[0] in ["3"]:
         refresh_dict_XX(sildict, phondict)
 
-def add_rand_term_to_dict(scmd, sildict, phondict):
+def add_rand_term_to_dict(eng, F, T, sildict, phondict):
 
-    _, eng, F, T = scmd
+    
 
     if len(F) == 2:
         sildict = rand_XX_sil_and_add(sildict, phondict, eng, F, T)
@@ -95,7 +105,8 @@ def rand_XX_sil_and_add(sildict, phondict, eng, F, tier, NP=None, P=None):
         node = get_node(sildict, F, tier, NP, P)
 
         if node != None:
-            ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
+            # ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
+            ans = "y"
             if ans in ("y", "yes"):
                 add_to_node(node, eng, sil, P)
                 break
@@ -127,6 +138,7 @@ def to_rand_sil_code(np_list):
     return silcode
 
 def P_to_sil_XX(F, NP, P, phondict):
+
     np1 = int(NP[0])
     np2 = int(NP[1])
     sil = ""

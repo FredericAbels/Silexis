@@ -5,25 +5,12 @@
     "0": ["zo",  "eo", "she",  "ste", "oe", "shto"],
     "1": ["mo",  "uo", "nu",   "vlu",  "ou", "klo"],
     "2": ["de",  "ue", "bu",   "pu",   "eu", "tve"],
-    "3": ["ti",  "ui", "tsu",  "tshu",  "iu", "tchi"],
+    "3": ["ta",  "ui", "tsu",  "tshu",  "iu", "tcha"],
     "4": ["rha", "oa", "crho", "ro",  "ao", "cra"],
     "5": ["fe",  "ae", "fra",  "sfa",  "ea", "frhe"],
-    "6": ["che", "ie", "si",   "ksi",  "ei", "ske"],
+    "6": ["che", "ie", "si",   "ksa",  "ei", "ske"],
     "7": ["ve",  "äe", "shva", "sva",  "eä", "vre"],
-    "8": ["xi",  "äi", "gxa",  "kcha",  "iä", "kshi"],
-    "9": ["ngi", "ai", "gna",  "ga",   "ia", "gri"]
-  },
-  "V2": {
-    "p": ["0",   "1",  "2",    "3",   "4",  "5"],
-    "0": ["zo",  "eo", "she",  "ste", "oe", "shto"],
-    "1": ["mo",  "uo", "nu",   "vlu",  "ou", "klo"],
-    "2": ["de",  "ue", "bu",   "pu",   "eu", "tve"],
-    "3": ["ti",  "ui", "tsu",  "tshu",  "iu", "tchi"],
-    "4": ["rha", "oa", "crho", "ro",  "ao", "cra"],
-    "5": ["fe",  "ae", "fra",  "sfa",  "ea", "frhe"],
-    "6": ["che", "ie", "si",   "ksi",  "ei", "ske"],
-    "7": ["ve",  "äe", "shva", "sva",  "eä", "vre"],
-    "8": ["xi",  "äi", "gxa",  "kcha",  "iä", "kshi"],
-    "9": ["ngi", "ai", "gna",  "ga",   "ia", "gri"]
-  } 
+    "8": ["xa",  "äi", "gxa",  "kcha",  "iä", "ksha"],
+    "9": ["nga", "ai", "gna",  "ga",   "ia", "gra"]
+  }
 }
