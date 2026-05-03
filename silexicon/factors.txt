@@ -77,7 +77,7 @@
 
 55 = Non-Attachment
 
-    56 = Dissolution               
-    57 = Disillusion
-    58 = Awareness
-    59 = Truth
+    56 = Truth
+    57 = Awareness
+    58 = Disillusion
+    59 = Dissolution

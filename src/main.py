@@ -31,11 +31,12 @@ def main():
     print("4 refresh dictionary")
     print()
 
+    one_loop_completed = False
     while True:
 
-        scmd = None 
+        scmd = None
 
-        if len(sys.argv) == 1:
+        if len(sys.argv) == 1 or one_loop_completed:
             cmd = input()
             scmd = cmd.split()
         else:
@@ -53,6 +54,7 @@ def main():
                 _, eng, F, T = scmd
 
             add_rand_term_to_dict(eng, F, T, sildict, phondict)
+            one_loop_completed = True
 
         elif scmd[0] in ["2", "3"]:
 
@@ -171,11 +173,8 @@ def refresh_dict_XX(sildict, phondict):
                     for NP_key, NP in T.items():
                         for PX_key, PX in NP.items():
                             for P_key in PX:
-                                print(F_key, NP_key, T_key, P_key)
                                 sil = P_to_sil_XX(F_key, NP_key[2:], P_key[1:], phondict)
                                 sildict["1F"][XX_key][F_key][T_key][NP_key][PX_key][P_key]["sil"] = sil
-                                if F_key == "23" and P_key == "P40":
-                                    print(sil)
 
 
 def rand_XXXX_sil_and_add(eng, F, tier, sildict, phondict):

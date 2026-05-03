@@ -55,7 +55,7 @@
                                 ]
                             },
                             "P55": {
-                                "sil": "shtoshto",
+                                "sil": "shtushtu",
                                 "eng": [
                                     "continuum"
                                 ]
@@ -78,7 +78,7 @@
                                 ]
                             },
                             "P02": {
-                                "sil": "zoshe",
+                                "sil": "zushu",
                                 "eng": [
                                     "cause"
                                 ]
@@ -86,13 +86,13 @@
                         },
                         "P1X": {
                             "P13": {
-                                "sil": "eoste",
+                                "sil": "eostu",
                                 "eng": [
                                     "devine"
                                 ]
                             },
                             "P15": {
-                                "sil": "eoshto",
+                                "sil": "eoshtu",
                                 "eng": [
                                     "absolute"
                                 ]
@@ -107,7 +107,7 @@
                         "P3X": {},
                         "P4X": {
                             "P40": {
-                                "sil": "oezo",
+                                "sil": "oezu",
                                 "eng": [
                                     "create"
                                 ]
@@ -119,13 +119,13 @@
                                 ]
                             },
                             "P43": {
-                                "sil": "oeste",
+                                "sil": "oestu",
                                 "eng": [
                                     "reality"
                                 ]
                             },
                             "P44": {
-                                "sil": "oeshto",
+                                "sil": "oekoe",
                                 "eng": [
                                     "number 0"
                                 ]
@@ -133,7 +133,7 @@
                         },
                         "P2X": {
                             "P25": {
-                                "sil": "sheshto",
+                                "sil": "shushtu",
                                 "eng": [
                                     "the absolute"
                                 ]
@@ -179,12 +179,13 @@
                 },
                 "T2": {
                     "NP11": {
-                        
                         "P4X": {},
                         "P3X": {
-                            "P32": {},
+                            "P32": {
+                                "sil": "stunu"
+                            },
                             "P33": {
-                                "sil": "stevlu",
+                                "sil": "stuvlu",
                                 "eng": [
                                     "kick"
                                 ]
@@ -192,15 +193,15 @@
                         },
                         "P0X": {
                             "P05": {
-                            "sil": "zoklo",
-                            "eng": [
-                                "graspable"
-                            ]
-                        }
+                                "sil": "zuklu",
+                                "eng": [
+                                    "graspable"
+                                ]
+                            }
                         },
                         "P5X": {
                             "P55": {
-                                "sil": "shtoklo",
+                                "sil": "shtuklu",
                                 "eng": [
                                     "hot"
                                 ]
@@ -214,7 +215,7 @@
                         },
                         "P2X": {
                             "P25": {
-                                "sil": "sheklo",
+                                "sil": "shuklu",
                                 "eng": [
                                     "wood"
                                 ]
@@ -228,7 +229,7 @@
                                 ]
                             },
                             "P10": {
-                                "sil": "eomo",
+                                "sil": "eomu",
                                 "eng": [
                                     "hand"
                                 ]
@@ -272,14 +273,13 @@
                 "T2": {
                     "NP11": {
                         "P4X": {
-"P40": {
-                            "sil": "oede",
-                            "eng": [
-                                "instrument"
-                            ]
-                        }
+                            "P40": {
+                                "sil": "oedu",
+                                "eng": [
+                                    "instrument"
+                                ]
+                            }
                         },
-                        
                         "P1X": {}
                     }
                 }
@@ -304,20 +304,19 @@
                 "T2": {
                     "NP11": {
                         "P1X": {
-"P13": {
-                            "sil": "zocrha",
-                            "eng": [
-                                "archetype"
-                            ],
-                            "trad": [
-                                "jung"
-                            ]
-                        }
-                        }
-                        ,
+                            "P13": {
+                                "sil": "eotshu",
+                                "eng": [
+                                    "archetype"
+                                ],
+                                "trad": [
+                                    "jung"
+                                ]
+                            }
+                        },
                         "P0X": {
                             "P03": {
-                                "sil": "zuru",
+                                "sil": "zutshu",
                                 "eng": [
                                     "spirit"
                                 ]
@@ -418,14 +417,13 @@
                 "T2": {
                     "NP11": {
                         "P0X": {
-"P01": {
-                            "sil": "zae",
-                            "eng": [
-                                "mind"
-                            ]
-                        }
-                        }
-                        ,
+                            "P01": {
+                                "sil": "zae",
+                                "eng": [
+                                    "mind"
+                                ]
+                            }
+                        },
                         "P2X": {},
                         "P3X": {
                             "P31": {
@@ -442,14 +440,13 @@
                 "T2": {
                     "NP11": {
                         "P1X": {
-"P15": {
-                            "sil": "eotche",
-                            "eng": [
-                                "consciousness"
-                            ]
+                            "P15": {
+                                "sil": "eosku",
+                                "eng": [
+                                    "consciousness"
+                                ]
+                            }
                         }
-                        }
-                        
                     }
                 }
             },
@@ -457,14 +454,13 @@
                 "T2": {
                     "NP11": {
                         "P0X": {
- "P03": {
-                            "sil": "zosva",
-                            "eng": [
-                                "idea"
-                            ]
+                            "P03": {
+                                "sil": "zusvu",
+                                "eng": [
+                                    "idea"
+                                ]
+                            }
                         }
-                        }
-                       
                     }
                 }
             },
@@ -490,13 +486,13 @@
                     "NP11": {
                         "P1X": {
                             "P13": {
-                                "sil": "eoka",
+                                "sil": "eokchu",
                                 "eng": [
                                     "meaning"
                                 ]
                             },
                             "P12": {
-                                "sil": "eogxa",
+                                "sil": "eogxu",
                                 "eng": [
                                     "purpose"
                                 ]
@@ -513,7 +509,7 @@
                         "P3X": {},
                         "P4X": {
                             "P42": {
-                                "sil": "oegxa",
+                                "sil": "oegxu",
                                 "eng": [
                                     "destiny"
                                 ]
@@ -546,23 +542,6 @@
                 "T2": {
                     "NP11": {
                         "P5X": {
-"P53": {
-                            "sil": "shtogu",
-                            "eng": [
-                                "ungraspable"
-                            ]
-                        }
-                        }
-                        ,
-                        "P3X": {
-                            "P33": {
-                                "sil": "stegu",
-                                "eng": [
-                                    "irony"
-                                ]
-                            }
-                        },
-                        "P5X": {
                             "P51": {
                                 "sil": "shtai",
                                 "eng": [
@@ -571,16 +550,24 @@
                                 ]
                             },
                             "P50": {
-                                "sil": "shtonga",
+                                "sil": "shtungu",
                                 "eng": [
                                     "magic",
                                     "magic"
                                 ]
                             }
                         },
+                        "P3X": {
+                            "P33": {
+                                "sil": "stugu",
+                                "eng": [
+                                    "irony"
+                                ]
+                            }
+                        },
                         "P4X": {
                             "P42": {
-                                "sil": "oegna",
+                                "sil": "oegnu",
                                 "eng": [
                                     "laugh",
                                     "laughter",
@@ -588,7 +575,7 @@
                                 ]
                             },
                             "P43": {
-                                "sil": "oega",
+                                "sil": "oegu",
                                 "eng": [
                                     "weird"
                                 ]
@@ -602,7 +589,7 @@
                         },
                         "P2X": {
                             "P23": {
-                                "sil": "shega",
+                                "sil": "shugu",
                                 "eng": [
                                     "wonder"
                                 ]
@@ -617,17 +604,16 @@
                 "T2": {
                     "NP11": {
                         "P0X": {
-"P01": {
-                            "sil": "meo",
-                            "eng": [
-                                "duality"
-                            ]
-                        }
-                        }
-                        ,
+                            "P01": {
+                                "sil": "meo",
+                                "eng": [
+                                    "duality"
+                                ]
+                            }
+                        },
                         "P2X": {
                             "P22": {
-                                "sil": "nushe",
+                                "sil": "nushu",
                                 "eng": [
                                     "space"
                                 ]
@@ -661,7 +647,7 @@
                     "NP11": {
                         "P4X": {
                             "P40": {
-                                "sil": "oumo",
+                                "sil": "oumu",
                                 "eng": [
                                     "existence"
                                 ]
@@ -669,7 +655,7 @@
                         },
                         "P1X": {
                             "P10": {
-                                "sil": "uomo",
+                                "sil": "uomu",
                                 "eng": [
                                     "meat"
                                 ]
@@ -681,14 +667,13 @@
             "12": {
                 "T2": {
                     "NP11": {
-                        
                         "P5X": {
-"P54": {
-                            "sil": "kleu",
-                            "eng": [
-                                "cohesion"
-                            ]
-                        }
+                            "P54": {
+                                "sil": "kleu",
+                                "eng": [
+                                    "cohesion"
+                                ]
+                            }
                         },
                         "P4X": {
                             "P41": {
@@ -700,7 +685,7 @@
                         },
                         "P0X": {
                             "P00": {
-                                "sil": "mode",
+                                "sil": "mudu",
                                 "eng": [
                                     "rope"
                                 ]
@@ -726,11 +711,13 @@
             "13": {
                 "T2": {
                     "NP11": {
-                        "P10": {
-                            "sil": "uoshi",
-                            "eng": [
-                                "stability"
-                            ]
+                        "P1X": {
+                            "P10": {
+                                "sil": "uotu",
+                                "eng": [
+                                    "stability"
+                                ]
+                            }
                         }
                     }
                 }
@@ -738,27 +725,9 @@
             "14": {
                 "T2": {
                     "NP11": {
-                        "P23": {
-                            "sil": "nuro",
-                            "eng": [
-                                "integrity"
-                            ]
-                        },
-                        "P43": {
-                            "sil": "ouro",
-                            "eng": [
-                                "centered"
-                            ]
-                        },
-                        "P11": {
-                            "sil": "uokoa",
-                            "eng": [
-                                "prayer pose"
-                            ]
-                        },
                         "P2X": {
                             "P25": {
-                                "sil": "nucra",
+                                "sil": "nucru",
                                 "eng": [
                                     "hedgehog dilemma"
                                 ],
@@ -776,30 +745,48 @@
                                 "eng": [
                                     "handshake"
                                 ]
+                            },
+                            "P23": {
+                                "sil": "nuru",
+                                "eng": [
+                                    "integrity"
+                                ]
                             }
                         },
                         "P1X": {
                             "P10": {
-                                "sil": "morha",
+                                "sil": "uorhu",
                                 "eng": [
                                     "rigid",
                                     "rigidity"
                                 ]
                             },
                             "P11": {
-                                "sil": "nao",
+                                "sil": "uokoa",
                                 "eng": [
                                     "hard",
                                     "hardly",
                                     "hardening"
                                 ]
+                            },
+                            "P12": {
+                                "sil": "uocrhu",
+                                "eng": [
+                                    "prayer pose"
+                                ]
                             }
                         },
                         "P4X": {
                             "P45": {
-                                "sil": "oucra",
+                                "sil": "oucru",
                                 "eng": [
                                     "steel"
+                                ]
+                            },
+                            "P43": {
+                                "sil": "ouru",
+                                "eng": [
+                                    "centered"
                                 ]
                             }
                         }
@@ -809,19 +796,13 @@
             "15": {
                 "T2": {
                     "NP11": {
-                        "P13": {
-                            "sil": "uosfa",
-                            "eng": [
-                                "position"
-                            ]
-                        },
                         "P3X": {},
                         "P2X": {},
                         "P5X": {},
                         "P0X": {},
                         "P4X": {
                             "P40": {
-                                "sil": "oufe",
+                                "sil": "oufu",
                                 "eng": [
                                     "low"
                                 ]
@@ -829,15 +810,21 @@
                         },
                         "P1X": {
                             "P12": {
-                                "sil": "uofra",
+                                "sil": "uofru",
                                 "eng": [
                                     "goal"
                                 ]
                             },
                             "P13": {
-                                "sil": "uosfa",
+                                "sil": "uosfu",
                                 "eng": [
                                     "in"
+                                ]
+                            },
+                            "P14": {
+                                "sil": "uokea",
+                                "eng": [
+                                    "position"
                                 ]
                             }
                         }
@@ -847,12 +834,6 @@
             "16": {
                 "T2": {
                     "NP11": {
-                        "P24": {
-                            "sil": "nei",
-                            "eng": [
-                                "direction"
-                            ]
-                        },
                         "P3X": {
                             "P31": {
                                 "sil": "vlie",
@@ -861,33 +842,46 @@
                                 ]
                             }
                         },
-                        "P1X": {},
+                        "P1X": {
+                            "P13": {
+                                "sil": "uoksu",
+                                "eng": [
+                                    "direction"
+                                ]
+                            }
+                        },
                         "P5X": {},
                         "P2X": {
                             "P25": {
-                                "sil": "nuske",
+                                "sil": "nusku",
                                 "eng": [
                                     "decreasing"
                                 ]
                             }
-                        }
+                        },
+                        "P0X": {},
+                        "P4X": {}
                     }
                 }
             },
             "17": {
                 "T2": {
                     "NP11": {
-                        "P15": {
-                            "sil": "uovre",
-                            "eng": [
-                                "velocity"
-                            ]
+                        "P4X": {
+                            "P44": {
+                                "sil": "oukeä",
+                                "eng": [
+                                    "busy"
+                                ]
+                            }
                         },
-                        "P41": {
-                            "sil": "oukäe",
-                            "eng": [
-                                "busy"
-                            ]
+                        "P5X": {
+                            "P54": {
+                                "sil": "kleä",
+                                "eng": [
+                                    "velocity"
+                                ]
+                            }
                         }
                     }
                 }
@@ -895,17 +889,19 @@
             "18": {
                 "T2": {
                     "NP11": {
-                        "P13": {
-                            "sil": "uoka",
-                            "eng": [
-                                "acceleration"
-                            ]
-                        },
                         "P1X": {
                             "P14": {
                                 "sil": "uokiä",
                                 "eng": [
                                     "launch"
+                                ]
+                            }
+                        },
+                        "P4X": {
+                            "P40": {
+                                "sil": "ouxu",
+                                "eng": [
+                                    "acceleration"
                                 ]
                             }
                         }
@@ -915,11 +911,13 @@
             "19": {
                 "T2": {
                     "NP11": {
-                        "P33": {
-                            "sil": "vluga",
-                            "eng": [
-                                "conflagration"
-                            ]
+                        "P5X": {
+                            "P55": {
+                                "sil": "klugru",
+                                "eng": [
+                                    "conflagration"
+                                ]
+                            }
                         }
                     }
                 }
@@ -929,23 +927,23 @@
             "20": {
                 "T2": {
                     "NP11": {
-                        "P30": {
-                            "sil": "tuzo",
-                            "eng": [
-                                "complexity"
-                            ]
-                        },
                         "P5X": {
                             "P55": {
-                                "sil": "tveshto",
+                                "sil": "tvushtu",
                                 "eng": [
                                     "certainty"
+                                ]
+                            },
+                            "P53": {
+                                "sil": "tvustu",
+                                "eng": [
+                                    "complexity"
                                 ]
                             }
                         },
                         "P1X": {
                             "P15": {
-                                "sil": "ueshto",
+                                "sil": "ueshtu",
                                 "eng": [
                                     "freak"
                                 ]
@@ -955,7 +953,7 @@
                         "P0X": {},
                         "P3X": {
                             "P35": {
-                                "sil": "pushto",
+                                "sil": "pushtu",
                                 "eng": [
                                     "information"
                                 ]
@@ -963,7 +961,7 @@
                         },
                         "P2X": {
                             "P22": {
-                                "sil": "bushe",
+                                "sil": "bushu",
                                 "eng": [
                                     "maximize"
                                 ]
@@ -977,25 +975,25 @@
                     "NP11": {
                         "P0X": {
                             "P00": {
-                                "sil": "deti",
+                                "sil": "dumu",
                                 "eng": [
                                     "sameness"
                                 ]
                             },
                             "P03": {
-                                "sil": "detshu",
+                                "sil": "duvlu",
                                 "eng": [
                                     "conformity"
                                 ]
                             },
                             "P04": {
-                                "sil": "diu",
+                                "sil": "dou",
                                 "eng": [
                                     "honour"
                                 ]
                             },
                             "P02": {
-                                "sil": "dubu",
+                                "sil": "dunu",
                                 "eng": [
                                     "similarity"
                                 ]
@@ -1003,7 +1001,7 @@
                         },
                         "P1X": {
                             "P13": {
-                                "sil": "uetshu",
+                                "sil": "uevlu",
                                 "eng": [
                                     "permanent"
                                 ]
@@ -1012,13 +1010,13 @@
                         "P2X": {},
                         "P3X": {
                             "P34": {
-                                "sil": "piu",
+                                "sil": "pou",
                                 "eng": [
                                     "point"
                                 ]
                             },
                             "P30": {
-                                "sil": "puti",
+                                "sil": "pumu",
                                 "eng": [
                                     "fix"
                                 ]
@@ -1026,14 +1024,14 @@
                         },
                         "P4X": {
                             "P44": {
-                                "sil": "eukiu",
+                                "sil": "eukou",
                                 "eng": [
                                     "point person",
                                     "faith oriented person"
                                 ]
                             },
                             "P40": {
-                                "sil": "euti",
+                                "sil": "eumu",
                                 "eng": [
                                     "pious"
                                 ]
@@ -1046,44 +1044,34 @@
             "22": {
                 "T2": {
                     "NP11": {
-                        "P43": {
-                            "sil": "eutu",
-                            "eng": [
-                                "reflection"
-                            ]
-                        },
                         "P0X": {
                             "P02": {
-                                "sil": "debu",
+                                "sil": "dubu",
                                 "eng": [
                                     "light"
                                 ]
                             }
                         },
-                        "P3X": {}
+                        "P3X": {},
+                        "P5X": {
+                            "P51": {
+                                "sil": "tvue",
+                                "eng": [
+                                    "reflection"
+                                ]
+                            }
+                        }
                     }
                 }
             },
             "23": {
                 "T2": {
                     "NP11": {
-                        "P40": {
-                            "sil": "eumo",
-                            "eng": [
-                                "repetition"
-                            ]
-                        },
-                        "P10": {
-                            "sil": "uemo",
-                            "eng": [
-                                "regularity"
-                            ]
-                        },
                         "P2X": {},
                         "P3X": {},
                         "P0X": {
                             "P03": {
-                                "sil": "devlu",
+                                "sil": "dutshu",
                                 "eng": [
                                     "autism"
                                 ]
@@ -1091,34 +1079,40 @@
                         },
                         "P5X": {
                             "P52": {
-                                "sil": "tvenu",
+                                "sil": "tvutsu",
                                 "eng": [
                                     "certainty"
                                 ]
                             },
                             "P50": {
-                                "sil": "tvemo",
+                                "sil": "tvutu",
                                 "eng": [
                                     "time"
                                 ]
                             },
                             "P55": {
-                                "sil": "tveklo",
+                                "sil": "tvutchu",
                                 "eng": [
                                     "march"
+                                ]
+                            },
+                            "P53": {
+                                "sil": "tvutshu",
+                                "eng": [
+                                    "repetition"
                                 ]
                             }
                         },
                         "P4X": {
                             "P43": {
-                                "sil": "euvlu",
+                                "sil": "eutshu",
                                 "eng": [
                                     "21 person",
                                     "person who resonates with predictability"
                                 ]
                             },
                             "P41": {
-                                "sil": "eukuo",
+                                "sil": "eukui",
                                 "eng": [
                                     "interlectual love of god"
                                 ],
@@ -1130,11 +1124,17 @@
                                         "spinoza"
                                     ]
                                 }
+                            },
+                            "P44": {
+                                "sil": "eukiu",
+                                "eng": [
+                                    "regularity"
+                                ]
                             }
                         },
                         "P1X": {
                             "P12": {
-                                "sil": "uenu",
+                                "sil": "uetsu",
                                 "eng": [
                                     "predictability"
                                 ]
@@ -1146,9 +1146,10 @@
             "24": {
                 "T2": {
                     "NP11": {
-                        "P3X": {
-                            "P30": {
-                                "sil": "pufe",
+                        "P3X": {},
+                        "P4X": {
+                            "P44": {
+                                "sil": "eukao",
                                 "eng": [
                                     "oscillation"
                                 ]
@@ -1160,21 +1161,9 @@
             "25": {
                 "T2": {
                     "NP11": {
-                        "P32": {
-                            "sil": "tufra",
-                            "eng": [
-                                "sequence"
-                            ]
-                        },
-                        "P41": {
-                            "sil": "eukae",
-                            "eng": [
-                                "ritual"
-                            ]
-                        },
                         "P3X": {
                             "P35": {
-                                "sil": "pufrhe",
+                                "sil": "pufrhu",
                                 "eng": [
                                     "step"
                                 ]
@@ -1182,9 +1171,25 @@
                         },
                         "P4X": {
                             "P45": {
-                                "sil": "eufrhe",
+                                "sil": "eufrhu",
                                 "eng": [
                                     "therefore"
+                                ]
+                            }
+                        },
+                        "P2X": {
+                            "P25": {
+                                "sil": "bufrhu",
+                                "eng": [
+                                    "sequence"
+                                ]
+                            }
+                        },
+                        "P1X": {
+                            "P12": {
+                                "sil": "uefru",
+                                "eng": [
+                                    "ritual"
                                 ]
                             }
                         }
@@ -1204,7 +1209,7 @@
                         },
                         "P0X": {
                             "P05": {
-                                "sil": "deske",
+                                "sil": "dusku",
                                 "eng": [
                                     "symbol"
                                 ]
@@ -1221,7 +1226,7 @@
                         "P5X": {},
                         "P0X": {
                             "P02": {
-                                "sil": "deshva",
+                                "sil": "dushvu",
                                 "eng": [
                                     "feminine"
                                 ]
@@ -1233,17 +1238,11 @@
             "28": {
                 "T2": {
                     "NP11": {
-                        "P01": {
-                            "sil": "däi",
-                            "eng": [
-                                "divergence"
-                            ]
-                        },
                         "P0X": {},
                         "P3X": {},
                         "P4X": {
                             "P43": {
-                                "sil": "eukcha",
+                                "sil": "eukchu",
                                 "eng": [
                                     "variety"
                                 ]
@@ -1251,7 +1250,7 @@
                         },
                         "P1X": {
                             "P15": {
-                                "sil": "uekshi",
+                                "sil": "uekshu",
                                 "eng": [
                                     "flourishing"
                                 ]
@@ -1265,7 +1264,7 @@
                     "NP11": {
                         "P2X": {
                             "P25": {
-                                "sil": "bugri",
+                                "sil": "bugru",
                                 "eng": [
                                     "language"
                                 ]
@@ -1282,7 +1281,7 @@
                         },
                         "P3X": {
                             "P32": {
-                                "sil": "pugna",
+                                "sil": "pugnu",
                                 "eng": [
                                     "wave"
                                 ]
@@ -1290,7 +1289,7 @@
                         },
                         "P1X": {
                             "P12": {
-                                "sil": "uegna",
+                                "sil": "uegnu",
                                 "eng": [
                                     "word"
                                 ]
@@ -1304,48 +1303,30 @@
             "30": {
                 "T2": {
                     "NP11": {
-                        "P25": {
-                            "sil": "tshushto",
-                            "eng": [
-                                "granularity"
-                            ]
+                        "P0X": {
+                            "P05": {
+                                "sil": "tushtu",
+                                "eng": [
+                                    "granularity"
+                                ]
+                            }
                         }
                     }
                 }
             },
             "31": {
                 "T2": {
-                    "NP11": {
-                        "P15": {
-                            "sil": "uiklo",
-                            "eng": [
-                                "entity"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "32": {
                 "T2": {
-                    "NP11": {
-                        "P11": {
-                            "sil": "uihue",
-                            "eng": [
-                                "identity"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "33": {
                 "T2": {
                     "NP11": {
-                        "P43": {
-                            "sil": "iutru",
-                            "eng": [
-                                "relation"
-                            ]
-                        },
                         "P3X": {},
                         "P4X": {},
                         "P1X": {},
@@ -1358,33 +1339,9 @@
             "34": {
                 "T2": {
                     "NP11": {
-                        "P15": {
-                            "sil": "uicra",
-                            "eng": [
-                                "system"
-                            ]
-                        },
-                        "P23": {
-                            "sil": "tshuro",
-                            "eng": [
-                                "integrity"
-                            ]
-                        },
-                        "P21": {
-                            "sil": "tshoa",
-                            "eng": [
-                                "whole"
-                            ]
-                        },
-                        "P44": {
-                            "sil": "iukao",
-                            "eng": [
-                                "soundness"
-                            ]
-                        },
                         "P2X": {
                             "P23": {
-                                "sil": "tsuro",
+                                "sil": "tsuru",
                                 "eng": [
                                     "composit"
                                 ]
@@ -1392,7 +1349,7 @@
                         },
                         "P5X": {
                             "P53": {
-                                "sil": "tchiro",
+                                "sil": "tchuru",
                                 "eng": [
                                     "organism"
                                 ]
@@ -1405,16 +1362,6 @@
             "35": {
                 "T2": {
                     "NP11": {
-                        "P04": {
-                            "sil": "shea",
-                            "eng": "who"
-                        },
-                        "P34": {
-                            "sil": "trea",
-                            "eng": [
-                                "individual"
-                            ]
-                        },
                         "P2X": {
                             "P21": {
                                 "sil": "tsae",
@@ -1437,12 +1384,6 @@
             "36": {
                 "T2": {
                     "NP11": {
-                        "P40": {
-                            "sil": "iuche",
-                            "eng": [
-                                "family"
-                            ]
-                        },
                         "P5X": {},
                         "P4X": {
                             "P44": {
@@ -1457,7 +1398,7 @@
                         },
                         "P1X": {
                             "P12": {
-                                "sil": "uisi",
+                                "sil": "uisu",
                                 "eng": [
                                     "generation"
                                 ]
@@ -1469,21 +1410,9 @@
             "37": {
                 "T2": {
                     "NP11": {
-                        "P20": {
-                            "sil": "tshuve",
-                            "eng": [
-                                "tribe"
-                            ]
-                        },
-                        "P10": {
-                            "sil": "uive",
-                            "eng": [
-                                "100"
-                            ]
-                        },
                         "P0X": {
                             "P05": {
-                                "sil": "tivre",
+                                "sil": "tuvru",
                                 "eng": [
                                     "gang"
                                 ]
@@ -1495,15 +1424,9 @@
             "38": {
                 "T2": {
                     "NP11": {
-                        "P03": {
-                            "sil": "tsikcha",
-                            "eng": [
-                                "society"
-                            ]
-                        },
                         "P0X": {
                             "P00": {
-                                "sil": "tixi",
+                                "sil": "tuxu",
                                 "eng": [
                                     "institute",
                                     "institution"
@@ -1514,7 +1437,7 @@
                         "P2X": {},
                         "P4X": {
                             "P42": {
-                                "sil": "iugxa",
+                                "sil": "iugxu",
                                 "eng": [
                                     "everyone"
                                 ]
@@ -1522,7 +1445,7 @@
                         },
                         "P1X": {
                             "P12": {
-                                "sil": "uigxa",
+                                "sil": "uigxu",
                                 "eng": [
                                     "popular"
                                 ]
@@ -1534,20 +1457,11 @@
             "39": {
                 "T2": {
                     "NP11": {
-                        "P41": {
-                            "sil": "iukai",
-                            "eng": [
-                                "home"
-                            ],
-                            "happy paronyms": [
-                                "iukei"
-                            ]
-                        },
                         "P0X": {},
                         "P2X": {},
                         "P3X": {
                             "P32": {
-                                "sil": "tshugna",
+                                "sil": "tshugnu",
                                 "eng": [
                                     "state identity"
                                 ]
@@ -1561,15 +1475,9 @@
             "40": {
                 "T2": {
                     "NP11": {
-                        "P35": {
-                            "sil": "roshto",
-                            "eng": [
-                                "resolution"
-                            ]
-                        },
                         "P0X": {
                             "P05": {
-                                "sil": "rhashto",
+                                "sil": "rhushtu",
                                 "eng": [
                                     "way"
                                 ]
@@ -1580,25 +1488,12 @@
             },
             "41": {
                 "T2": {
-                    "NP11": {
-                        "P41": {
-                            "sil": "aokuo",
-                            "eng": [
-                                "thing"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "42": {
                 "T2": {
                     "NP11": {
-                        "P42": {
-                            "sil": "aobu",
-                            "eng": [
-                                "complement"
-                            ]
-                        },
                         "P2X": {
                             "P24": {
                                 "sil": "crheu",
@@ -1609,7 +1504,7 @@
                         },
                         "P1X": {
                             "P15": {
-                                "sil": "oatve",
+                                "sil": "oatvu",
                                 "eng": [
                                     "useful"
                                 ]
@@ -1646,7 +1541,7 @@
                         },
                         "P1X": {
                             "P12": {
-                                "sil": "oatshu",
+                                "sil": "oatsu",
                                 "eng": [
                                     "abundance"
                                 ]
@@ -1658,7 +1553,7 @@
                                 ]
                             },
                             "P15": {
-                                "sil": "oabri",
+                                "sil": "oatchu",
                                 "eng": [
                                     "enemyless"
                                 ]
@@ -1678,14 +1573,7 @@
             },
             "44": {
                 "T2": {
-                    "NP21": {
-                        "sil": "oarha",
-                        "eng": [
-                            "life",
-                            "living",
-                            "alive"
-                        ]
-                    },
+                    "NP21": {},
                     "NP11": {
                         "P0X": {
                             "P04": {
@@ -1697,7 +1585,7 @@
                         },
                         "P4X": {
                             "P42": {
-                                "sil": "aocrho",
+                                "sil": "aocrhu",
                                 "eng": [
                                     "plant"
                                 ]
@@ -1705,7 +1593,7 @@
                         },
                         "P2X": {
                             "P20": {
-                                "sil": "crhorha",
+                                "sil": "crhurhu",
                                 "eng": [
                                     "leaf"
                                 ]
@@ -1713,7 +1601,7 @@
                         },
                         "P1X": {
                             "P15": {
-                                "sil": "oacra",
+                                "sil": "oacru",
                                 "eng": [
                                     "flower"
                                 ]
@@ -1725,18 +1613,6 @@
             "45": {
                 "T2": {
                     "NP11": {
-                        "P54": {
-                            "sil": "crea",
-                            "eng": [
-                                "consonance"
-                            ]
-                        },
-                        "P04": {
-                            "sil": "rhea",
-                            "eng": [
-                                "enjoy"
-                            ]
-                        },
                         "P1X": {
                             "P13": {
                                 "sil": "oasfu",
@@ -1750,40 +1626,15 @@
             },
             "46": {
                 "T2": {
-                    "NP11": {
-                        "P45": {
-                            "sil": "aoske",
-                            "eng": [
-                                "harmony"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "47": {
                 "T2": {
                     "NP11": {
-                        "P00": {
-                            "sil": "rhave",
-                            "eng": [
-                                "beauty"
-                            ]
-                        },
-                        "P12": {
-                            "sil": "oashva",
-                            "eng": [
-                                "affirmation"
-                            ]
-                        },
-                        "P23": {
-                            "sil": "crhosva",
-                            "eng": [
-                                "symphony"
-                            ]
-                        },
                         "P2X": {
                             "P23": {
-                                "sil": "crhosva",
+                                "sil": "crhusvu",
                                 "eng": [
                                     "authentic"
                                 ]
@@ -1812,13 +1663,13 @@
                         },
                         "P1X": {
                             "P13": {
-                                "sil": "oakcha",
+                                "sil": "oakchu",
                                 "eng": [
                                     "because"
                                 ]
                             },
                             "P12": {
-                                "sil": "oagxa",
+                                "sil": "oagxu",
                                 "eng": [
                                     "answer"
                                 ]
@@ -1833,13 +1684,13 @@
                         },
                         "P2X": {
                             "P20": {
-                                "sil": "crhoxi",
+                                "sil": "crhuxu",
                                 "eng": [
                                     "authority"
                                 ]
                             },
                             "P23": {
-                                "sil": "crhokcha",
+                                "sil": "crhukchu",
                                 "eng": [
                                     "domination"
                                 ]
@@ -1854,7 +1705,7 @@
                                 ]
                             },
                             "P43": {
-                                "sil": "aokcha",
+                                "sil": "aokchu",
                                 "eng": [
                                     "potence"
                                 ],
@@ -1875,22 +1726,16 @@
             "49": {
                 "T2": {
                     "NP11": {
-                        "P40": {
-                            "sil": "aongi",
-                            "eng": [
-                                "immortality"
-                            ]
-                        },
                         "P5X": {},
                         "P0X": {
                             "P03": {
-                                "sil": "rhaga",
+                                "sil": "rhugu",
                                 "eng": [
                                     "eternal"
                                 ]
                             },
                             "P02": {
-                                "sil": "rhagna",
+                                "sil": "rhugnu",
                                 "eng": [
                                     "permanent"
                                 ]
@@ -1898,13 +1743,13 @@
                         },
                         "P1X": {
                             "P12": {
-                                "sil": "oagna",
+                                "sil": "oagnu",
                                 "eng": [
                                     "because"
                                 ]
                             },
                             "P15": {
-                                "sil": "oagri",
+                                "sil": "oagru",
                                 "eng": [
                                     "certainty"
                                 ]
@@ -1923,79 +1768,53 @@
                     }
                 },
                 "T3": {
-                    "NP12": {
-                        "P434": {
-                            "sil": "aogia",
-                            "eng": [
-                                "millenialism"
-                            ]
-                        }
-                    }
+                    "NP12": {}
                 }
             }
         },
         "5X": {
             "50": {
                 "T2": {
-                    "NP11": {
-                        "P45": {
-                            "sil": "eashto",
-                            "eng": [
-                                "attachment"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "51": {
                 "T2": {
                     "NP11": {
-                        "P13": {
-                            "sil": "aevlu",
-                            "eng": [
-                                "substance"
-                            ]
-                        },
-                        "P51": {
-                            "sil": "frhuo",
-                            "eng": [
-                                "integrity"
-                            ]
+                        "P2X": {
+                            "P24": {
+                                "sil": "frou",
+                                "eng": [
+                                    "affect",
+                                    "affected",
+                                    "affecting",
+                                    "affection"
+                                ],
+                                "lat": [
+                                    "affectus"
+                                ],
+                                "trad": {
+                                    "lat": [
+                                        "spinoza"
+                                    ]
+                                }
+                            }
                         }
                     }
                 }
             },
             "52": {
                 "T3": {
-                    "NP21": {
-                        "P142": {
-                            "sil": "aeheabu",
-                            "eng": "falsehood"
-                        }
-                    },
+                    "NP21": {},
                     "NP12": {}
                 },
                 "T2": {
-                    "NP11": {
-                        "P11": {
-                            "sil": "aekue",
-                            "eng": [
-                                "illusion"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "53": {
                 "T2": {
-                    "NP11": {
-                        "P15": {
-                            "sil": "aetchi",
-                            "eng": [
-                                "unawareness"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "54": {
@@ -2003,7 +1822,7 @@
                     "NP11": {
                         "P0X": {
                             "P00": {
-                                "sil": "ferha",
+                                "sil": "furhu",
                                 "eng": [
                                     "teaching"
                                 ]
@@ -2019,13 +1838,13 @@
                         },
                         "P3X": {
                             "P30": {
-                                "sil": "sfarha",
+                                "sil": "sfurhu",
                                 "eng": [
                                     "concept"
                                 ]
                             },
                             "P35": {
-                                "sil": "sfacra",
+                                "sil": "sfucru",
                                 "eng": [
                                     "theory"
                                 ]
@@ -2033,7 +1852,7 @@
                         },
                         "P4X": {
                             "P40": {
-                                "sil": "earha",
+                                "sil": "earhu",
                                 "eng": [
                                     "ideology"
                                 ]
@@ -2045,22 +1864,10 @@
             "55": {
                 "T2": {
                     "NP11": {
-                        "P40": {
-                            "sil": "eafe",
-                            "eng": [
-                                "non-attachment"
-                            ]
-                        },
-                        "P45": {
-                            "sil": "eafrhe",
-                            "eng": [
-                                "enough"
-                            ]
-                        },
                         "P0X": {},
                         "P1X": {
                             "P13": {
-                                "sil": "aesfa",
+                                "sil": "aesfu",
                                 "eng": [
                                     "patience"
                                 ]
@@ -2072,11 +1879,13 @@
             "56": {
                 "T2": {
                     "NP11": {
-                        "P15": {
-                            "sil": "aeske",
-                            "eng": [
-                                "dissolution"
-                            ]
+                        "P1X": {
+                            "P13": {
+                                "sil": "aeksu",
+                                "eng": [
+                                    "truth"
+                                ]
+                            }
                         }
                     }
                 }
@@ -2084,11 +1893,23 @@
             "57": {
                 "T2": {
                     "NP11": {
-                        "P45": {
-                            "sil": "eavre",
-                            "eng": [
-                                "disillusion"
-                            ]
+                        "P1X": {
+                            "P11": {
+                                "sil": "aekäe",
+                                "eng": [
+                                    "watch",
+                                    "watching"
+                                ]
+                            }
+                        },
+                        "P3X": {
+                            "P32": {
+                                "sil": "sfushvu",
+                                "eng": [
+                                    "awareness",
+                                    "aware"
+                                ]
+                            }
                         }
                     }
                 }
@@ -2096,18 +1917,11 @@
             "58": {
                 "T2": {
                     "NP11": {
-                        "P21": {
-                            "sil": "fräi",
-                            "eng": [
-                                "awareness"
-                            ]
-                        },
                         "P5X": {
-                            "P54": {
-                                "sil": "frhiä",
+                            "P55": {
+                                "sil": "frhukshu",
                                 "eng": [
-                                    "watch",
-                                    "watching"
+                                    "disillusion"
                                 ]
                             }
                         }
@@ -2117,11 +1931,13 @@
             "59": {
                 "T2": {
                     "NP11": {
-                        "P04": {
-                            "sil": "fia",
-                            "eng": [
-                                "truth"
-                            ]
+                        "P4X": {
+                            "P44": {
+                                "sil": "eakia",
+                                "eng": [
+                                    "dissolution"
+                                ]
+                            }
                         }
                     }
                 }
@@ -2130,28 +1946,15 @@
         "6X": {
             "60": {
                 "T2": {
-                    "NP11": {
-                        "P32": {
-                            "sil": "ksishe",
-                            "eng": [
-                                "self-contradiction"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "61": {
                 "T2": {
                     "NP11": {
-                        "P41": {
-                            "sil": "eikuo",
-                            "eng": [
-                                "attribute"
-                            ]
-                        },
                         "P0X": {
                             "P02": {
-                                "sil": "chenu",
+                                "sil": "chunu",
                                 "eng": [
                                     "essence"
                                 ]
@@ -2159,7 +1962,7 @@
                         },
                         "P4X": {
                             "P45": {
-                                "sil": "eiklo",
+                                "sil": "eiklu",
                                 "eng": [
                                     "mode"
                                 ]
@@ -2171,12 +1974,6 @@
             "62": {
                 "T2": {
                     "NP11": {
-                        "P31": {
-                            "sil": "ksue",
-                            "eng": [
-                                "contradiction"
-                            ]
-                        },
                         "P5X": {},
                         "P0X": {
                             "P13": {
@@ -2200,29 +1997,11 @@
             "63": {
                 "T2": {
                     "NP11": {
-                        "P52": {
-                            "sil": "sketshu",
-                            "eng": [
-                                "exploit"
-                            ]
-                        },
-                        "P53": {
-                            "sil": "sketru",
-                            "eng": [
-                                "game"
-                            ]
-                        },
-                        "P22": {
-                            "sil": "sitshu",
-                            "eng": [
-                                "scarecity"
-                            ]
-                        },
                         "P1X": {},
                         "P5X": {},
                         "P3X": {
                             "P33": {
-                                "sil": "ksitshu",
+                                "sil": "ksutshu",
                                 "eng": [
                                     "capital"
                                 ]
@@ -2236,7 +2015,7 @@
                                 ]
                             },
                             "P42": {
-                                "sil": "eitshu",
+                                "sil": "eitsu",
                                 "eng": [
                                     "competition"
                                 ]
@@ -2244,7 +2023,7 @@
                         },
                         "P0X": {
                             "P02": {
-                                "sil": "chetsu",
+                                "sil": "chutsu",
                                 "eng": [
                                     "inequality"
                                 ]
@@ -2257,15 +2036,9 @@
             "64": {
                 "T2": {
                     "NP11": {
-                        "P10": {
-                            "sil": "ierha",
-                            "eng": [
-                                "death"
-                            ]
-                        },
                         "P4X": {
                             "P40": {
-                                "sil": "eirha",
+                                "sil": "eirhu",
                                 "eng": [
                                     "kill",
                                     "killing"
@@ -2274,7 +2047,7 @@
                         },
                         "P3X": {
                             "P35": {
-                                "sil": "ksicra",
+                                "sil": "ksucru",
                                 "eng": [
                                     "suicide"
                                 ]
@@ -2285,49 +2058,22 @@
             },
             "65": {
                 "T2": {
-                    "NP11": {
-                        "P41": {
-                            "sil": "eikae",
-                            "eng": [
-                                "dissonance"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "66": {
                 "T2": {
-                    "NP11": {
-                        "P30": {
-                            "sil": "ksiche",
-                            "eng": [
-                                "disharmony"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "67": {
                 "T2": {
-                    "NP11": {
-                        "P42": {
-                            "sil": "eishva",
-                            "eng": [
-                                "doubt"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "68": {
                 "T2": {
                     "NP11": {
-                        "P05": {
-                            "sil": "chekshi",
-                            "eng": [
-                                "reception"
-                            ]
-                        },
                         "P0X": {},
                         "P1X": {},
                         "P5X": {}
@@ -2336,28 +2082,14 @@
             },
             "69": {
                 "T2": {
-                    "NP11": {
-                        "P31": {
-                            "sil": "ksai",
-                            "eng": [
-                                "the now"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             }
         },
         "8X": {
             "80": {
                 "T2": {
-                    "NP11": {
-                        "P51": {
-                            "sil": "ksheo",
-                            "eng": [
-                                "simplicity"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "81": {
@@ -2365,7 +2097,7 @@
                     "NP11": {
                         "P5X": {
                             "P50": {
-                                "sil": "kshade",
+                                "sil": "kshumu",
                                 "eng": [
                                     "non-fixation"
                                 ]
@@ -2379,7 +2111,7 @@
                     "NP11": {
                         "P5X": {
                             "P54": {
-                                "sil": "kshou",
+                                "sil": "ksheu",
                                 "eng": [
                                     "non-reflection"
                                 ]
@@ -2407,7 +2139,7 @@
                     "NP11": {
                         "P4X": {
                             "P40": {
-                                "sil": "iäfe",
+                                "sil": "iärhu",
                                 "eng": [
                                     "non-oscillation"
                                 ]
@@ -2421,7 +2153,7 @@
                     "NP11": {
                         "P2X": {
                             "P25": {
-                                "sil": "gxacra",
+                                "sil": "gxufrhu",
                                 "eng": [
                                     "non-sequence"
                                 ]
@@ -2435,7 +2167,7 @@
                     "NP11": {
                         "P3X": {
                             "P33": {
-                                "sil": "kchaksa",
+                                "sil": "kchuksu",
                                 "eng": [
                                     "non-projection"
                                 ]
@@ -2443,7 +2175,7 @@
                         },
                         "P2X": {
                             "P20": {
-                                "sil": "gxache",
+                                "sil": "gxuchu",
                                 "eng": [
                                     "literal"
                                 ]
@@ -2454,41 +2186,21 @@
             },
             "87": {
                 "T2": {
-                    "NP11": {
-                        "P45": {
-                            "sil": "iävre",
-                            "eng": [
-                                "purity"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "88": {
                 "T2": {
-                    "NP11": {
-                        "P30": {
-                            "sil": "kchaxi",
-                            "eng": [
-                                "convergence"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "89": {
                 "T2": {
                     "NP11": {
-                        "P15": {
-                            "sil": "äigri",
-                            "eng": [
-                                "uniformity"
-                            ]
-                        },
                         "P0X": {},
                         "P4X": {
                             "P42": {
-                                "sil": "iägna",
+                                "sil": "iägnu",
                                 "eng": [
                                     "stagnation"
                                 ]
@@ -2509,65 +2221,31 @@
         "7X": {
             "70": {
                 "T2": {
-                    "NP11": {
-                        "P42": {
-                            "sil": "eäshe",
-                            "eng": [
-                                "self-similarity"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "71": {
                 "T2": {
-                    "NP11": {
-                        "P05": {
-                            "sil": "veklo",
-                            "eng": [
-                                "plurality"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "72": {
                 "T2": {
-                    "NP11": {
-                        "P13": {
-                            "sil": "äetu",
-                            "eng": [
-                                "operation"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "73": {
                 "T2": {
-                    "NP11": {
-                        "P13": {
-                            "sil": "äetru",
-                            "eng": [
-                                "interaction"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "74": {
                 "T2": {
                     "NP11": {
-                        "P45": {
-                            "sil": "eäcra",
-                            "eng": [
-                                "part"
-                            ]
-                        },
                         "P1X": {},
                         "P0X": {
                             "P02": {
-                                "sil": "vecrho",
+                                "sil": "vucrhu",
                                 "eng": [
                                     "jenga stone"
                                 ]
@@ -2578,63 +2256,27 @@
             },
             "75": {
                 "T2": {
-                    "NP11": {
-                        "P12": {
-                            "sil": "äefra",
-                            "eng": [
-                                "self-alienation",
-                                "alienation"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "76": {
                 "T2": {
-                    "NP11": {
-                        "P45": {
-                            "sil": "eäske",
-                            "eng": [
-                                "stranger"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "77": {
                 "T2": {
-                    "NP11": {
-                        "P51": {
-                            "sil": "vräe",
-                            "eng": [
-                                "outcast"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "78": {
                 "T2": {
-                    "NP11": {
-                        "P50": {
-                            "sil": "vrexi",
-                            "eng": [
-                                "alien"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "79": {
                 "T2": {
-                    "NP11": {
-                        "P55": {
-                            "sil": "vregri",
-                            "eng": [
-                                "homeless"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             }
         },
@@ -2642,15 +2284,9 @@
             "90": {
                 "T2": {
                     "NP11": {
-                        "P10": {
-                            "sil": "aizo",
-                            "eng": [
-                                "unity"
-                            ]
-                        },
                         "P3X": {
                             "P30": {
-                                "sil": "gazo",
+                                "sil": "guzu",
                                 "eng": [
                                     "gather"
                                 ]
@@ -2662,15 +2298,9 @@
             "91": {
                 "T2": {
                     "NP11": {
-                        "P12": {
-                            "sil": "ainu",
-                            "eng": [
-                                "skin"
-                            ]
-                        },
                         "P3X": {
                             "P33": {
-                                "sil": "gavlu",
+                                "sil": "guvlu",
                                 "eng": [
                                     "hospital"
                                 ]
@@ -2680,35 +2310,22 @@
                 },
                 "T3": {
                     "NP21": {
-                        "P1X": {
-                            "P154": {
-                                "sil": "aigrou",
-                                "eng": [
-                                    "hotel"
-                                ]
-                            }
-                        }
+                        "P1X": {}
                     }
                 }
             },
             "92": {
                 "T2": {
                     "NP11": {
-                        "P53": {
-                            "sil": "gritu",
-                            "eng": [
-                                "fragmentation"
-                            ]
-                        },
                         "P2X": {
                             "P22": {
-                                "sil": "gnabu",
+                                "sil": "gnubu",
                                 "eng": [
                                     "bad"
                                 ]
                             },
                             "P23": {
-                                "sil": "gnapu",
+                                "sil": "gnupu",
                                 "eng": [
                                     "loose",
                                     "loosing",
@@ -2718,13 +2335,13 @@
                         },
                         "P5X": {
                             "P50": {
-                                "sil": "gride",
+                                "sil": "grudu",
                                 "eng": [
                                     "evil"
                                 ]
                             },
                             "P53": {
-                                "sil": "gripu",
+                                "sil": "grupu",
                                 "eng": [
                                     "independent",
                                     "independence"
@@ -2749,7 +2366,7 @@
                     "NP11": {
                         "P0X": {
                             "P00": {
-                                "sil": "",
+                                "sil": "ngutu",
                                 "eng": [
                                     "constriction",
                                     "lust",
@@ -2759,7 +2376,7 @@
                                 ]
                             },
                             "P02": {
-                                "sil": "gnati",
+                                "sil": "ngutsu",
                                 "eng": [
                                     "constriction",
                                     "lust",
@@ -2771,7 +2388,7 @@
                         },
                         "P1X": {
                             "P10": {
-                                "sil": "aiti",
+                                "sil": "aitu",
                                 "eng": [
                                     "collapse",
                                     "collapsing"
@@ -2809,7 +2426,7 @@
                                 ]
                             },
                             "P15": {
-                                "sil": "aitchi",
+                                "sil": "aitchu",
                                 "eng": [
                                     "implode",
                                     "imploding"
@@ -2824,7 +2441,7 @@
                                 ]
                             },
                             "P23": {
-                                "sil": "gnatshu",
+                                "sil": "gnutshu",
                                 "eng": [
                                     "on cloud nine"
                                 ]
@@ -2836,7 +2453,7 @@
                                 ]
                             },
                             "P20": {
-                                "sil": "gnata",
+                                "sil": "gnutu",
                                 "eng": [
                                     "hug",
                                     "hugging"
@@ -2845,31 +2462,31 @@
                         },
                         "P3X": {
                             "P30": {
-                                "sil": "ngiti",
+                                "sil": "gutu",
                                 "eng": [
                                     "absorb"
                                 ]
                             },
                             "P31": {
-                                "sil": "ngui",
+                                "sil": "gui",
                                 "eng": [
                                     "consume"
                                 ]
                             },
                             "P32": {
-                                "sil": "ngitsu",
+                                "sil": "gutsu",
                                 "eng": [
                                     "eat"
                                 ]
                             },
                             "P33": {
-                                "sil": "ngitshu",
+                                "sil": "gutshu",
                                 "eng": [
                                     "devour"
                                 ]
                             },
                             "P34": {
-                                "sil": "ngiu",
+                                "sil": "giu",
                                 "eng": [
                                     "suck"
                                 ]
@@ -2877,7 +2494,7 @@
                         },
                         "P5X": {
                             "P50": {
-                                "sil": "griti",
+                                "sil": "grutu",
                                 "eng": [
                                     "clasp",
                                     "clasping"
@@ -2891,7 +2508,7 @@
                                 ]
                             },
                             "P52": {
-                                "sil": "gritsu",
+                                "sil": "grutsu",
                                 "eng": [
                                     "cling",
                                     "clingy",
@@ -2899,7 +2516,7 @@
                                 ]
                             },
                             "P53": {
-                                "sil": "gritshu",
+                                "sil": "grutshu",
                                 "eng": [
                                     "grab",
                                     "grabbing"
@@ -2920,80 +2537,32 @@
             },
             "94": {
                 "T2": {
-                    "NP11": {
-                        "P21": {
-                            "sil": "gnoa",
-                            "eng": [
-                                "fluidity"
-                            ]
-                        },
-                        "P03": {
-                            "sil": "ngiro",
-                            "eng": [
-                                "softness"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "95": {
                 "T2": {
-                    "NP11": {
-                        "P35": {
-                            "sil": "gafrhe",
-                            "eng": [
-                                "positionless"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "96": {
                 "T2": {
-                    "NP11": {
-                        "P40": {
-                            "sil": "iache",
-                            "eng": [
-                                "directionless"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "97": {
                 "T2": {
-                    "NP11": {
-                        "P43": {
-                            "sil": "iasva",
-                            "eng": [
-                                "stillness"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "98": {
                 "T2": {
-                    "NP11": {
-                        "P13": {
-                            "sil": "aikcha",
-                            "eng": [
-                                "deceleration"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             },
             "99": {
                 "T2": {
-                    "NP11": {
-                        "P35": {
-                            "sil": "gagri",
-                            "eng": [
-                                "ceassation"
-                            ]
-                        }
-                    }
+                    "NP11": {}
                 }
             }
         }
