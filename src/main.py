@@ -77,8 +77,11 @@ def main():
             
             save_dict(sildict)
 
-        elif scmd[0] in ["3"]:
+        elif scmd[0] in ["4"]:
+
             refresh_dict_XX(sildict, phondict)
+            save_dict(sildict)
+
 
 def add_rand_term_to_dict(eng, F, T, sildict, phondict):
 
@@ -160,15 +163,19 @@ def P_to_sil_XX(F, NP, P, phondict):
     return sil
 
 def refresh_dict_XX(sildict, phondict):
-    for XX_key, XX in sildict["F1"].items():
+
+    for XX_key, XX in sildict["1F"].items():
         for F_key, F in XX.items():
             for T_key, T in F.items():
-                if T_key == "2":
+                if T_key == "T2":
                     for NP_key, NP in T.items():
                         for PX_key, PX in NP.items():
                             for P_key in PX:
-                                sil = P_to_sil_XX(F_key, NP_key[:2], P_key[:1], phondict)
-                                sildict["F1"][XX_key][F_key][T_key][NP_key][PX_key][P_key]["sil"] = sil
+                                print(F_key, NP_key, T_key, P_key)
+                                sil = P_to_sil_XX(F_key, NP_key[2:], P_key[1:], phondict)
+                                sildict["1F"][XX_key][F_key][T_key][NP_key][PX_key][P_key]["sil"] = sil
+                                if F_key == "23" and P_key == "P40":
+                                    print(sil)
 
 
 def rand_XXXX_sil_and_add(eng, F, tier, sildict, phondict):
