@@ -282,6 +282,57 @@
             "03": {
                 "T1": {
                     "NP01": {
+                        "P3": {
+                            "sil": "ru",
+                            "eng": "with"
+                        },
+                        "P5": {
+                            "sil": "cru",
+                            "eng": "and"
+                        }
+                    }
+                },
+                "T2": {
+                    "NP11": {
+                        "P13": {
+                            "sil": "zocrha",
+                            "eng": [
+                                "archetype"
+                            ],
+                            "trad": [
+                                "jung"
+                            ]
+                        },
+                        "P0X": {
+                            "P03": {
+                                "sil": "zuru",
+                                "eng": [
+                                    "spirit"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "T3": {
+                    "NP12": {
+                        "P5X": {},
+                        "P1XX": {
+                            "P10X": {
+                                "P101": {
+                                    "sil": "eorhoa",
+                                    "eng": [
+                                        "externalization"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            },
+            "04": {
+                "T1": {
+                    "NP01": {
                         "P1": {
                             "sil": "ui",
                             "eng": "you"
@@ -350,58 +401,8 @@
                             }
                         }
                     }
-                }
-            },
-            "04": {
-                "T1": {
-                    "NP01": {
-                        "P3": {
-                            "sil": "ru",
-                            "eng": "with"
-                        },
-                        "P5": {
-                            "sil": "cru",
-                            "eng": "and"
-                        }
-                    }
                 },
-                "T2": {
-                    "NP11": {
-                        "P13": {
-                            "sil": "zocrha",
-                            "eng": [
-                                "archetype"
-                            ],
-                            "trad": [
-                                "jung"
-                            ]
-                        },
-                        "P0X": {
-                            "P03": {
-                                "sil": "zuru",
-                                "eng": [
-                                    "spirit"
-                                ]
-                            }
-                        }
-                    }
-                },
-                "T3": {
-                    "NP12": {
-                        "P5X": {},
-                        "P1XX": {
-                            "P10X": {
-                                "P101": {
-                                    "sil": "eorhoa",
-                                    "eng": [
-                                        "externalization"
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            },
+                
             "05": {
                 "T2": {
                     "NP11": {
@@ -945,27 +946,6 @@
             "21": {
                 "T2": {
                     "NP11": {
-                        "P43": {
-                            "sil": "eutu",
-                            "eng": [
-                                "reflection"
-                            ]
-                        },
-                        "P0X": {
-                            "P02": {
-                                "sil": "debu",
-                                "eng": [
-                                    "light"
-                                ]
-                            }
-                        },
-                        "P3X": {}
-                    }
-                }
-            },
-            "22": {
-                "T2": {
-                    "NP11": {
                         "P0X": {
                             "P00": {
                                 "sil": "deti",
@@ -1033,6 +1013,29 @@
                         "P5X": {}
                     }
                 }
+                
+            },
+            "22": {
+                "T2": {
+                    "NP11": {
+                        "P43": {
+                            "sil": "eutu",
+                            "eng": [
+                                "reflection"
+                            ]
+                        },
+                        "P0X": {
+                            "P02": {
+                                "sil": "debu",
+                                "eng": [
+                                    "light"
+                                ]
+                            }
+                        },
+                        "P3X": {}
+                    }
+                }
+                
             },
             "23": {
                 "T2": {
@@ -1116,6 +1119,20 @@
             "24": {
                 "T2": {
                     "NP11": {
+                        "P3X": {
+                            "P30": {
+                                "sil": "pufe",
+                                "eng": [
+                                    "oscillation"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "25": {
+                "T2": {
+                    "NP11": {
                         "P32": {
                             "sil": "tufra",
                             "eng": [
@@ -1146,20 +1163,7 @@
                         }
                     }
                 }
-            },
-            "25": {
-                "T2": {
-                    "NP11": {
-                        "P3X": {
-                            "P30": {
-                                "sil": "pufe",
-                                "eng": [
-                                    "oscillation"
-                                ]
-                            }
-                        }
-                    }
-                }
+                
             },
             "26": {
                 "T2": {
@@ -2334,10 +2338,10 @@
                 "T2": {
                     "NP11": {
                         "P5X": {
-                            "P54": {
-                                "sil": "kshou",
+                            "P50": {
+                                "sil": "kshade",
                                 "eng": [
-                                    "non-reflection"
+                                    "non-fixation"
                                 ]
                             }
                         }
@@ -2348,15 +2352,16 @@
                 "T2": {
                     "NP11": {
                         "P5X": {
-                            "P50": {
-                                "sil": "kshade",
+                            "P54": {
+                                "sil": "kshou",
                                 "eng": [
-                                    "non-fixation"
+                                    "non-reflection"
                                 ]
                             }
                         }
                     }
                 }
+                
             },
             "83": {
                 "T2": {
@@ -2375,25 +2380,26 @@
             "84": {
                 "T2": {
                     "NP11": {
-                        "P2X": {
-                            "P25": {
-                                "sil": "gxacra",
-                                "eng": [
-                                    "non-sequence"
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            "85": {
-                "T2": {
-                    "NP11": {
                         "P4X": {
                             "P40": {
                                 "sil": "iäfe",
                                 "eng": [
                                     "non-oscillation"
+                                ]
+                            }
+                        }
+                    }
+                }
+                
+            },
+            "85": {
+                "T2": {
+                    "NP11": {
+                        "P2X": {
+                            "P25": {
+                                "sil": "gxacra",
+                                "eng": [
+                                    "non-sequence"
                                 ]
                             }
                         }

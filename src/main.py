@@ -160,15 +160,15 @@ def P_to_sil_XX(F, NP, P, phondict):
     return sil
 
 def refresh_dict_XX(sildict, phondict):
-    for XX in sildict["F1"]:
-        for F in XX:
-            for T in F:
-                if T == "2":
-                    for NP in T:
-                        for PX in NP:
-                            for P in PX:
-                                sil = P_to_sil_XX(F, NP[:2], P[:1], phondict)
-                                sildict["F1"][XX][F][T][NP][PX][P]["sil"] = sil
+    for XX_key, XX in sildict["F1"].items():
+        for F_key, F in XX.items():
+            for T_key, T in F.items():
+                if T_key == "2":
+                    for NP_key, NP in T.items():
+                        for PX_key, PX in NP.items():
+                            for P_key in PX:
+                                sil = P_to_sil_XX(F_key, NP_key[:2], P_key[:1], phondict)
+                                sildict["F1"][XX_key][F_key][T_key][NP_key][PX_key][P_key]["sil"] = sil
 
 
 def rand_XXXX_sil_and_add(eng, F, tier, sildict, phondict):

@@ -2,8 +2,8 @@
 
     01 = Graspable
     02 = Body
-    03 = Soul
-    04 = Spirit
+    03 = Spirit
+    04 = Soul
 
     05 = Mind
     06 = Consciousness
@@ -27,13 +27,13 @@
     19 = conflagration 99 = ceassation    
 
 20 = Complexity    80 = Simplicity
-                    
-    21 = Reflection    81 = non-reflection
-    22 = Similarity    82 = non-similarity
+
+    21 = Similarity    81 = non-similarity             
+    22 = Reflection    82 = non-reflection
     23 = Repetition    83 = non-repetition
 
-    24 = Sequence      84 = non-sequence
-    25 = Oscillation   85 = non-oscillation
+    24 = Oscillation   84 = non-oscillation
+    25 = Sequence      85 = non-sequence
     26 = Projection    86 = non-projection
 
     27 = Order         87 = Chaos
