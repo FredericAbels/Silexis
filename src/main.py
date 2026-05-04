@@ -15,31 +15,38 @@ def load_dict(file_path):
         return json.load(file)   
 
 def save_dict(sildict):
+
     with open(path_sildict, "w") as f:
         json.dump(sildict, f, indent=4, ensure_ascii=False, sort_keys=True)
+
+    return
 
 
 def main():
     sildict = load_dict(path_sildict)
     phondict = load_dict(path_phonemes)
 
-    print("\nOptions:")
-    print("0 [eng] [F]")
-    print("1 [eng] [F] [tier]")
-    print("2 [F] [P] [eng]")
-    print("3 [NP] [F] [P] [eng]")
-    print("4 refresh dictionary")
-    print()
-
     one_loop_completed = False
     while True:
 
         scmd = None
 
-        if len(sys.argv) == 1 or one_loop_completed:
+        if len(sys.argv) == 1:
+
+            if not one_loop_completed:
+                print("\nOptions:")
+                print("0 [eng] [F]")
+                print("1 [eng] [F] [tier]")
+                print("2 [F] [P] [eng]")
+                print("3 [NP] [F] [P] [eng]")
+                print("4 refresh dictionary")
+                print()
+
             cmd = input()
             scmd = cmd.split()
         else:
+            if one_loop_completed:
+                return
             scmd = sys.argv[1:]
 
         if scmd == []:
@@ -211,15 +218,22 @@ def add_to_node(node, eng, sil, P):
     node["P"+P] = {"sil": sil, "eng": eng.replace("_", " ").split(",")}
 
 def to_rand_sil_code(np_list):
-    silcode = ""
+    P = ""
     for i in np_list:
         j = i
         rand = -1
         while j >= 1:
-            rand = random.randint(rand + 1, 5 - j + 1)
-            silcode = silcode + str(rand)
+            rand = random.randint(rand + 1, 6 - j)
+            P = P + str(rand)
             j = j - 1
-    return silcode
+
+    if P[-2] == "0":
+
+        P = list(P)
+        P[-2] = str(random.randint(1, 5)) 
+        P = "".join(P)
+
+    return P
 
 def P_to_sil_XX(F, NP, P, phondict):
 

@@ -81,3 +81,89 @@
     57 = Awareness
     58 = Disillusion
     59 = Dissolution
+
+Version 2
+
+00 = Absolute
+
+    01 = Graspable
+    02 = Body
+    03 = Spirit
+    04 = Soul
+
+    05 = Mind
+    06 = Consciousness
+    07 = Idea
+    08 = Meaning
+
+    09 = Ungraspable
+
+10 = Duality       90 = Unity
+
+    11 = Skin          91 = Flesh
+    12 = Fragmentation 92 = Cohesion
+    13 = Stability     93 = Collapse
+    14 = Fluidity      94 = Centeredness      
+
+    15 = position      95 = positionless  
+    16 = direction     96 = directionless 
+    17 = velocity      97 = stillness     
+    18 = acceleration  98 = deceleration  
+
+    19 = conflagration 99 = ceassation    
+
+20 = Complexity    80 = Simplicity
+
+    21 = Similarity    81 = non-similarity             
+    22 = Reflection    82 = non-reflection
+    23 = Repetition    83 = non-repetition
+
+    24 = Oscillation   84 = non-oscillation
+    25 = Sequence      85 = non-sequence
+    26 = Projection    86 = non-projection
+
+    27 = Order         87 = Chaos
+    28 = Convergence   88 = Divergence
+    29 = Intelligence  89 = Purity
+    
+30 = Granularity   70 = self-similarity
+    
+    31 = Plurality     71 = Entity
+    32 = Operation     72 = Identity
+    33 = Interaction   73 = Relation
+    34 = Part          74 = System
+
+    35 = Individual    75 = Alienation
+    36 = Family        76 = Stranger
+    37 = Tribe         77 = Outcast
+    38 = Society       78 = Alien
+
+    39 = Home          79 = Homeless
+    
+40 = Resolution    60 = self-contradiction
+
+    41 = Thing         61 = Attribute
+    42 = Complement    62 = Contradiction
+    43 = Symbiosis     63 = Exploit
+    44 = Life          64 = Death
+
+    45 = Consonance    65 = Dissonance
+    46 = Harmony       66 = Disharmony
+    47 = Beauty        67 = Doubt
+    48 = Projectivity  68 = Receptability
+
+    49 = Immortality   69 = The now
+
+50 = Attachment
+
+    51 = Substance
+    52 = Illusion
+    53 = Unawareness
+    54 = concept
+
+55 = Non-Attachment
+
+    56 = Truth
+    57 = Awareness
+    58 = Disillusion
+    59 = Dissolution

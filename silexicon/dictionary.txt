@@ -1,61 +1,73 @@
-{
-"XX": {
-    "0X": {
-        "00": {	
-			"T0": {
-				"0:1-0:1"
-			}
-            "T1"
-                be	(o-) ze (-p)
-                the	(l-) eo (-p)
-                zero
-            "T2"
-                0th principle	ezoel
-                number 0
-                0th
-                the absolute
-                continuity
-                substance
-                god
-                cosmos
-        }
+
+XX
+    0X
+        00	
+			
+			be	(o-) ze (-p)
+			the	(l-) eo (-p)
+			zero
+		
+			0th principle	ezoel
+			number 0
+			0th
+			the absolute
+			continuity
+			substance
+			god
+			cosmos
+
         01
-            1P01
+			T1
                 this
                 what
 				that
                 have
                 one
+				number 1
 
-            2P01
-                Graspable
-                1st principle
-                number 1
-                first	leone
-                matter	oem
-            3P01
+			T2
+				P0X
+					1st principle
+					matter
+					grasping
+					phenomenon
+					senses
+					body parts
+					
+				matter
+					ground
+					rock
+					stone
+					wood
 
-                rock 	
-                ground	
+				body parts
+					leg
+					arm
+					hand
+					foot
+				
+				senses
+					taste
+					look
+					see
+					touch
+						hot
+					sense
+					hear
+					smell
 
-                foot	olemu
+				grasping
+					find
+					have
+					posessive marking
+					handle
 
-                hand	
-                leg 	zen
-                arm 	
+				phenomenon
+					appear
+					sound
+					color
 
-                sense
-                see
-                taste
-                smellness
-                touchness
-                hearness
-                sound	otsena
-                phenomenonness 
-                appearing
-
-                cubeness	zuno
-                radio zoenou
+				
 
         02
             1P02	
@@ -566,11 +578,9 @@
                 inducing
                 design
                 protagonist	proaxa
-
-                playing	lopago
+				muscle
                 }
 			
-
 		49
 			Eternity	ria
 			49th principle csaoga
