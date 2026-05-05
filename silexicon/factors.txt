@@ -150,13 +150,13 @@ Version 2
     45 = Consonance    65 = Dissonance
     46 = Harmony       66 = Disharmony
     47 = Beauty        67 = Doubt
-    48 = Projectivity  68 = Receptability
+    48 = Weight        68 = lightness
 
     49 = Immortality   69 = The now
 
 50 = Attachment
 
-    51 = Substance
+    51 = Affect
     52 = Illusion
     53 = Unawareness
     54 = concept
