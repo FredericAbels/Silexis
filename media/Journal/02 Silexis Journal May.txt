@@ -551,31 +551,36 @@ What is coherence precisely? Non judgement? Harmonic ratios?
 
 5
 
-Attempt at a description of Silexis in the style of the tractatus logico-philosophicus:
+Logisch-philosophische Abhandlung über den silexischen Naturalismus.
+Der Grundstein der Silexologie.
 
-0 what is quality?
+1:0 Die Realität ist Feld. 
+1:1 Das Feld ist Seitenartig. 
+1:2 Die Seitenartigkeit setzt sich aus drei Eigenschaften zusammen:
 
-1 Reality is field.
-1 Die Realität ist Feld.
+    1.1:0 Die Federartigkeit. 
+    1.1:1 Die Federartigkeit setzt sich aus zwei Eigenschaften zusammen:
 
-    1.1 Field has the string quality (2). The string quality combines two qualities:
-    1.1 Das Feld ist Seitenartig (2). Die Seitenartigkeit setzt sich aus zwei Eigenschaften zusammen:
-
-        1.11 The spring-quality. The spring-quality combines two qualities:
-        1.11 Die Federartigkeit. Die Federartigkeit setzt sich aus zwei Eigenschaften zusammen:
-                    
-            1.111 The ability to have direction.
-            1.112 If it has direction, it will change direction.
-
-        1.112 The ability of resting in itself. The attribute of resting in itself combines two attributes:
-        1.112 Das in sich selbst ruhen. Das in sich selbst ruhen impliziert zwei Verhaltensweisen:
-
-            1.1121 If it is directionless, it stays directionless without influence.
-            1.1122 If it has direction, it keeps that quality without influence.
+    12.0 Das in sich selbst ruhen. 
+    12.1 Das in sich selbst ruhen impliziert zwei Verhaltensweisen:
 
 
+1.0 Reality is field. 
+1.1 Field has the string quality. 
+1.2 The string quality combines three qualities:
 
+    11.0 The ability to move.
+    11.1 The ability to move is the ability to have direction.
+    12 If it has direction, it will change direction at frequency f.
+    13.0 The ability to rest in itself. 
+    13.1 The ability to rest in itself combines two attributes:
 
+        131.0 If it is directionless, it stays directionless without influence.
+        131.1 When a thing with string quality gains direction from a state of directionlessness due to influence, it is called exitation. 
+        132.0 If it has direction, it keeps that quality without influence.
+        132.1 If a thing with string quality loses direction due to influence, it is called inhibition.
+
+Learning more about physics, this is bullshit. But I do like the rethoric and the structure.
 
 6
 
@@ -588,3 +593,127 @@ Idea: An oscillator network is a network of different point masses that interact
 7
 
 Wait I just realized I can make pronounciation match with meaning by arranging the groups and the elements in each group.
+
+8
+
+Remember nodes in standing waves
+
+remember potential well
+
+"The wavefunction ψ(x) isn’t a physical wave like water. It’s more like a pattern that encodes probabilities."
+
+"
+1. What is the potential?
+
+The potential (usually written V(x)) is:
+
+the potential energy of a particle as a function of position
+
+So instead of saying “there’s a force pushing here,” we say:
+
+“If the particle is at position x, it has energy V(x)”
+
+That’s all it is: a map from position → energy.
+"
+
+May.6
+
+1
+
+Apparently, the standing wave of the electron in the atom is confined between the proton and infinity. But how is that really confinement?
+
+Hold up, the term exitement is used in physics and it means increasing the energy of a particle (?)
+
+2
+
+Remember this notion: The darwinian problem of nature is not how to produce consciousness, it is how to conserve the structure of consciousness at high mass.
+
+3
+
+I want to find the most abstract representation of everything. This is gon be hard. I don't think it's going to be the directed graph.
+
+Idea: Define a metaphysical particle recursively. "A particle is the interaction of particles in a field". We're getting somewhere. 
+
+31 Idea: The interaction of particles can be described with a directed graph with the following characteristics: 
+    311 There is an edge from every point to every point. 
+    312 Each edge e = (v_1, v_2) has a value r assigned to it that is the ratio of each mass. 
+        3121 So r(e) = m(v_1)/m(v_2)
+
+32 Let m = {v_1...v_n}. Then m(v) = \sum_{i}^{n}m(v_i).
+33 Each particle moves.
+34 according to this logic, any set of particles can be seen as a particle.
+341 Idea: Given a set of particles, the power set is the set of all particles that arise from this set.
+
+I want to orient myself to the notation of physics.
+
+What is substance 51 in this model? Mass, energy or velocity? All three?
+
+potential well seems to be 11 skin.
+
+What is the difference between substance and flesh? I think the only difference is that flesh points to skin as it's counterpart and substance points to dissolution as its counterpart.
+
+35 Idea: Let's rename particle to "person". A person has the attribute of Integrity.
+
+Is denstiy even important? Let's try to define Integrity first.
+
+Find a way to somehow define personhood in such a way, that p(P) = 1 if and only if integrity i(P) = 1
+
+Note: If personhood is defined as recursive integrity, is the logarithmic spiral a person?
+
+All of this is still really fresh but I really like where this is going. Getting super duper formal I love it. Even more formal then Wittgenstein in a way.
+
+36 Define person p = (c i), with C := {c_1, ..., c_n|c_i \in C}
+
+An entity e is either a composite or a particle. An Entity has a position x_e(t).
+
+A composite is a set of entities: p = {p_1, ..., p_n}. 
+
+The personhood of a composite is the delta of its integrity.
+
+The integrity of the composite is the delta of it's volume.
+
+The volume of a composite is the lebesgue measure on its convex hull.
+
+\Rightarrow collapse f_{93}(e) = "the set of all states of e where i(e) < 0"
+
+4
+
+It seems what I'm steering towards is "mind has the strucutre of nature" in contrast to "nature has the structure of mind" so it is a kind of naturalism it seems but at the end it does not matter too much since both statements have the same meaning in Frege terms. At the end I'm thinking about leaving it open what kind of -ism it is.
+
+The thing I would gain though is that Silexian naturalism sounds better then silexism since the latter sounds similar to sexism.
+
+I feel like when I say something like "it doesn't matter" what this points to is that the Silexian teaching is mainly a kind of pragmatism. Yeah that makes a lot of sense actually, this encapsulates my motivation pretty well. I'm using metaphysical language not for it's own sake but for pragmatical reasons.
+
+Notion: Marxism-Leninism is pragmatic Marxism.
+
+Yeah I'm getting really freaking comfortable with the idea that I'm pursuing a kind of pragmatism.
+
+What I could also do to avoid the term silexism is use "silexian teaching" instead.
+
+5
+
+Idea: The aestetic of Silexis is eclectic.
+
+6
+
+Idea: In 48, efficacy comes through mass and in 68, it comes through energy. 
+
+7
+
+Title for a book
+
+Sileixis: Der versuch einer Mathematischen ontologie
+
+Silexis: An essay on a mathematical ontology
+
+8
+
+I never realized that essay means attempt.
+
+9
+
+I need to find a word that encapsulates what silexis wants to be. It should combine universal poesie, religion, ideologie, characteristica universalis, formal ontology, etc.
+
+Maybe it's "holistic formal ontology". Sounds banger. Or "mathematical holistic ontology" since Silexis is on the trajectory to be not only formal but also mathematical.
+
+Das Silex: Das Sein in mathematischer Ordnung dargestellt

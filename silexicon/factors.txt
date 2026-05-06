@@ -103,7 +103,7 @@ Version 2
     11 = Skin          91 = Flesh
     12 = Fragmentation 92 = Cohesion
     13 = Stability     93 = Collapse
-    14 = Fluidity      94 = Centeredness      
+    14 = Fluidity      94 = Integrity    
 
     15 = position      95 = positionless  
     16 = direction     96 = directionless 
@@ -159,7 +159,7 @@ Version 2
     51 = Affect
     52 = Illusion
     53 = Unawareness
-    54 = concept
+    54 = Signifier
 
 55 = Non-Attachment
 

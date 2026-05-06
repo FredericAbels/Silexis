@@ -745,7 +745,22 @@
             "11": {
                 "T2": {
                     "NP11": {
-                        "P2X": {},
+                        "P1X": {
+                            "P15": {
+                                "eng": [
+                                    "confinement"
+                                ],
+                                "sil": "uoklu"
+                            }
+                        },
+                        "P2X": {
+                            "P25": {
+                                "eng": [
+                                    "enclosure"
+                                ],
+                                "sil": "neklu"
+                            }
+                        },
                         "P3X": {
                             "P33": {
                                 "eng": [
@@ -823,56 +838,12 @@
             "14": {
                 "T2": {
                     "NP11": {
-                        "P1X": {
-                            "P10": {
+                        "P3X": {
+                            "P34": {
                                 "eng": [
-                                    "rigid",
-                                    "rigidity"
+                                    "fluidity"
                                 ],
-                                "sil": "uorha"
-                            },
-                            "P11": {
-                                "eng": [
-                                    "hard",
-                                    "hardly",
-                                    "hardening"
-                                ],
-                                "sil": "uokoa"
-                            },
-                            "P12": {
-                                "eng": [
-                                    "prayer pose"
-                                ],
-                                "sil": "uocrhe"
-                            }
-                        },
-                        "P2X": {
-                            "P23": {
-                                "eng": [
-                                    "integrity"
-                                ],
-                                "sil": "nero"
-                            },
-                            "P24": {
-                                "eng": [
-                                    "handshake"
-                                ],
-                                "sil": "nao"
-                            },
-                            "P25": {}
-                        },
-                        "P4X": {
-                            "P43": {
-                                "eng": [
-                                    "centered"
-                                ],
-                                "sil": "ouro"
-                            },
-                            "P45": {
-                                "eng": [
-                                    "steel"
-                                ],
-                                "sil": "oucru"
+                                "sil": "vlao"
                             }
                         }
                     }
@@ -2937,7 +2908,60 @@
             },
             "94": {
                 "T2": {
-                    "NP11": {}
+                    "NP11": {
+                        "P1X": {
+                            "P10": {
+                                "eng": [
+                                    "rigid",
+                                    "rigidity"
+                                ],
+                                "sil": "uorha"
+                            },
+                            "P11": {
+                                "eng": [
+                                    "hard",
+                                    "hardly",
+                                    "hardening"
+                                ],
+                                "sil": "uokoa"
+                            },
+                            "P12": {
+                                "eng": [
+                                    "prayer pose"
+                                ],
+                                "sil": "uocrhe"
+                            }
+                        },
+                        "P2X": {
+                            "P23": {
+                                "eng": [
+                                    "integrity"
+                                ],
+                                "sil": "nero"
+                            },
+                            "P24": {
+                                "eng": [
+                                    "handshake"
+                                ],
+                                "sil": "nao"
+                            },
+                            "P25": {}
+                        },
+                        "P4X": {
+                            "P43": {
+                                "eng": [
+                                    "centered"
+                                ],
+                                "sil": "ouro"
+                            },
+                            "P45": {
+                                "eng": [
+                                    "steel"
+                                ],
+                                "sil": "oucru"
+                            }
+                        }
+                    }
                 }
             },
             "95": {
