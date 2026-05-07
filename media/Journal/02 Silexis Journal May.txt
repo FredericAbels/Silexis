@@ -664,7 +664,7 @@ All of this is still really fresh but I really like where this is going. Getting
 
 36 Define person p = (c i), with C := {c_1, ..., c_n|c_i \in C}
 
-An entity e is either a composite or a particle. An Entity has a position x_e(t).
+An entity e is either a composite or a particle. An Entity has a position f_{15}(c).
 
 A composite is a set of entities: p = {p_1, ..., p_n}. 
 
@@ -672,9 +672,17 @@ The personhood of a composite is the delta of its integrity.
 
 The integrity of the composite is the delta of it's volume.
 
-The volume of a composite is the lebesgue measure on its convex hull.
+The volume of a composite is the lebesgue measure on its convex hull. The convex hull is called its body. Body f_{02}(c) = conv(c)
 
-\Rightarrow collapse f_{93}(e) = "the set of all states of e where i(e) < 0"
+\Rightarrow collapse f_{93}(c) = "the set of all states of c where i(c) < 0"
+
+fragmentation f_{13}(c) = "the set of all states of c where i(c) > 0"
+
+a composite with integrity = 0 is a particle?.
+
+\Rightarrow body f_{02}(c) = "the set of all states of c where i(c) = 0"
+
+
 
 4
 
@@ -717,3 +725,164 @@ I need to find a word that encapsulates what silexis wants to be. It should comb
 Maybe it's "holistic formal ontology". Sounds banger. Or "mathematical holistic ontology" since Silexis is on the trajectory to be not only formal but also mathematical.
 
 Das Silex: Das Sein in mathematischer Ordnung dargestellt
+
+10
+
+The goal of silexis is to find a mathematical system that has equal  
+
+11
+
+"
+1. Analysis of Concepts into Primitives
+Leibniz believed that all complex concepts could be decomposed, like chemical compounds, into a finite set of primitive, unanalyzable concepts — the "alphabet of human thought" (alphabetum cogitationum humanarum). Just as all words are made of letters, all ideas would be made of these conceptual atoms.
+"
+
+Yeah that's what I'm doing.
+
+"
+2. Assigning Numbers to Primitives
+In his most concrete attempt (the General Investigations, ~1686), Leibniz proposed assigning prime numbers to primitive concepts. Complex concepts would then be represented by the products of their component primes. Two concepts are compatible (one contains the other) if and only if one number divides the other. Logical containment becomes arithmetic divisibility.
+"
+
+Very interesting idea. Can I do this too?
+
+12
+
+Versuch einer mathematischen Formalisierung der allgemeinen Struktur des Seins
+
+May.7
+
+1
+
+"The only effective solution against evil and violent people, are good people more skilled in violence" - Japanese Code
+
+2
+
+I realized that phenomenology seems to just mean looking at direct experience in the now. It seems that this is what I'm doing already? But what I'm doing is also analytical though. What is the relationship between analytical philosophy and phenomenology historially?
+
+Yeah all of the factors have a phenomenological component.
+
+Okay so Silexis is a kind of phenomenology? It seems Silexis is many things. I gues it is a reflection of my personal philosophy.
+
+Is the factor a cluster of semantics or phenomena or both?
+
+3
+
+Idea: Silexis is the description of the universal phenomenon through the formalization of one of its possible 100-factorizations.
+
+4
+
+Idea: Being a slave of your true self.
+
+5
+
+Idea: Sequence is geometry. Repetition is pattern. Point is form.
+
+form + pattern = geometry.
+
+6
+
+Hierarchy of fregian meanings 
+
+7
+
+Die vier Basisfaktoren der Silexischen Faktorisierung des universellen phänomens sind:
+
+räumlichkeit 00
+Form 21
+Reflektion 22
+Wiederholung 23
+
+8
+
+The most radical form of authenticity is to act with integrity regarding the true self even if it means death.
+
+action := a \in 48
+self := s \in 35
+
+let r = 74(a, s) 
+
+9 
+
+Am I building a kind of logic of phenomenology?
+
+10
+
+Draw a dependency diagram of the project. Factors, Maths, phonemes, dict, etc.
+
+11
+
+What is the relationship between epoche and the state of not knowing?
+
+12
+
+What is the relationship between epoche and Silexis? It seems that there is somewhat a troubled relationship.
+
+The Silexian analysis does seem to not propagate epoche. But the problem that is adressed in Silexian thought is the issue of fragmented thought that is caused by epoche.
+
+Idea: The solution of Silexis is an oscillation between epoche and knowledge consolidation 92.
+
+13
+
+OMG I will so learn the 3blue1brown visualization software to visualize my maths.
+
+Manim
+
+14
+
+What is more broad, being-in-the-world or state of consciousness?
+
+15
+
+Thought: The value of religion comes from its phenomenology. Humans have not mastered phenomenology in such a way to adequately describe religion logically. This "catching up to religious practice to then construct an alternative" is a core purpose of science.
+
+The logician who criticises religion projects their own narrow worldview onto the religious worldview. This is like a fish judging a bird for not being able to live under water. 
+
+May.7
+
+1
+
+What I'm attempting is a mathematical formalization of phenomenology. As I expected, I'm not the first one to try this. Research Jean Petitot and Roman Ingarden.
+
+Yeah the theory of Jean Petitot is extremely similar to mine.
+
+form his website:
+
+"
+Main Research Interests
+Dynamical Models in Cognitive Sciences
+
+        1. Morphodynamical Models, Connectionist Models and Complex Systems
+        2. Learning and Categorization
+        3. Differential Geometry and Computational Vision
+        4. The Constituency Problem in Dynamical and Connectionist Models
+        5. Logic and Geometry
+        6. Naturalized Phenomenology
+        7. Semiotics and Morphodynamics
+      
+
+Epistemology of Mathematical Models
+
+        1. The Platonist Problem in Philosophy of Mathematics
+        2. New Trends in Philosophy of Mathematics
+        3. Epistemology of Mathematical Physics
+        4. Philosophy and Phenomenology of Form
+"
+
+sounds juicy.
+
+"
+Philosophically, he sits somewhere between:
+
+Husserl,
+Merleau-Ponty,
+René Thom,
+Gilles Deleuze (in some respects),
+and cognitive science / complexity theory.
+"
+
+Yeah same. Who is René Thom though?
+
+2
+
+I'm steering into the direction of extremely high complexity. It is hard to make money with this level of complexity, however it is easy to move from high complexity to low complexity, while it is hard to move in the opposite direction.

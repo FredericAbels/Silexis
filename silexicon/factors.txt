@@ -82,7 +82,17 @@
     58 = Disillusion
     59 = Dissolution
 
-Version 2
+
+
+
+
+
+
+
+
+
+
+
 
 00 = Absolute
 
@@ -114,13 +124,13 @@ Version 2
 
 20 = Complexity    80 = Simplicity
 
-    21 = Similarity    81 = non-similarity             
+    21 = Form          81 = non-Image             
     22 = Reflection    82 = non-reflection
     23 = Repetition    83 = non-repetition
 
-    24 = Oscillation   84 = non-oscillation
-    25 = Sequence      85 = non-sequence
-    26 = Projection    86 = non-projection
+    24 = Image         84 = non-image
+    25 = Geometry      85 = non-pattern
+    26 = Oscillation   86 = non-oscillation
 
     27 = Order         87 = Chaos
     28 = Convergence   88 = Divergence
