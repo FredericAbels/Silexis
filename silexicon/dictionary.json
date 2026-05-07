@@ -1104,6 +1104,15 @@
                                     "probability"
                                 ],
                                 "sil": "buo"
+                            },
+                            "P25": {
+                                "eng": [
+                                    "gestalt"
+                                ],
+                                "ger": [
+                                    "Gestalt"
+                                ],
+                                "sil": "beklu"
                             }
                         },
                         "P3X": {

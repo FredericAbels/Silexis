@@ -124,7 +124,7 @@
 
 20 = Complexity    80 = Simplicity
 
-    21 = Form          81 = non-Image             
+    21 = Gestalt       81 = non-Image             
     22 = Reflection    82 = non-reflection
     23 = Repetition    83 = non-repetition
 

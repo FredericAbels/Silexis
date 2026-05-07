@@ -35,10 +35,10 @@ def main():
 
             if not one_loop_completed:
                 print("\nOptions:")
-                print("0 [eng] [F]")
-                print("1 [eng] [F] [tier]")
-                print("2 [F] [P] [eng]")
-                print("3 [NP] [F] [P] [eng]")
+                print("0 [word] [F]")
+                print("1 [word] [F] [tier]")
+                print("2 [F] [P] [word]")
+                print("3 [NP] [F] [P] [word]")
                 print("4 refresh dictionary")
                 print()
 
@@ -55,22 +55,22 @@ def main():
         elif scmd[0] in ["0", "1"]:
 
             if scmd[0] == "0":
-                _, eng, F = scmd
+                _, word, F = scmd
                 T = str(len(F))
             elif scmd[0] == "1":
-                _, eng, F, T = scmd
+                _, word, F, T = scmd
 
-            add_rand_term_to_dict(eng, F, T, sildict, phondict)
+            add_rand_term_to_dict(word, F, T, sildict, phondict)
             one_loop_completed = True
 
         elif scmd[0] in ["2", "3"]:
 
             if scmd[0] == "2":
-                _, F, P, eng = scmd
+                _, F, P, word = scmd
                 NP = "1"*len(F)
 
             elif scmd[0] == "3":
-                _, NP, F, P, eng = scmd
+                _, NP, F, P, word = scmd
 
             T = None
             if len(F) == 2:
@@ -87,7 +87,7 @@ def main():
             if node == None:
                 print("taken")
             else:
-                add_to_node(node, eng, sil, P)
+                add_to_node(node, word, sil, P)
             
             save_dict(sildict)
 
@@ -101,19 +101,19 @@ def main():
             one_loop_completed = True
 
 
-def add_rand_term_to_dict(eng, F, T, sildict, phondict):
+def add_rand_term_to_dict(word, F, T, sildict, phondict):
 
     if len(F) == 2:
-        sildict = rand_XX_sil_and_add(sildict, phondict, eng, F, T)
+        sildict = rand_XX_sil_and_add(sildict, phondict, word, F, T)
             
     elif len(F) == 4:
-        sildict = rand_XXXX_sil_and_add(sildict, phondict, eng, F, T)
+        sildict = rand_XXXX_sil_and_add(sildict, phondict, word, F, T)
 
     save_dict(sildict)
 
 
 
-def rand_XX_sil_and_add(sildict, phondict, eng, F, T, NP=None, P=None):
+def rand_XX_sil_and_add(sildict, phondict, word, F, T, NP=None, P=None):
     
     while True:
 
@@ -127,18 +127,18 @@ def rand_XX_sil_and_add(sildict, phondict, eng, F, T, NP=None, P=None):
         node = get_node(sildict, F, T, NP, P)
 
         if node != None:
-            # ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
-            ans = "y"
+            ans = input(f"How about {sil} for {word}? yes, continue or quit? ")
+            # ans = "y"
             if ans in ("y", "yes"):
-                add_to_node(node, eng, sil, P)
-                print(f"P{P} {sil} was added for {eng}\n")
+                add_to_node(node, word, sil, P)
+                print(f"P{P} {sil} was added for {word}\n")
                 break
             elif ans in ("quit", "q"):
                 break
 
     return sildict
 
-def rand_XXXX_sil_and_add(sildict, phondict, eng, F, T, NP=None, P=None):
+def rand_XXXX_sil_and_add(sildict, phondict, word, F, T, NP=None, P=None):
 
     while True:
 
@@ -154,11 +154,11 @@ def rand_XXXX_sil_and_add(sildict, phondict, eng, F, T, NP=None, P=None):
         node = get_node(sildict, F, T, NP, P)
 
         if "P"+P not in node:
-            # ans = input(f"How about {sil} for {eng}? yes, continue or quit? ")
-            ans = "y"
+            ans = input(f"How about {sil} for {word}? yes, continue or quit? ")
+            # ans = "y"
             if ans in ("y", "yes"):
-                node["P"+P] = {"sil": sil, "eng": [eng.replace("_", " ")]}
-                print(f"P{P} {sil} was added for {eng}\n")
+                add_to_node(node, word, sil, P)
+                print(f"P{P} {sil} was added for {word}\n")
                 break
             elif ans in ("quit", "q"):
                 break
@@ -214,8 +214,31 @@ def get_node(sildict, F, T, NP, P):
 
     return None
 
-def add_to_node(node, eng, sil, P):
-    node["P"+P] = {"sil": sil, "eng": eng.replace("_", " ").split(",")}
+def add_to_node(node, word, sil, P):
+    # ger:test,englsih,word,ger:word
+    gerlist = []
+    latlist = []
+    englist = []
+    wlist = word.replace("_", " ").split(",")
+    for word in wlist:
+        if "ger:" in word:
+            gerlist.append(word[4:])
+        elif "lat:" in word:
+            latlist.append(word[4:])
+        else:
+            englist.append(word)
+
+    entry = {"sil": sil}
+
+    if len(gerlist) > 0:
+        entry["ger"] = gerlist
+    if len(latlist) > 0:
+        entry["lat"] = latlist
+    if len(englist) > 0:
+        entry["eng"] = englist
+
+    node["P" + P] = entry
+    return
 
 def to_rand_sil_code(np_list):
     P = ""
