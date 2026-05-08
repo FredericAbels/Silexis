@@ -912,3 +912,235 @@ Repetition
 
 sounds more and more continental philosophy-y
 
+6
+
+Is Silexis a kind of reductionism? I think it might be the case.
+
+7
+
+Problem: there is a difference between an umbrella term and an abstract term. Idea: Use P0X for the abstract, umbrella terms and PX0 for the compositional term.
+
+Example: 
+- P01 is handness in the sense that a finger is handness and a palm is also handness.
+- P10 is Hand in the sense of "collection of everything with handness at the same time". So just hand.
+
+This is cool bc this means that it is always clear if the word is a compositional term or an abstract term.
+
+Somtimes this is not necessary and then PX0 is just another concrete term.
+
+What's interesting now is since the P0Xs are always umbrella terms of the respective PXYs, I don't have to put them into the dict explicitly. Or I could just generate all of them.
+
+8
+
+"Timeless teaching" is also a good word for Silexis
+
+9
+
+Are my factors really morphologies?
+
+10
+
+So my current plan it seems is to first read Rene Thom and then Jean Petitot.
+
+Thom says he relates to aristoteles whoch is cool since Aristoteles is an essentialist as far as I know.
+
+11
+
+If a thought is structured enotion, then language is structured emotion. 
+
+12
+
+It seems the term narcissist does not fit with the mythology of narcissus.
+
+13
+
+Idea: 
+(XX)_{32} turns XX into a function
+
+(YY)_{(XX)_{32}} Is the function XX with argument YY. This is kinda wild.
+
+
+(XX)_{(31)_{32}} is the function that turns XX into a set
+
+What is a list in this model?
+
+A sequence? Ar repeated entities?
+
+14
+
+Hold on: Idea: Gestalt 21 is non-commutative, while Pattern 23 is?
+
+Omg makes a lot of sense.
+
+15
+
+Problem:
+
+There is a differenece between:
+Let's say there is a cluster of terms w_1...w_n
+- Denoting w_1 and ... and w_n
+- Denoting w_1 or ... or w_n
+- Denoting its eigenvalue
+
+I could actually solve this easily compositionally lol.
+
+I'll do that. This means that PX0 is now free again, I need to remember changing that
+
+Follow up question: What is eigenvalue? Should be 72 pretty sure. Yeah I think it makes complete sense.
+
+It seems 72 is also tautology
+
+16
+
+Problem: What are the umbrella terms of two opposites called?
+
+For example 72: Function, 32: Identity. Problem: Term Function actually includes identity function.
+
+Solution: Use 3-factor terms like 732 for that. Makes a hell lot of sense.
+
+I could just use 2Fs for that and put in the convention that the second digit does not have to be pronounced or written if the meaning is clear from the context (otherwise it would clash phenetically woth some 1F T3 word for example)
+
+5657 becomes 567? Makes sense
+
+17
+
+Idea: 00 P01 is dimensionality and spacetime and P10 is time, P11 is dim 1, P12 is dim 2 usw.
+
+18
+
+Ordering 00
+
+eo P1X
+Birth
+creation
+cause
+origin
+generate
+design
+
+oe P4X
+divine
+god
+the absolute
+reality
+
+she P2X
+dimension
+time
+continuum
+field
+space
+
+shtu P5X
+sexuality
+
+19
+
+Idea: Choose the phonemes such that they sound fitting to the respective 0Xs.
+
+20
+
+"It is more important to have beauty in one’s equations than to have them fit experiment." - Paul Dirac
+
+Haha I love this guy
+
+21
+
+"The word "structure" originated from the Latin structūra ("a fitting together, building") and struere ("to pile up, arrange, build")."
+
+""Pattern" originates from the 14th-century Middle English patron or patronen, meaning a model, guide, or "original proposed for imitation""
+
+Wait wait wait wait wait wait hold on. I think I'm mixing up structure with pattern. HOOOOOLD on. It seems that pattern might be 21 then actually and 23 is structure?? Woah!
+
+So if I define it like this, neurotypicals actually have pattenrecognition and autistic people have low pattern recognition and high structure repetition?
+
+so how does gestalt fit into the mix???
+
+"originated as an obsolete past participle of the German verb stellen ("to set, place, arrange"), literally meaning "placed" or "put together""
+
+it seems gestalt is also similar to pattern.
+
+22
+
+The dots of the yin/yang symbol are flesh 91 ngema and embedded in skin 11 mema (mela? me?).
+
+It represents the unity 90 rheza between integrity 14 merha and fluidity 94 ngerha.
+
+With merha being the balance 46 rhecha between collapse 93 rheta and fragmentation 12 meda.
+
+Comment: The unity of 94 and 14 is 914 ngemarha. HOW COOL IS THAT???
+
+I think this is a really good example I need to remember this for future writing/documentation.
+
+23
+
+Should there be a rule for when there are two of the same consonants at the same time that the second one is switched out? I could actually switch it out with anything that is not used yet since if it appears it is clear that it has the same meaning as the one before it.
+
+There could also be the convention, that if it is clear from the context, that only one sillable is used. So only me for mema for example.
+
+24
+
+I still need a consonant for inbetween two words. I think I'm stealing the g fron 9 and replace it with gl.
+
+iukeo-goukia-nola
+
+Yeah sounds cool
+
+25
+
+Let's just for fun, rank philosophers on how relevant they are for me
+
+- Deleuze
+- Ponty
+- Heidegger
+- Felix Guattari
+- Lacan
+
+- Hegel
+- Satre
+- Lenin
+- Marx
+- Husserl
+- Jean Petitot
+
+- Gadamer
+
+26
+
+Old psychoanalysis: Desire as lack
+
+Felix Guattari: Desire productive force
+
+Silexis: Desire is longing for intimacy 90 ngeza through enabling tendency 16 mecha towards komplexity-consonance 2045 dzerhfa 
+
+27
+
+I just realized I can arrange the 1F terms in 3F words how I want, such that they sound good.
+
+28
+
+I really like this adding two consonants together without a vowel like in dzerhfa. The problem is sometimes it can create consonants that already exist.
+
+Idea: Next vowel is a vowel mutation (äöü)
+
+29
+
+Der Entwurf is a good term for silex. Also a good title for a book. Gegenentwurf. Blueprint
+
+29.1
+
+I have to think about alternatives for words like design, creation, draft, etc than 00.
+
+16? 15?
+
+Maybe 49 actually? I think it might be 48 too. Dude 48 is packed. Or is it 47?
+
+Yeah it might ve 47 since 67 is anti-creative. Yeah 47 is good actually.
+
+47 rheva
+
+May.8
+
+1
+
+Idea: An emotions behaves like heat in thermodynamics. Every emotion is radiating outwards.

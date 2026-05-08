@@ -127,7 +127,7 @@ def rand_XX_sil_and_add(sildict, phondict, word, F, T, NP=None, P=None):
         node = get_node(sildict, F, T, NP, P)
 
         if node != None:
-            ans = input(f"How about {sil} for {word}? yes, continue or quit? ")
+            ans = input(f"How about P{P} {sil} for {word}? yes, continue or quit? ")
             # ans = "y"
             if ans in ("y", "yes"):
                 add_to_node(node, word, sil, P)
@@ -215,15 +215,26 @@ def get_node(sildict, F, T, NP, P):
     return None
 
 def add_to_node(node, word, sil, P):
-    # ger:test,englsih,word,ger:word
+
     gerlist = []
     latlist = []
     englist = []
+    deflist = []
+    deslist = []
+    symlist = []
+
     wlist = word.replace("_", " ").split(",")
+
     for word in wlist:
         if "ger:" in word:
             gerlist.append(word[4:])
         elif "lat:" in word:
+            latlist.append(word[4:])
+        elif "sym:" in word:
+            latlist.append(word[4:])
+        elif "def:" in word:
+            latlist.append(word[4:])
+        elif "des:" in word:
             latlist.append(word[4:])
         else:
             englist.append(word)
@@ -234,6 +245,12 @@ def add_to_node(node, word, sil, P):
         entry["ger"] = gerlist
     if len(latlist) > 0:
         entry["lat"] = latlist
+    if len(symlist) > 0:
+        entry["sym"] = symlist
+    if len(deflist) > 0:
+        entry["def"] = deflist
+    if len(deslist) > 0:
+        entry["des"] = deslist
     if len(englist) > 0:
         entry["eng"] = englist
 
@@ -251,7 +268,6 @@ def to_rand_sil_code(np_list):
             j = j - 1
 
     if P[-2] == "0":
-
         P = list(P)
         P[-2] = str(random.randint(1, 5)) 
         P = "".join(P)
@@ -264,7 +280,7 @@ def P_to_sil_XX(F, NP, P, phondict):
     np2 = int(NP[1])
     sil = ""
     for i in range(0, np1 + np2):
-
+        # print(F,NP,P)
         phon = phondict["V1"][F[0 if i < np1 else 1]][int(P[i])]
 
         is_cons = int(P[i]) in [0, 2, 3, 5]

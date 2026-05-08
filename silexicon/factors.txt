@@ -139,7 +139,7 @@
 30 = Granularity   70 = self-similarity
     
     31 = Plurality     71 = Entity
-    32 = Operation     72 = Identity
+    32 = Predicate     72 = Identity
     33 = Interaction   73 = Relation
     34 = Part          74 = System
 
