@@ -1,8 +1,8 @@
-PWD /Users/fredericabels/Documents/Silexis/src
+PWD /Users/fredericabels/Documents/Silexis/media/Journal tex/Journal May 7
 INPUT /usr/local/texlive/2026basic/texmf.cnf
 INPUT /usr/local/texlive/2026basic/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/fredericabels/Documents/Silexis/src/main.tex
+INPUT /Users/fredericabels/Documents/Silexis/media/Journal tex/Journal May 7/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls
