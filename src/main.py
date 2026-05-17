@@ -127,8 +127,8 @@ def rand_XX_sil_and_add(sildict, phondict, word, F, T, NP=None, P=None):
         node = get_node(sildict, F, T, NP, P)
 
         if node != None:
-            # ans = input(f"How about P{P} {sil} for {word}? yes, continue or quit? ")
-            ans = "y"
+            ans = input(f"How about P{P} {sil} for {word}? yes, continue or quit? ")
+            # ans = "y"
             if ans in ("y", "yes"):
                 add_to_node(node, word, sil, P)
                 print(f"P{P} {sil} was added for {word}\n")

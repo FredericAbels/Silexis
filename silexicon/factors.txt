@@ -3,34 +3,20 @@
 
     01 = Graspable
     02 = Body
-    03 = Spirit
-    04 = Soul
+    03 = Consciousness
 
-    05 = Mind
-    06 = Consciousness
+    04 = Spirit
+    05 = Soul
+    06 = Mind
+
     07 = Idea
     08 = Meaning
-
     09 = Ungraspable
-
-version 2
-
-    01 = Graspable, 21 = order
-    02 = Body, 22 = convergence
-    03 = Consciousness, 23 = intelligence
-
-    04 = Spirit, 24 = swarm
-    05 = Soul, 25 = reflection
-    06 = Mind, 26 = repetition
-
-    07 = Idea, 27 = sequence
-    08 = Meaning, 28 = projection
-    09 = Ungraspable, 29 = dynamics
 
 10 = Duality       90 = Unity
 
     11 = Skin          91 = Flesh
-    12 = Fragmentation 92 = Cohesion
+    12 = Cohesion      92 = Fragmentation
     13 = Stability     93 = Collapse
     14 = Fluidity      94 = Integrity    
 
@@ -41,19 +27,20 @@ version 2
 
     19 = conflagration 99 = ceassation    
 
-20 = Complexity    80 = Simplicity
+20 = Complexity        80 = non-caomplexity
 
-    21 = Gestalt       81 = non-gestalt             
-    22 = Reflection    82 = non-reflection
-    23 = Repetition    83 = non-repetition
+    21 = Order         81 = Chaos
+    22 = Convergence   88 = Divergence
+    23 = Intelligence  89 = Purity
 
-    24 = Image         84 = non-image
-    25 = Geometry      85 = non-pattern
-    26 = Oscillation   86 = non-oscillation
+    24 = Normality     81 = non-normal             
+    25 = Feedback      82 = non-reflection
+    26 = Depth         83 = non-repetition
 
-    27 = Order         87 = Chaos
-    28 = Convergence   88 = Divergence
-    29 = Intelligence  89 = Purity
+    27 = Image         84 = non-image
+    28 = Geometry      85 = non-pattern
+    29 = Oscillation   86 = non-oscillation
+
     
 30 = Granularity   70 = self-similarity
     
